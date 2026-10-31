@@ -1,0 +1,1485 @@
+{
+ "derniere_maj": "2026-10-31T06:51:45+01:00",
+ "evenements": [
+  {
+   "ajoute_le": "2026-10-31",
+   "bilan": "",
+   "categorie": "intervention",
+   "commune": "Toulouse",
+   "confiance": "confirme",
+   "date": "2026-10-31",
+   "departement": "31",
+   "gravite": 1,
+   "lat": 43.604,
+   "lon": 1.444,
+   "nature": "mesure",
+   "resume": "Faute de manifestation déclarée pour le 31 octobre, la préfecture de Haute-Garonne considère tout rassemblement comme illégal et annonce un important dispositif de sécurité.",
+   "sources": [
+    {
+     "nom": "France 3 Occitanie",
+     "url": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/manifestation-du-31-octobre-les-rassemblements-seront-illegaux-a-toulouse-pas-de-manifestation-declaree-la-prefecture-deploie-un-imposant-dispositif-de-securite-3441732.html"
+    }
+   ],
+   "titre": "Aucun cortège déclaré à Toulouse : la préfecture prévient que les rassemblements seront illégaux",
+   "id": "2026-10-31-toulouse-interdiction"
+  },
+  {
+   "ajoute_le": "2026-10-31",
+   "bilan": "",
+   "categorie": "intervention",
+   "commune": "Paris",
+   "confiance": "confirme",
+   "date": "2026-10-31",
+   "departement": "75",
+   "gravite": 2,
+   "lat": 48.85,
+   "lon": 2.38,
+   "nature": "mesure",
+   "resume": "Sur instruction du ministre de l'Intérieur, le préfet de police a pris un arrêté d'interdiction partielle pour la troisième journée contre la vie chère ; le cortège est limité à l'axe Bastille-Nation, avec fermetures de stations de métro et dispositif de sécurité renforcé.",
+   "sources": [
+    {
+     "nom": "France 3 Paris Île-de-France",
+     "url": "https://france3-regions.franceinfo.fr/paris-ile-de-france/manifestation-du-31-octobre-a-paris-parcours-declares-interdictions-dispositif-de-securite-ce-que-l-on-sait-sur-la-mobilisation-contre-la-vie-chere-3441171.html"
+    },
+    {
+     "nom": "CNews",
+     "url": "https://www.cnews.fr/france/2026-10-30/mobilisation-du-31-octobre-quel-parcours-pour-la-manifestation-paris-1944300"
+    },
+    {
+     "nom": "Préfecture de police (X)",
+     "url": "https://x.com/prefpolice/status/2116108047143571798"
+    }
+   ],
+   "titre": "Manifestation du 31 octobre partiellement interdite à Paris, seul le parcours Bastille-Nation autorisé",
+   "id": "2026-10-31-paris-interdiction"
+  },
+  {
+   "ajoute_le": "2026-10-31",
+   "bilan": "",
+   "categorie": "intervention",
+   "commune": "Montpellier",
+   "confiance": "confirme",
+   "date": "2026-10-31",
+   "departement": "34",
+   "gravite": 1,
+   "lat": 43.611,
+   "lon": 3.877,
+   "nature": "mesure",
+   "resume": "La préfecture de l'Hérault interdit les rassemblements dans un périmètre du centre et la dissimulation du visage, avec un couvre-feu toujours en vigueur et une surveillance par drone et hélicoptère, le soir d'Halloween.",
+   "sources": [
+    {
+     "nom": "France 3 Occitanie",
+     "url": "https://france3-regions.franceinfo.fr/occitanie/herault/montpellier/carte-manifestation-du-31-octobre-interdiction-des-rassemblements-des-masques-couvre-feu-en-vigueur-drone-helicoptere-et-fete-d-halloween-ce-qu-il-faut-savoir-a-montpellier-3441405.html"
+    }
+   ],
+   "titre": "Rassemblements et port du masque interdits, couvre-feu maintenu à Montpellier pour le 31 octobre",
+   "id": "2026-10-31-montpellier-interdiction"
+  },
+  {
+   "ajoute_le": "2026-10-31",
+   "bilan": "",
+   "categorie": "intervention",
+   "commune": "Marseille",
+   "confiance": "confirme",
+   "date": "2026-10-31",
+   "departement": "13",
+   "gravite": 2,
+   "lat": 43.296,
+   "lon": 5.37,
+   "nature": "mesure",
+   "resume": "Pour la mobilisation du 31 octobre, les préfectures de la région ne délivrent pas d'autorisation de manifester à Marseille et reconduisent des couvre-feux dans plusieurs départements.",
+   "sources": [
+    {
+     "nom": "France 3 Provence-Alpes",
+     "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/mobilisations-du-31-octobre-a-marseille-des-manifestations-non-autorisees-et-couvre-feux-dans-les-bouches-du-rhone-le-vaucluse-et-les-alpes-du-sud-3441438.html"
+    }
+   ],
+   "titre": "Manifestations non autorisées et couvre-feux dans les Bouches-du-Rhône, le Vaucluse et les Alpes du Sud",
+   "id": "2026-10-31-marseille-interdiction"
+  },
+  {
+   "ajoute_le": "2026-10-31",
+   "bilan": "",
+   "categorie": "intervention",
+   "commune": "Lyon",
+   "confiance": "confirme",
+   "date": "2026-10-31",
+   "departement": "69",
+   "gravite": 2,
+   "lat": 45.76,
+   "lon": 4.835,
+   "nature": "mesure",
+   "resume": "Arrêté préfectoral interdisant cortèges et rassemblements de 10 h à 23 h sur la Presqu'île, une partie du Vieux-Lyon et de la rive gauche. Seul le défilé syndical déclaré, de la Manufacture des Tabacs à la place Jean-Macé, est autorisé ; drones, hélicoptères et blindés Centaure mobilisés.",
+   "sources": [
+    {
+     "nom": "LyonMag — secteurs interdits",
+     "url": "https://www.lyonmag.com/article/154644/manifestation-du-31-octobre-a-lyon-une-grande-partie-du-centre-ville-interdite-aux-rassemblements-voici-les-secteurs-concernes"
+    },
+    {
+     "nom": "Lyon Capitale",
+     "url": "https://www.lyoncapitale.fr/actualite/manifestation-declaree-mesures-de-securite-ce-quil-faut-savoir-sur-la-mobilisation-du-31-octobre-a-lyon"
+    }
+   ],
+   "titre": "Rassemblements interdits dans une large partie du centre de Lyon le 31 octobre",
+   "id": "2026-10-31-lyon-interdiction"
+  },
+  {
+   "ajoute_le": "2026-10-31",
+   "bilan": "",
+   "categorie": "intervention",
+   "commune": "Paris 7e (Palais-Bourbon)",
+   "confiance": "confirme",
+   "date": "2026-10-30",
+   "departement": "75",
+   "gravite": 1,
+   "lat": 48.862,
+   "lon": 2.318,
+   "nature": "mesure",
+   "resume": "Le rassemblement prévu vendredi soir devant le Palais-Bourbon « pour la défense des libertés publiques » a été interdit ; la préfecture proposait l'esplanade des Invalides, refusée par la coordination, qui a reporté ses concerts de casseroles en province.",
+   "sources": [
+    {
+     "nom": "LCP",
+     "url": "https://lcp.fr/actualites/la-casserolade-devant-l-assemblee-nationale-que-la-coordination-des-gilets-jaunes"
+    },
+    {
+     "nom": "CNews",
+     "url": "https://www.cnews.fr/france/2026-10-30/gilets-jaunes-des-casserolades-annoncees-partout-en-france-ce-vendredi-1944132"
+    }
+   ],
+   "titre": "Casserolade des gilets jaunes devant l'Assemblée nationale interdite par la préfecture de police",
+   "id": "2026-10-30-paris-casserolade-interdiction"
+  },
+  {
+   "id": "2026-10-27-marseille-airbel-rdc",
+   "categorie": "rdc",
+   "date": "2026-10-27",
+   "commune": "Marseille 11e (Air Bel)",
+   "departement": "13",
+   "lat": 43.29,
+   "lon": 5.447,
+   "titre": "Un homme de 21 ans tué à la kalachnikov sur un point de deal",
+   "resume": "Rafale d'arme de guerre vers 20 h 15 dans la cité Air Bel. Il pourrait s'agir du sixième narchomicide de l'année à Marseille, contre 16 en 2025 et 24 en 2024.",
+   "bilan": "1 mort ; enquête confiée à la DCOS",
+   "gravite": 3,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "France 3 Provence-Alpes",
+     "url": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/fusillade-a-marseille-sur-un-point-de-deal-un-homme-de-21-ans-meurt-apres-une-rafale-de-kalachnikov-dans-la-cite-air-bel-3440382.html"
+    },
+    {
+     "nom": "Police & Réalités",
+     "url": "https://policeetrealites.com/2026/10/28/marseille-un-homme-de-21-ans-tue-a-la-kalachnikov-sur-un-point-de-deal-de-la-cite-air-bel/"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-27-abymes-rdc",
+   "categorie": "rdc",
+   "date": "2026-10-27",
+   "commune": "Les Abymes",
+   "departement": "971",
+   "lat": 16.271,
+   "lon": -61.504,
+   "titre": "Une passante blessée par balle près du cimetière des Abymes",
+   "resume": "Six coups de feu tirés en début d'après-midi. Selon des témoins, un différend entre deux jeunes ; la victime, une trentenaire, serait une victime collatérale.",
+   "bilan": "1 blessée",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "a_confirmer",
+   "sources": [
+    {
+     "nom": "Guadeloupe La 1ère",
+     "url": "https://la1ere.franceinfo.fr/guadeloupe/une-femme-blessee-par-balle-pres-du-cimetiere-des-abymes-1752216.html"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "ajoute_le": "2026-10-31",
+   "bilan": "2 condamnations (6 mois avec sursis probatoire)",
+   "categorie": "intervention",
+   "commune": "Villefranche-sur-Saône",
+   "confiance": "probable",
+   "date": "2026-10-26",
+   "departement": "69",
+   "gravite": 1,
+   "lat": 45.99,
+   "lon": 4.718,
+   "nature": "judiciaire",
+   "resume": "Deux jeunes de 19 et 21 ans, arrêtés lors d'une tentative de revente de sacs dérobés dans une maroquinerie de la place des Jacobins, ont reçu chacun six mois avec sursis probatoire, assortis de travaux d'intérêt général ou d'une obligation de soins.",
+   "sources": [
+    {
+     "nom": "LyonMag",
+     "url": "https://www.lyonmag.com/article/154635/pillages-a-lyon-ils-volent-des-sacs-de-luxe-place-des-jacobins-et-tentent-de-les-revendre-deux-jeunes-condamnes"
+    }
+   ],
+   "titre": "Pillages du 17 octobre à Lyon : deux jeunes condamnés pour le vol et la revente de sacs de luxe",
+   "id": "2026-10-26-villefranche-justice-pillages"
+  },
+  {
+   "id": "2026-10-26-toulouse-telegram",
+   "categorie": "intervention",
+   "date": "2026-10-26",
+   "commune": "Toulouse",
+   "departement": "31",
+   "lat": 43.61,
+   "lon": 1.43,
+   "titre": "Réseau franco-espagnol de cannabis par colis démantelé",
+   "resume": "Opération coordonnée en France et en Espagne contre un réseau qui aurait expédié près de trois tonnes de cannabis par points relais, commandes passées sur Telegram. Plus de 26 kg et des armes saisis.",
+   "bilan": "6 interpellations ; déférés le 29 octobre",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "France 3 Occitanie",
+     "url": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/commandes-sur-telegram-et-expeditions-en-points-relais-un-reseau-expedie-trois-tonnes-de-cannabis-par-colis-avant-d-etre-demantele-3441063.html"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-26-nord-couvre-feu",
+   "categorie": "intervention",
+   "date": "2026-10-26",
+   "commune": "Lille, Douai, Valenciennes…",
+   "departement": "59",
+   "lat": 50.37,
+   "lon": 3.08,
+   "titre": "Couvre-feu des mineurs prolongé dans six communes du Nord",
+   "resume": "La préfecture prolonge jusqu'au 29 octobre l'interdiction de circuler de 21 h à 6 h pour les mineurs non accompagnés à Lille, Wattignies, Denain, Douai, Marly et Valenciennes.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "mesure",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "France 3 Hauts-de-France",
+     "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/violences-urbaines-le-couvre-feu-pour-les-mineurs-non-accompagnes-prolonge-pour-trois-nuits-3439656.html"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "ajoute_le": "2026-10-31",
+   "bilan": "3 interpellations ; présentation à la justice le 29 octobre",
+   "categorie": "intervention",
+   "commune": "Nîmes",
+   "confiance": "probable",
+   "date": "2026-10-26",
+   "departement": "30",
+   "gravite": 1,
+   "lat": 43.837,
+   "lon": 4.36,
+   "nature": "fait",
+   "resume": "Le groupe stupéfiants de la brigade de recherches a interpellé trois personnes soupçonnées d'animer un réseau actif dans la périphérie nîmoise et les départements voisins ; elles ont été présentées au tribunal le 29 octobre.",
+   "sources": [
+    {
+     "nom": "InfOccitanie",
+     "url": "https://infoccitanie.fr/gard-un-important-reseau-de-fabrication-de-cannabis-demantele/"
+    }
+   ],
+   "titre": "Réseau de fabrication de cannabis démantelé par la brigade de recherches de Nîmes",
+   "id": "2026-10-26-nimes-reseau-cannabis"
+  },
+  {
+   "ajoute_le": "2026-10-31",
+   "bilan": "Plusieurs véhicules incendiés ; 0 blessé, 0 interpellation",
+   "categorie": "emeute",
+   "commune": "La Possession (Moulin Joli)",
+   "confiance": "confirme",
+   "date": "2026-10-25",
+   "departement": "974",
+   "gravite": 2,
+   "lat": -20.926,
+   "lon": 55.335,
+   "nature": "fait",
+   "resume": "Dans la nuit du 24 au 25 octobre, feux de poubelles et de véhicules dans plusieurs communes de l'île ; à La Possession, une quinzaine de jeunes cagoulés ont lancé des projectiles sur les gendarmes. Selon la préfecture, aucun blessé ni interpellation.",
+   "sources": [
+    {
+     "nom": "Imaz Press (bilan de la préfecture)",
+     "url": "https://imazpress.com/mobilisation-citoyenne/bilan-violences-urbaines-prefecture"
+    }
+   ],
+   "titre": "Nuit de violences urbaines à La Réunion : véhicules incendiés, gendarmes visés à La Possession",
+   "id": "2026-10-25-la-possession-violences"
+  },
+  {
+   "id": "2026-10-24-rennes-manif",
+   "categorie": "manif",
+   "date": "2026-10-24",
+   "commune": "Rennes",
+   "departement": "35",
+   "lat": 48.11,
+   "lon": -1.675,
+   "titre": "11 500 manifestants à Rennes",
+   "resume": "Mobilisation estimée par la préfecture ; tentatives de blocage au rond-point des Gayeulles dans la matinée.",
+   "bilan": "2 interpellations lors des blocages",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 24 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_24_octobre_2026_en_France"
+    },
+    {
+     "nom": "Manifs en direct (revue de presse)",
+     "url": "https://www.manifsendirect.fr/manifestation/24-octobre-2026/"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-pau-manif",
+   "categorie": "manif",
+   "date": "2026-10-24",
+   "commune": "Pau",
+   "departement": "64",
+   "lat": 43.295,
+   "lon": -0.37,
+   "titre": "Rassemblement interdit à Pau, 24 interpellations",
+   "resume": "Les manifestants se retrouvent malgré l'interdiction préfectorale ; quelques tirs de gaz lacrymogène.",
+   "bilan": "24 interpellations",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "France 3 Nouvelle-Aquitaine",
+     "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/direct-manifestation-a-bordeaux-le-24-octobre-2026-parcours-horaires-et-dernieres-informations-3438351.html"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-paris-manif",
+   "categorie": "manif",
+   "date": "2026-10-24",
+   "commune": "Paris",
+   "departement": "75",
+   "lat": 48.835,
+   "lon": 2.405,
+   "titre": "« Acte II » : cortège cantonné aux boulevards des Maréchaux",
+   "resume": "Nouvelle journée nationale contre la vie chère. Les manifestations sont interdites dans le centre de Paris ; le cortège est confiné aux boulevards des Maréchaux.",
+   "bilan": "National : 410 000 manifestants et 1 314 interpellations (Intérieur)",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 24 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_24_octobre_2026_en_France"
+    },
+    {
+     "nom": "Sortir à Paris — parcours",
+     "url": "https://www.sortiraparis.com/en/news/in-paris/articles/356351-october-31-demonstration-in-paris-what-route-will-the-unions-take"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-nantes-manif",
+   "categorie": "manif",
+   "date": "2026-10-24",
+   "commune": "Nantes",
+   "departement": "44",
+   "lat": 47.214,
+   "lon": -1.556,
+   "titre": "Affrontements à Nantes, véhicule incendié près du CHU",
+   "resume": "Environ 20 000 personnes mobilisées. Croisée des trams bloquée, gaz lacrymogène et canon à eau dans le centre et sur l'île de Nantes.",
+   "bilan": "41 interpellations selon la préfecture en journée ; 75 au total selon Ouest-France",
+   "gravite": 3,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 24 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_24_octobre_2026_en_France"
+    },
+    {
+     "nom": "Manifs en direct (revue de presse)",
+     "url": "https://www.manifsendirect.fr/manifestation/24-octobre-2026/"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-lyon-manif",
+   "categorie": "manif",
+   "date": "2026-10-24",
+   "commune": "Lyon",
+   "departement": "69",
+   "lat": 45.757,
+   "lon": 4.84,
+   "titre": "10 000 manifestants à Lyon malgré l'interdiction",
+   "resume": "Le premier bilan préfectoral reste nettement inférieur à celui du 17 octobre : cinq commerces pillés et du mobilier urbain dégradé.",
+   "bilan": "22 blessés, 36 interpellations",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Lyon Capitale",
+     "url": "https://www.lyoncapitale.fr/?p=524199"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-dijon-manif",
+   "categorie": "manif",
+   "date": "2026-10-24",
+   "commune": "Dijon",
+   "departement": "21",
+   "lat": 47.322,
+   "lon": 5.041,
+   "titre": "4 500 à 7 000 manifestants à Dijon, la journée finit dans la tension",
+   "resume": "Mobilisation contre la vie chère achevée dans la tension, avec interpellations et dégâts matériels.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 24 octobre 2026 (citant France 3 BFC)",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_24_octobre_2026_en_France"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-creuse-interdiction",
+   "categorie": "intervention",
+   "date": "2026-10-24",
+   "commune": "Guéret",
+   "departement": "23",
+   "lat": 46.171,
+   "lon": 1.871,
+   "titre": "Manifestations interdites à Guéret, Aubusson et La Souterraine",
+   "resume": "Le préfet de la Creuse interdit toute manifestation dans ces centres-villes au nom du principe de précaution, alors que le 17 octobre s'y était déroulé sans incident.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "mesure",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 24 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_24_octobre_2026_en_France"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-caen-interdiction",
+   "categorie": "intervention",
+   "date": "2026-10-24",
+   "commune": "Caen",
+   "departement": "14",
+   "lat": 49.183,
+   "lon": -0.37,
+   "titre": "Manifestations interdites dans le centre de Caen",
+   "resume": "Rassemblements et manifestations interdits dans plusieurs périmètres du centre-ville de 9 h à 22 h.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "mesure",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "CNews — direct du 22 octobre",
+     "url": "https://www.cnews.fr/france/2026-10-22/violences-urbaines-le-couvre-feu-nocturne-decrete-dans-certains-secteurs-de-paris"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-brest-quimper-interdiction",
+   "categorie": "intervention",
+   "date": "2026-10-24",
+   "commune": "Brest",
+   "departement": "29",
+   "lat": 48.39,
+   "lon": -4.486,
+   "titre": "Interdiction de manifester dans des secteurs de Brest et Quimper",
+   "resume": "Arrêté préfectoral interdisant les manifestations dans certains secteurs des deux villes le samedi 24 octobre.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "mesure",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "CNews — direct du 22 octobre",
+     "url": "https://www.cnews.fr/france/2026-10-22/violences-urbaines-le-couvre-feu-nocturne-decrete-dans-certains-secteurs-de-paris"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-bordeaux-manif",
+   "categorie": "manif",
+   "date": "2026-10-24",
+   "commune": "Bordeaux",
+   "departement": "33",
+   "lat": 44.842,
+   "lon": -0.57,
+   "titre": "Tensions place de la Bourse à Bordeaux",
+   "resume": "Environ 15 000 manifestants. En fin de cortège, gaz lacrymogène, barricade de planches et intrusion de groupes dans le palais de la Bourse ; une boutique est pillée.",
+   "bilan": "",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "France 3 Nouvelle-Aquitaine",
+     "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/direct-manifestation-a-bordeaux-le-24-octobre-2026-parcours-horaires-et-dernieres-informations-3438351.html"
+    },
+    {
+     "nom": "Wikipédia — Manifestations du 24 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_24_octobre_2026_en_France"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-besancon-manif",
+   "categorie": "manif",
+   "date": "2026-10-24",
+   "commune": "Besançon",
+   "departement": "25",
+   "lat": 47.24,
+   "lon": 6.02,
+   "titre": "Le rassemblement des Glacis devient une manifestation spontanée",
+   "resume": "4 000 manifestants selon la préfecture, jusqu'à 8 000 selon la CGT.",
+   "bilan": "20 interpellations",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Franceinfo — point en régions (via Google News)",
+     "url": "https://news.google.com/read/CBMi2wFBVV95cUxNNnFyVXY2S0pEUXFlaUJESmIwZFV2bHhObk9Bc3RwODlkSjBDVU9hUGpNdXJMWHpXb2lNdjRaZWlXWktTbEUzU0JNWGk3UHh2ckhJR3pNOFhMWVlxei1qUHNRMkVndDRDbFpTSmhnOGlhWGs2RzFZdzhIZzNrWUVNRXRtOHNKMEhPbGlaOEhxZWhmQ1FiNXR2Vm1hQmxoaEZ2M2MtT09VdDNCbU9YeEc3SzhnNUYwQ2pHcEd0ZFVVdlpyWFZJZTNhQ3R0M2NyR0lncmhRbmlWUE9jZTA?hl=en-US&gl=US&ceid=US%3Aen"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-bayonne-manif",
+   "categorie": "manif",
+   "date": "2026-10-24",
+   "commune": "Bayonne",
+   "departement": "64",
+   "lat": 43.493,
+   "lon": -1.475,
+   "titre": "Interpellations en fin de manifestation à Bayonne",
+   "resume": "Tensions en fin de parcours ; interpellations pour dégradations, outrages, rébellion et jets de projectiles.",
+   "bilan": "10 interpellations",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "France 3 Nouvelle-Aquitaine",
+     "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/direct-manifestation-a-bordeaux-le-24-octobre-2026-parcours-horaires-et-dernieres-informations-3438351.html"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-24-annecy-manif",
+   "categorie": "manif",
+   "date": "2026-10-24",
+   "commune": "Annecy",
+   "departement": "74",
+   "lat": 45.899,
+   "lon": 6.129,
+   "titre": "Près de 2 000 manifestants à Annecy malgré l'interdiction",
+   "resume": "Défilé dans les rues malgré l'interdiction prononcée par la préfecture le matin même.",
+   "bilan": "14 interpellations en Haute-Savoie",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Franceinfo — point en régions (via Google News)",
+     "url": "https://news.google.com/read/CBMi2wFBVV95cUxNNnFyVXY2S0pEUXFlaUJESmIwZFV2bHhObk9Bc3RwODlkSjBDVU9hUGpNdXJMWHpXb2lNdjRaZWlXWktTbEUzU0JNWGk3UHh2ckhJR3pNOFhMWVlxei1qUHNRMkVndDRDbFpTSmhnOGlhWGs2RzFZdzhIZzNrWUVNRXRtOHNKMEhPbGlaOEhxZWhmQ1FiNXR2Vm1hQmxoaEZ2M2MtT09VdDNCbU9YeEc3SzhnNUYwQ2pHcEd0ZFVVdlpyWFZJZTNhQ3R0M2NyR0lncmhRbmlWUE9jZTA?hl=en-US&gl=US&ceid=US%3Aen"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-22-toulouse-couvre-feu",
+   "categorie": "intervention",
+   "date": "2026-10-22",
+   "commune": "Toulouse",
+   "departement": "31",
+   "lat": 43.604,
+   "lon": 1.443,
+   "titre": "Couvre-feu autour du Capitole",
+   "resume": "Couvre-feu limité au cœur de nuit dans un périmètre restreint de l'hypercentre, du 22 octobre 23 h 59 au 25 octobre 5 h.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "mesure",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "CNews — villes sous couvre-feu",
+     "url": "https://www.cnews.fr/france/2026-10-20/violences-urbaines-paris-lyon-marseille-voici-les-villes-ou-un-couvre-feu-est"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-20-sainte-rose-rdc",
+   "categorie": "rdc",
+   "date": "2026-10-20",
+   "commune": "Sainte-Rose (La Boucan)",
+   "departement": "971",
+   "lat": 16.31,
+   "lon": -61.7,
+   "titre": "Une femme de 24 ans tuée par balles à La Boucan",
+   "resume": "Fusillade dans la nuit du 19 au 20 octobre ; une autre personne est blessée. Les faits pourraient être liés à un règlement de comptes.",
+   "bilan": "1 mort, 1 blessé",
+   "gravite": 3,
+   "nature": "fait",
+   "confiance": "a_confirmer",
+   "sources": [
+    {
+     "nom": "Outre-mer La 1ère",
+     "url": "https://la1ere.franceinfo.fr/nouvellecaledonie/australie-l-empoisonneuse-aux-champignons-voit-sa-peine-alourdie-1752981.html"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-20-paris-couvre-feu",
+   "categorie": "intervention",
+   "date": "2026-10-20",
+   "commune": "Paris (République, Halles)",
+   "departement": "75",
+   "lat": 48.862,
+   "lon": 2.346,
+   "titre": "Couvre-feu nocturne dans certains secteurs de Paris",
+   "resume": "Arrêté du préfet de police interdisant la présence des majeurs comme des mineurs place de la République et dans le secteur des Halles entre 23 h et 6 h, reconduit du 22 au 25 octobre.",
+   "bilan": "",
+   "gravite": 2,
+   "nature": "mesure",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "CNews — direct du 22 octobre",
+     "url": "https://www.cnews.fr/france/2026-10-22/violences-urbaines-le-couvre-feu-nocturne-decrete-dans-certains-secteurs-de-paris"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-20-marseille-couvre-feu",
+   "categorie": "intervention",
+   "date": "2026-10-20",
+   "commune": "Marseille / Aubagne",
+   "departement": "13",
+   "lat": 43.3,
+   "lon": 5.39,
+   "titre": "Couvre-feu ciblé à Marseille, Aubagne et Plan de Campagne",
+   "resume": "Couvre-feu pour les mineurs dans l'hyper-centre de Marseille, des secteurs d'Aubagne et la zone de Plan de Campagne. Élargi aux majeurs le week-end du 24-25 octobre, avec suspension des transports en commun le samedi.",
+   "bilan": "",
+   "gravite": 2,
+   "nature": "mesure",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "CNews — direct du 20 octobre",
+     "url": "https://www.cnews.fr/france/2026-10-20/violences-urbaines-un-nouveau-couvre-feu-nocturne-decrete-partir-de-ce-soir-dans"
+    },
+    {
+     "nom": "CNews — direct du 22 octobre",
+     "url": "https://www.cnews.fr/france/2026-10-22/violences-urbaines-le-couvre-feu-nocturne-decrete-dans-certains-secteurs-de-paris"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-20-lyon-justice",
+   "categorie": "intervention",
+   "date": "2026-10-20",
+   "commune": "Lyon",
+   "departement": "69",
+   "lat": 45.761,
+   "lon": 4.826,
+   "titre": "Pillages du 17 octobre : premières condamnations à Lyon",
+   "resume": "Le parquet de Lyon actualise le bilan judiciaire : plusieurs dizaines de personnes condamnées à de la prison, dont certaines à des peines fermes.",
+   "bilan": "199 personnes interpellées au total",
+   "gravite": 1,
+   "nature": "judiciaire",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Lyon Capitale",
+     "url": "https://www.lyoncapitale.fr/?p=523411"
+    },
+    {
+     "nom": "LyonMag",
+     "url": "https://www.lyonmag.com/article/154505/lyon-apres-les-pillages-du-17-octobre-les-premieres-condamnations-tombent-plusieurs-suspects-incarceres"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-19-lyon-rassemblement",
+   "categorie": "manif",
+   "date": "2026-10-19",
+   "commune": "Lyon",
+   "departement": "69",
+   "lat": 45.758,
+   "lon": 4.832,
+   "titre": "Rassemblement de soutien aux commerçants place Bellecour, suivi d'un défilé d'ultra-droite",
+   "resume": "Environ 200 personnes se réunissent pour soutenir commerçants et forces de l'ordre ; le rassemblement prend ensuite une tournure politique.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "LyonMag",
+     "url": "https://www.lyonmag.com/dossiers/56/gilets-jaunes"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-19-lyon-couvre-feu",
+   "categorie": "intervention",
+   "date": "2026-10-19",
+   "commune": "Lyon",
+   "departement": "69",
+   "lat": 45.764,
+   "lon": 4.836,
+   "titre": "Couvre-feu dans l'hyper-centre de Lyon",
+   "resume": "Premier couvre-feu dans la nuit du 19 au 20 octobre, de 21 h à 6 h, reconduit les nuits suivantes. La préfecture interdit ensuite toute manifestation le 24 octobre.",
+   "bilan": "",
+   "gravite": 2,
+   "nature": "mesure",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "CNews — villes sous couvre-feu",
+     "url": "https://www.cnews.fr/france/2026-10-20/violences-urbaines-paris-lyon-marseille-voici-les-villes-ou-un-couvre-feu-est"
+    },
+    {
+     "nom": "Brut — manifestation interdite",
+     "url": "https://www.brut.media/fr/videos/la-manifestation-du-24-octobre-est-interdite-a-lyon"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-19-aix-proces-narchomicide",
+   "categorie": "rdc",
+   "date": "2026-10-19",
+   "commune": "Aix-en-Provence",
+   "departement": "13",
+   "lat": 43.528,
+   "lon": 5.447,
+   "titre": "Ouverture du procès d'un triple narchomicide commis à Marseille en 2020",
+   "resume": "Aux assises d'Aix-en-Provence, les accusés d'un triple homicide lié à la guerre des territoires de la drogue nient toute implication.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "judiciaire",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "France 24 (AFP)",
+     "url": "https://www.france24.com/fr/france/20261019-au-proc%C3%A8s-pour-triple-narchomicide-%C3%A0-marseille-les-accus%C3%A9s-nient-en-bloc"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-18-paris-emeute-nuit",
+   "categorie": "emeute",
+   "date": "2026-10-18",
+   "commune": "Paris",
+   "departement": "75",
+   "lat": 48.862,
+   "lon": 2.347,
+   "titre": "Deuxième nuit de pillages à Paris",
+   "resume": "Au moins une trentaine de commerces de nouveau pillés selon le maire de Paris.",
+   "bilan": "108 interpellations le dimanche",
+   "gravite": 3,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Fondation IFRAP (citant CNews)",
+     "url": "https://www.ifrap.org/etat-et-collectivites/violences-des-17-et-18-octobre-2026-une-facture-qui-approche-le-milliard-deuros"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-18-limoges-marche",
+   "categorie": "manif",
+   "date": "2026-10-18",
+   "commune": "Limoges",
+   "departement": "87",
+   "lat": 45.83,
+   "lon": 1.255,
+   "titre": "Des milliers de personnes marchent après l'incendie de la mairie",
+   "resume": "Marche citoyenne dans les rues de Limoges au lendemain de l'incendie volontaire de l'hôtel de ville.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "La Gazette France (AFP)",
+     "url": "https://www.lagazettefrance.fr/article/limoges-des-milliers-de-personnes-rassemblees-apres-l-incendie-lisnard-cible-lfi"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-tours",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Tours",
+   "departement": "37",
+   "lat": 47.394,
+   "lon": 0.689,
+   "titre": "Une vingtaine de commerces pillés à Tours",
+   "resume": "Pillages en marge de la journée de mobilisation.",
+   "bilan": "≈ 20 commerces",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Fondation IFRAP",
+     "url": "https://www.ifrap.org/etat-et-collectivites/violences-des-17-et-18-octobre-2026-une-facture-qui-approche-le-milliard-deuros"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-saint-etienne",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Saint-Étienne",
+   "departement": "42",
+   "lat": 45.439,
+   "lon": 4.387,
+   "titre": "Une trentaine de commerces pillés à Saint-Étienne",
+   "resume": "Pillages dans le centre-ville en marge de la mobilisation contre la vie chère.",
+   "bilan": "≈ 30 commerces",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Fondation IFRAP",
+     "url": "https://www.ifrap.org/etat-et-collectivites/violences-des-17-et-18-octobre-2026-une-facture-qui-approche-le-milliard-deuros"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-reunion-le-port",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Le Port / La Possession",
+   "departement": "974",
+   "lat": -20.935,
+   "lon": 55.31,
+   "titre": "Affrontements à Rivière des Galets, restaurants incendiés",
+   "resume": "Affrontements dans le quartier de Rivière des Galets ; des restaurants brûlent à La Possession et des départs de feu sont signalés à Saint-Denis.",
+   "bilan": "",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 17 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-plan-de-campagne",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Cabriès (Plan de Campagne)",
+   "departement": "13",
+   "lat": 43.418,
+   "lon": 5.367,
+   "titre": "Tentative de pillage de la zone commerciale de Plan de Campagne",
+   "resume": "La zone commerciale est visée par une tentative de pillage ; elle est ensuite incluse dans le périmètre du couvre-feu.",
+   "bilan": "",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "CNews — direct du 20 octobre",
+     "url": "https://www.cnews.fr/france/2026-10-20/violences-urbaines-un-nouveau-couvre-feu-nocturne-decrete-partir-de-ce-soir-dans"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-paris15-cnews",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Paris 15e",
+   "departement": "75",
+   "lat": 48.842,
+   "lon": 2.279,
+   "titre": "Le siège de CNews et Europe 1 visé par un groupe cagoulé",
+   "resume": "Dès le matin, une centaine de personnes cagoulées bloquent l'accès au parking du siège, lancent des projectiles sur la façade et brisent des vitres.",
+   "bilan": "21 interpellations",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 17 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-paris-manif",
+   "categorie": "manif",
+   "date": "2026-10-17",
+   "commune": "Paris",
+   "departement": "75",
+   "lat": 48.853,
+   "lon": 2.385,
+   "titre": "Journée nationale contre la vie chère : cortèges à Paris",
+   "resume": "Journée de mobilisation lancée sur les réseaux sociaux, sans affiliation politique établie. À Paris, une manifestation autorisée réunit lycéens et étudiants entre République et Nation. Au niveau national, 550 000 participants selon l'Intérieur, 800 000 selon les organisateurs.",
+   "bilan": "National : 550 000 à 800 000 manifestants",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 17 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-paris-emeute",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Paris",
+   "departement": "75",
+   "lat": 48.866,
+   "lon": 2.36,
+   "titre": "Violences et pillages en marge de la mobilisation à Paris",
+   "resume": "Dégradations et pillages de commerces dans plusieurs quartiers de la capitale en marge des cortèges. Le week-end des 17 et 18 octobre est comparé par la Fondation IFRAP aux émeutes de 2023 par l'ampleur des dégâts.",
+   "bilan": "855 interpellations à Paris le 17 octobre",
+   "gravite": 3,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Fondation IFRAP — bilan des violences des 17-18 octobre",
+     "url": "https://www.ifrap.org/etat-et-collectivites/violences-des-17-et-18-octobre-2026-une-facture-qui-approche-le-milliard-deuros"
+    },
+    {
+     "nom": "Atlantico — décryptage du maintien de l'ordre",
+     "url": "https://atlantico.fr/article/decryptage/17-octobre-2026-le-jour-ou-la-police-a-perdu-le-controle-et-maintenant-casseurs-pilleurs-pillages-lyceens-manifestants-ultragauche-violences-urbaines-Paris-Marseille-Bordeaux-Limoges-policiers-gendarmes-crs-Laurent-Nunez-Sebastien-Lecornu-Driss-Ait-Youssef-Xavier-Raufer"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-nancy",
+   "categorie": "manif",
+   "date": "2026-10-17",
+   "commune": "Nancy",
+   "departement": "54",
+   "lat": 48.692,
+   "lon": 6.184,
+   "titre": "Manifestation non déclarée de 4 000 personnes à Nancy",
+   "resume": "Selon la préfecture de Meurthe-et-Moselle, un cortège non déclaré part de la place de la République.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 17 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-marseille-emeute",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Marseille",
+   "departement": "13",
+   "lat": 43.297,
+   "lon": 5.378,
+   "titre": "Plus de 600 commerces touchés à Marseille",
+   "resume": "Pillages et dégradations dans le centre de Marseille en marge de la journée de mobilisation, selon le décompte de la CCI.",
+   "bilan": "Plus de 600 commerces touchés (CCI)",
+   "gravite": 3,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Fondation IFRAP",
+     "url": "https://www.ifrap.org/etat-et-collectivites/violences-des-17-et-18-octobre-2026-une-facture-qui-approche-le-milliard-deuros"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-lyon-emeute",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Lyon 2e",
+   "departement": "69",
+   "lat": 45.757,
+   "lon": 4.832,
+   "titre": "Pillages massifs sur la Presqu'île de Lyon",
+   "resume": "Environ 20 000 manifestants selon la préfecture. En marge, 150 à 200 commerces de la Presqu'île sont attaqués et pillés et l'Office du tourisme est incendié. Le préfet évoque un niveau de violence inédit.",
+   "bilan": "160 interpellations dont 36 mineurs (préfecture, 18/10) ; 199 interpellés selon le parquet (20/10) ; une centaine de membres des forces de l'ordre blessés",
+   "gravite": 3,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Lyon Capitale — bilan du parquet",
+     "url": "https://www.lyoncapitale.fr/?p=523411"
+    },
+    {
+     "nom": "LyonMag — « niveau de violence inédit »",
+     "url": "https://www.lyonmag.com/article/154443/manifestation-du-17-octobre-a-lyon-un-niveau-de-violence-inedit-selon-le-prefet-du-rhone"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-limoges-hdv",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Limoges",
+   "departement": "87",
+   "lat": 45.8265,
+   "lon": 1.2604,
+   "titre": "L'hôtel de ville de Limoges incendié en fin de manifestation",
+   "resume": "Le bâtiment de 1883 est en grande partie détruit par un incendie volontaire déclenché en fin de cortège contre la vie chère ; le campanile s'effondre. Un suspect est interpellé près de Limoges et le parquet antiterroriste est saisi.",
+   "bilan": "Hôtel de ville « en grande partie perdu » selon le préfet",
+   "gravite": 3,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Euronews",
+     "url": "https://fr.euronews.com/2026/10/18/lhotel-de-ville-de-limoges-un-edifice-qui-datait-du-19e-siecle-est-parti-en-fumee"
+    },
+    {
+     "nom": "Sud Radio",
+     "url": "https://www.sudradio.fr/societe/lhotel-de-ville-de-limoges-incendie-en-grande-partie-perdu"
+    },
+    {
+     "nom": "Noovo (AFP) — suspect arrêté",
+     "url": "https://www.noovo.info/nouvelles/international/article/incendie-de-la-mairie-de-limoges-en-france-un-service-anti-terroriste-saisi-et-un-suspect-arrete/"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-lille",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Lille",
+   "departement": "59",
+   "lat": 50.637,
+   "lon": 3.063,
+   "titre": "Scènes de pillage à Lille",
+   "resume": "Pillages en marge des cortèges ; la préfecture du Nord prend ensuite un arrêté de couvre-feu pour les mineurs non accompagnés.",
+   "bilan": "",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "DH (AFP)",
+     "url": "https://www.dhnet.be/dernieres-depeches/2026/10/17/les-grandes-villes-en-proie-aux-pillages-en-marge-des-manifestations-YXOUR7ZPWFFDLGUOMQJKYRVG2U/"
+    },
+    {
+     "nom": "France 3 Hauts-de-France",
+     "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/violences-urbaines-le-couvre-feu-pour-les-mineurs-non-accompagnes-prolonge-pour-trois-nuits-3439656.html"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-grenoble-manif",
+   "categorie": "manif",
+   "date": "2026-10-17",
+   "commune": "Grenoble",
+   "departement": "38",
+   "lat": 45.188,
+   "lon": 5.724,
+   "titre": "13 000 à 30 000 manifestants à Grenoble, commerces vandalisés",
+   "resume": "Forte mobilisation et grève dans les trams et bus. Plusieurs commerces du centre-ville sont vandalisés.",
+   "bilan": "10 personnes jugées en comparution immédiate",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 17 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-denain",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Denain",
+   "departement": "59",
+   "lat": 50.329,
+   "lon": 3.395,
+   "titre": "Violences urbaines à Denain dans la soirée",
+   "resume": "Après des violences dans la soirée du 17 octobre, la maire instaure un couvre-feu de 21 h à 6 h sur toute la commune jusqu'au 25 octobre.",
+   "bilan": "",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "France 3 Hauts-de-France",
+     "url": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/valenciennes/violences-urbaines-un-couvre-feu-instaure-a-denain-pour-proteger-la-population-et-aider-les-interventions-des-forces-de-l-ordre-3435492.html"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-bordeaux-emeute",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Bordeaux",
+   "departement": "33",
+   "lat": 44.841,
+   "lon": -0.574,
+   "titre": "Dégradations et pillages dans le centre de Bordeaux",
+   "resume": "Selon la préfecture, plusieurs centaines d'individus violents commettent des dégradations et des pillages dans le centre-ville.",
+   "bilan": "23 blessés dont 15 parmi les forces de sécurité ; 55 interpellations",
+   "gravite": 3,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Wikipédia — Manifestations du 17 octobre 2026",
+     "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-17-besancon",
+   "categorie": "emeute",
+   "date": "2026-10-17",
+   "commune": "Besançon",
+   "departement": "25",
+   "lat": 47.238,
+   "lon": 6.024,
+   "titre": "Une dizaine de commerces pillés à Besançon",
+   "resume": "Pillages en marge de la journée de mobilisation.",
+   "bilan": "≈ 10 commerces",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Fondation IFRAP",
+     "url": "https://www.ifrap.org/etat-et-collectivites/violences-des-17-et-18-octobre-2026-une-facture-qui-approche-le-milliard-deuros"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-16-porto-vecchio-stups",
+   "categorie": "intervention",
+   "date": "2026-10-16",
+   "commune": "Porto-Vecchio",
+   "departement": "2A",
+   "lat": 41.591,
+   "lon": 9.279,
+   "titre": "Coup de filet antidrogue dans l'Extrême-Sud corse",
+   "resume": "Réseau écoulant cocaïne, cannabis et MDMA visé par la brigade de recherches ; perquisitions simultanées dans le secteur.",
+   "bilan": "7 interpellations, placés en détention provisoire (parquet d'Ajaccio)",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Seven Radio",
+     "url": "https://sevenradio.fr/2026/10/16/coup-de-filet-antidrogue-dans-lextreme-sud-sept-interpellations/"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-15-montbeliard-narco",
+   "categorie": "intervention",
+   "date": "2026-10-15",
+   "commune": "Montbéliard",
+   "departement": "25",
+   "lat": 47.51,
+   "lon": 6.798,
+   "titre": "Coup de filet contre un réseau de narcobanditisme (armes, drogue, enlèvement)",
+   "resume": "Le parquet de Montbéliard communique sur une vague d'interpellations visant un réseau soupçonné de trafic, de détention d'armes et d'un enlèvement.",
+   "bilan": "",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "ICI — thème drogues",
+     "url": "https://www.ici.fr/theme/drogue"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-13-rennes-manif",
+   "categorie": "manif",
+   "date": "2026-10-13",
+   "commune": "Rennes",
+   "departement": "35",
+   "lat": 48.111,
+   "lon": -1.68,
+   "titre": "Lycéens, étudiants, enseignants et salariés de nouveau dans la rue",
+   "resume": "Nouvelle journée de manifestation à Rennes dans le cadre du mouvement lycéen et étudiant.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Rennes Infos Autrement",
+     "url": "https://www.rennes-infos-autrement.fr/pres-de-10-kg-dheroine-neuf-armes-et-une-porsche-saisis-dans-une-vaste-operation-antidrogue/"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-13-aix-manif-lyceenne",
+   "categorie": "manif",
+   "date": "2026-10-13",
+   "commune": "Aix-en-Provence",
+   "departement": "13",
+   "lat": 43.526,
+   "lon": 5.445,
+   "titre": "Lycéens et étudiants rassemblés devant la Rotonde",
+   "resume": "Manifestation lycéenne et étudiante dans le centre d'Aix-en-Provence.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Wikipédia — Mouvement lycéen et étudiant de 2026",
+     "url": "https://fr.wikipedia.org/wiki/Mouvement_lyc%C3%A9en_et_%C3%A9tudiant_de_2026_en_France"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-11-toulouse-mirail-rdc",
+   "categorie": "rdc",
+   "date": "2026-10-11",
+   "commune": "Toulouse (Grand Mirail)",
+   "departement": "31",
+   "lat": 43.574,
+   "lon": 1.402,
+   "titre": "Fusillade sur un point de deal du Mirail, un blessé",
+   "resume": "Coups de feu vers 4 h sur un point de deal ; un commando de deux ou trois hommes aurait pris la fuite en trottinette électrique. Une semaine plus tôt, deux victimes à Empalot.",
+   "bilan": "1 blessé",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Toulouse7",
+     "url": "https://toulouse7.com/2026/10/12/un-blesse-dans-une-nouvelle-fusillade-sur-un-point-de-deal-du-mirail-a-toulouse/"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-11-nimes-rdc",
+   "categorie": "rdc",
+   "date": "2026-10-11",
+   "commune": "Nîmes (route de Courbessac)",
+   "departement": "30",
+   "lat": 43.849,
+   "lon": 4.385,
+   "titre": "Un homme de 47 ans tué par balles, piste du règlement de comptes privilégiée",
+   "resume": "Mortellement atteint alors qu'il s'apprêtait à monter dans un véhicule, près des quartiers du Mas de Mingue et du Chemin-Bas-d'Avignon. Victime connue de la justice, notamment pour stupéfiants. Un véhicule est retrouvé brûlé à Saint-Gervasy.",
+   "bilan": "1 mort ; enquête pour meurtre en bande organisée, aucune interpellation",
+   "gravite": 3,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "InfOccitanie (communiqué du parquet)",
+     "url": "https://infoccitanie.fr/nimes-un-homme-de-47-ans-tue-par-balles-la-piste-du-reglement-de-comptes-privile/"
+    },
+    {
+     "nom": "Police & Réalités",
+     "url": "https://policeetrealites.com/2026/10/12/nimes-un-homme-connu-de-la-justice-tue-par-balles/"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-09-belfort-reseau",
+   "categorie": "intervention",
+   "date": "2026-10-09",
+   "commune": "Belfort / Héricourt",
+   "departement": "90",
+   "lat": 47.638,
+   "lon": 6.863,
+   "titre": "Réseau de trafic démantelé dans le nord Franche-Comté avec le RAID",
+   "resume": "Interpellations à Belfort, Héricourt et Saulnot, avec l'appui du RAID de Nancy et de Strasbourg.",
+   "bilan": "12 interpellations",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "ICI — thème drogues",
+     "url": "https://www.ici.fr/theme/drogue"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-06-saint-paul-stups",
+   "categorie": "intervention",
+   "date": "2026-10-06",
+   "commune": "Saint-Paul",
+   "departement": "974",
+   "lat": -21.01,
+   "lon": 55.27,
+   "titre": "Plus de 13 kg de stupéfiants saisis par les gendarmes",
+   "resume": "Démantèlement d'un réseau présumé de culture et de revente de cannabis : 91 pieds, résine, herbe, crack et 7 820 € en espèces saisis.",
+   "bilan": "6 interpellations",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Freedom",
+     "url": "https://freedom.fr/saint-paul-six-interpellations-et-plus-de-13-kilos-de-stupefiants-saisis/"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-06-rennes-ofast",
+   "categorie": "intervention",
+   "date": "2026-10-06",
+   "commune": "Rennes",
+   "departement": "35",
+   "lat": 48.093,
+   "lon": -1.67,
+   "titre": "Opération de l'OFAST : près de 10 kg d'héroïne et neuf armes saisis",
+   "resume": "Les 6 et 7 octobre, coup de filet contre un réseau implanté dans le sud de Rennes et actif en Bretagne, après plusieurs mois d'enquête. Une Porsche est aussi saisie.",
+   "bilan": "12 interpellations, 11 présentations à la justice",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Rennes Infos Autrement",
+     "url": "https://www.rennes-infos-autrement.fr/pres-de-10-kg-dheroine-neuf-armes-et-une-porsche-saisis-dans-une-vaste-operation-antidrogue/"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-06-reims-manif-lyceenne",
+   "categorie": "manif",
+   "date": "2026-10-06",
+   "commune": "Reims",
+   "departement": "51",
+   "lat": 49.258,
+   "lon": 4.031,
+   "titre": "Manifestation de lycéens à Reims",
+   "resume": "Défilé lycéen dans le cadre de la journée nationale de mobilisation du 6 octobre.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "Wikipédia — Mouvement lycéen et étudiant de 2026",
+     "url": "https://fr.wikipedia.org/wiki/Mouvement_lyc%C3%A9en_et_%C3%A9tudiant_de_2026_en_France"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-06-paris-manif-lyceenne",
+   "categorie": "manif",
+   "date": "2026-10-06",
+   "commune": "Paris",
+   "departement": "75",
+   "lat": 48.861,
+   "lon": 2.38,
+   "titre": "« Acte III » du mouvement lycéen et étudiant, de République à Nation",
+   "resume": "Manifestation nationale à l'appel des organisations lycéennes et étudiantes. À Paris, le cortège relie la place de la République à la place de la Nation.",
+   "bilan": "",
+   "gravite": 2,
+   "nature": "fait",
+   "confiance": "confirme",
+   "sources": [
+    {
+     "nom": "Wikipédia — Mouvement lycéen et étudiant de 2026",
+     "url": "https://fr.wikipedia.org/wiki/Mouvement_lyc%C3%A9en_et_%C3%A9tudiant_de_2026_en_France"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  },
+  {
+   "id": "2026-10-05-grenoble-perquisitions",
+   "categorie": "intervention",
+   "date": "2026-10-05",
+   "commune": "Métropole de Grenoble",
+   "departement": "38",
+   "lat": 45.17,
+   "lon": 5.73,
+   "titre": "Perquisitions antidrogue dans la métropole grenobloise",
+   "resume": "Stocks de stupéfiants saisis lors d'une série de perquisitions les 5 et 6 octobre dans plusieurs communes.",
+   "bilan": "",
+   "gravite": 1,
+   "nature": "fait",
+   "confiance": "probable",
+   "sources": [
+    {
+     "nom": "ICI — thème drogues",
+     "url": "https://www.ici.fr/theme/drogue"
+    }
+   ],
+   "ajoute_le": "2026-10-30"
+  }
+ ]
+}

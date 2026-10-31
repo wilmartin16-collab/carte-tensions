@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carte des tensions — France</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<style>
+:root{
+  --bg:#f6f5f2; --panel:#ffffff; --ink:#1c1d21; --muted:#6b6e76; --line:#e3e1dc;
+  --sea:#d9e4ea; --land:#f1efe9; --land2:#e6e3db; --urban:#e2ddd2; --water:#b9d0de; --river:#8fb4cc;
+  --road1:#e6a85c; --road2:#d9c3a0; --rail:#a7a39b; --b-com:#c9c4b8; --b-dep:#9e988b; --b-reg:#6f695e;
+  --label:#3b3a36; --halo:rgba(255,255,255,.9);
+  --c-manif:#2f6bd8; --c-emeute:#d9452b; --c-interv:#13867a; --c-rdc:#7b3bbf;
+  --radius:12px;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#141518;--panel:#1d1f23;--ink:#ececee;--muted:#9a9ca3;--line:#2e3035;
+    --sea:#151a1f;--land:#24262b;--land2:#1d1f23;--urban:#2e3036;--water:#1f2f3c;--river:#2f4d63;
+    --road1:#8a6a3f;--road2:#4d4840;--rail:#4a4a4a;--b-com:#36383e;--b-dep:#555861;--b-reg:#80838c;
+    --label:#d8d8dc;--halo:rgba(20,21,24,.9);
+    --c-manif:#5b8ff0;--c-emeute:#f06a4f;--c-interv:#2fb5a5;--c-rdc:#a874e8;}
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink)}
+body{display:flex;flex-direction:column;height:100dvh;overflow:hidden}
+header{padding:10px 14px 8px;background:var(--panel);border-bottom:1px solid var(--line);z-index:5}
+.top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+h1{font-size:17px;margin:0;font-weight:650;letter-spacing:-.01em}
+.meta{font-size:12px;color:var(--muted)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);
+  color:var(--ink);border-radius:999px;padding:5px 10px;font-size:13px;cursor:pointer;user-select:none}
+.chip .dot{width:10px;height:10px;border-radius:50%}
+.chip .n{color:var(--muted);font-variant-numeric:tabular-nums}
+.chip.off{opacity:.42}
+.chip.off .dot{background:transparent!important;box-shadow:inset 0 0 0 1.5px var(--muted)}
+.row2{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;align-items:center}
+select,input[type=search]{font:inherit;font-size:13px;padding:5px 8px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+.sbox{position:relative;flex:1;min-width:150px}
+.sbox input{width:100%}
+#sugg{position:absolute;left:0;right:0;top:100%;margin-top:4px;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  box-shadow:0 8px 24px rgba(0,0,0,.15);z-index:2000;display:none;overflow:hidden}
+#sugg div{padding:7px 10px;font-size:13px;cursor:pointer;display:flex;justify-content:space-between;gap:8px}
+#sugg div:hover,#sugg div.on{background:var(--bg)}
+#sugg small{color:var(--muted)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{font:inherit;font-size:13px;padding:5px 9px;border:0;background:var(--panel);color:var(--ink);cursor:pointer;border-left:1px solid var(--line)}
+.seg button:first-child{border-left:0}
+.seg button.on{background:var(--ink);color:var(--panel)}
+main{position:relative;flex:1;min-height:0}
+#map{position:absolute;inset:0;background:var(--sea)}
+#list{position:absolute;inset:0;overflow:auto;background:var(--bg);display:none;padding:8px 12px 80px;z-index:1000}
+.leaflet-container{background:var(--sea);font:inherit}
+.leaflet-control-attribution{font-size:10px}
+.leaflet-control-scale-line{background:var(--panel);color:var(--ink);border-color:var(--ink);font-size:11px}
+.ctl{position:absolute;z-index:600;display:flex;gap:4px;flex-wrap:wrap}
+.ctl button,.ctl select{font:inherit;font-size:12px;padding:5px 8px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.ctl button.on{background:var(--ink);color:var(--panel)}
+#echelles{left:56px;top:10px;max-width:calc(100% - 120px)}
+#terr{left:10px;bottom:30px}
+#zoomlvl{position:absolute;left:10px;bottom:6px;z-index:600;font-size:11px;color:var(--muted);background:var(--panel);padding:1px 6px;border-radius:6px;opacity:.9}
+#hist{position:absolute;right:58px;top:10px;z-index:600;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:6px 8px 4px;width:230px}
+#hist .t{font-size:11px;color:var(--muted);margin-bottom:2px;display:flex;justify-content:space-between}
+#legend{position:absolute;right:10px;bottom:44px;z-index:600;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:6px 8px;font-size:11px;display:none}
+#legend .ramp{display:flex;height:10px;width:170px;border-radius:3px;overflow:hidden;margin:4px 0 2px}
+#legend .ramp span{flex:1}
+#legend .ends{display:flex;justify-content:space-between;color:var(--muted)}
+@media (max-width:640px){#hist{display:none}#echelles{left:52px}}
+.pin{border-radius:50%;border:2px solid var(--panel);box-shadow:0 0 0 1px rgba(0,0,0,.3)}
+.cl{border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:650;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.3)}
+.cl span{background:var(--panel);border-radius:50%;display:flex;align-items:center;justify-content:center}
+.lbl{white-space:nowrap;color:var(--label);text-shadow:0 0 2px var(--halo),0 0 2px var(--halo),0 0 3px var(--halo);transform:translate(-50%,-50%);pointer-events:none;line-height:1}
+.lbl.r3{font-weight:700;font-size:14px}.lbl.r2{font-weight:650;font-size:13px}.lbl.r1{font-weight:500;font-size:12px}.lbl.r0{font-size:11px}
+.lbl.area{font-style:italic;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-size:11px;font-weight:600}
+.lbl.dot::before{content:"";position:absolute;left:-9px;top:50%;width:5px;height:5px;margin-top:-2.5px;border-radius:50%;background:var(--label);box-shadow:0 0 0 1.5px var(--halo)}
+.lbl.dot{transform:translate(8px,-50%)}
+.leaflet-tooltip.ctip{font:inherit;font-size:12px;padding:3px 7px;border-radius:6px}
+#sheet{position:absolute;z-index:900;background:var(--panel);border:1px solid var(--line);box-shadow:0 8px 30px rgba(0,0,0,.18);overflow:auto;display:none}
+@media (min-width:760px){#sheet{right:12px;top:12px;bottom:12px;width:380px;border-radius:var(--radius)}}
+@media (max-width:759px){#sheet{left:0;right:0;bottom:0;max-height:62%;border-radius:16px 16px 0 0}}
+#sheet .in{padding:14px 16px 18px}
+.close{float:right;border:0;background:transparent;color:var(--muted);font-size:22px;line-height:1;cursor:pointer;padding:0 0 0 8px}
+.tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;padding:2px 8px;border-radius:999px;color:#fff}
+.sub{font-size:12px;color:var(--muted);margin:6px 0 2px}
+#sheet h2{font-size:16px;margin:4px 0 8px;line-height:1.3}
+#sheet p{font-size:14px;line-height:1.5;margin:6px 0}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px;margin:10px 0}
+.kv b{font-weight:500;color:var(--muted)}
+.src a{display:block;font-size:13px;color:var(--c-manif);text-decoration:none;padding:3px 0;word-break:break-word}
+.src a:hover{text-decoration:underline}
+.btn{font:inherit;font-size:13px;padding:6px 10px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);cursor:pointer;margin-top:8px}
+.item{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:6px 0;cursor:pointer;display:flex;gap:10px}
+.item .bar{width:4px;border-radius:4px;flex:none}
+.item .h{font-size:14px;font-weight:600;line-height:1.3}
+.item .s{font-size:12px;color:var(--muted);margin-top:2px}
+.day{font-size:12px;color:var(--muted);margin:14px 2px 2px;font-weight:600;text-transform:capitalize}
+.bars{margin:8px 0}
+.bars .r{display:flex;align-items:center;gap:8px;font-size:13px;margin:4px 0}
+.bars .r i{display:block;height:8px;border-radius:4px}
+.notice{position:absolute;left:50%;top:40%;transform:translate(-50%,-50%);z-index:800;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;font-size:14px;max-width:320px;text-align:center;display:none}
+#loading{position:absolute;left:50%;top:10px;transform:translateX(-50%);z-index:700;font-size:12px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:4px 10px;display:none}
+footer{font-size:11px;color:var(--muted);padding:6px 14px;background:var(--panel);border-top:1px solid var(--line)}
+footer details summary{cursor:pointer}
+footer p{margin:4px 0;line-height:1.45}
+</style>
+</head>
+<body>
+<header>
+  <div class="top"><h1>Carte des tensions — France</h1><span class="meta" id="meta">Chargement…</span></div>
+  <div class="chips" id="chips"></div>
+  <div class="row2">
+    <select id="period" aria-label="Période">
+      <option value="7">7 derniers jours</option>
+      <option value="30" selected>30 derniers jours</option>
+      <option value="90">90 derniers jours</option>
+      <option value="0">Tout</option>
+    </select>
+    <div class="sbox"><input type="search" id="q" placeholder="Adresse, rue, commune ou mot-clé…" aria-label="Rechercher" autocomplete="off"><div id="sugg"></div></div>
+    <div class="seg" id="mode" aria-label="Représentation">
+      <button data-m="points" class="on">Points</button><button data-m="dep">Par dép.</button><button data-m="reg">Par région</button>
+    </div>
+    <div class="seg" id="tabs"><button data-v="map" class="on">Carte</button><button data-v="list">Liste</button></div>
+  </div>
+</header>
+<main>
+  <div id="map"></div>
+  <div id="list"></div>
+  <div class="ctl" id="echelles" aria-label="Échelle"></div>
+  <div class="ctl" id="terr"></div>
+  <div id="zoomlvl"></div>
+  <div id="hist"><div class="t"><span>Événements par jour</span><span id="histr"></span></div><svg id="histsvg" width="214" height="54"></svg></div>
+  <div id="legend"></div>
+  <div id="loading">Chargement des communes…</div>
+  <div id="sheet"><div class="in" id="sheetin"></div></div>
+  <div class="notice" id="notice"></div>
+</main>
+<footer>
+  <details><summary>Sources et méthode</summary>
+  <p>Événements repérés dans la presse quotidienne régionale et nationale, les communiqués des parquets et des préfectures, puis classés, géolocalisés à la commune et dédoublonnés. Mise à jour quotidienne automatique.</p>
+  <p>Le classement « règlement de comptes » reprend la qualification avancée par le parquet ou la presse : c'est une hypothèse d'enquête, pas une conclusion judiciaire. Aucun nom de victime ou de suspect n'est publié. Position au niveau de la commune ou du quartier.</p>
+  <p>Fonds de carte : Plan IGN et photos aériennes (Géoplateforme IGN), OpenStreetMap. Recherche d'adresse : Base Adresse Nationale. Contours administratifs : IGN Admin Express.</p>
+  </details>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script>
+"use strict";
+const CATS = {
+  manif:{label:"Manifestations",short:"Manifestation",v:"--c-manif"},
+  emeute:{label:"Émeutes",short:"Émeute",v:"--c-emeute"},
+  intervention:{label:"Forces de l'ordre",short:"Intervention des forces de l'ordre",v:"--c-interv"},
+  rdc:{label:"Règlements de comptes",short:"Règlement de comptes",v:"--c-rdc"}
+};
+const NATURE = {fait:"Fait constaté",mesure:"Mesure des autorités",judiciaire:"Suite judiciaire"};
+const CONF = {confirme:"Confirmé par une source officielle",probable:"Rapporté par la presse",a_confirmer:"À confirmer"};
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const col = c => css(CATS[c]?.v || "--muted");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+const fmtDate = d => { try { return new Date(d+"T12:00:00").toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"}); } catch(e){ return d; } };
+const shortDate = d => { try { return new Date(d+"T12:00:00").toLocaleDateString("fr-FR",{day:"numeric",month:"short"}); } catch(e){ return d; } };
+const safeUrl = u => /^https?:\/\//i.test(u||"") ? u : null;
+const fmtN = n => Number(n).toLocaleString("fr-FR");
+const norm = s => String(s||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[-'’]/g," ");
+const getJSON = p => fetch(p).then(r=>{ if(!r.ok) throw new Error(p+" "+r.status); return r.json(); });
+
+let EVENTS = [], active = new Set(Object.keys(CATS)), mode = "points";
+try { const s = JSON.parse(localStorage.getItem("carte-cats")||"null"); if (Array.isArray(s)) active = new Set(s.filter(k=>CATS[k])); } catch(e){}
+
+// ---------- Carte et calques de fond
+const map = L.map("map",{zoomControl:true,attributionControl:true,minZoom:4,maxZoom:19,zoomSnap:.5,zoomDelta:.5,wheelPxPerZoomLevel:90});
+L.control.scale({imperial:false,position:"bottomright",maxWidth:140}).addTo(map);
+const P = (n,z,pe) => { const p=map.createPane(n); p.style.zIndex=z; if(!pe) p.style.pointerEvents="none"; return n; };
+P("pLand",210); P("pCom",215,true); P("pUrban",220); P("pWater",230); P("pRoads",240); P("pComHit",250,true); P("pDep",260); P("pChoro",270,true); P("pReg",280); P("pLabels",450);
+const R = n => L.canvas({pane:n,padding:.3});
+const rLand=R("pLand"), rUrban=R("pUrban"), rWater=R("pWater"), rRoads=R("pRoads"), rCom=R("pCom"), rDep=R("pDep"), rReg=R("pReg");
+
+const TERR = [["Métropole",[[41.3,-5.2],[51.1,9.6]]],["Guadeloupe",[[15.85,-61.85],[16.52,-61.0]]],["Martinique",[[14.38,-61.24],[14.88,-60.8]]],
+  ["Guyane",[[2.1,-54.6],[5.8,-51.6]]],["La Réunion",[[-21.4,55.2],[-20.85,55.85]]],["Mayotte",[[-13.0,45.0],[-12.6,45.3]]]];
+const tSel=document.createElement("select"); tSel.setAttribute("aria-label","Territoire");
+tSel.innerHTML=TERR.map((t,i)=>`<option value="${i}">${t[0]}</option>`).join("");
+tSel.onchange=()=>map.fitBounds(TERR[+tSel.value][1]); document.getElementById("terr").appendChild(tSel);
+map.fitBounds(TERR[0][1]);
+
+const SCALES=[["France",5.5],["Région",7.5],["Département",9],["Ville",12],["Quartier",14.5],["Rue",17]];
+const ech=document.getElementById("echelles");
+SCALES.forEach(([n,z])=>{const b=document.createElement("button");b.textContent=n;b.dataset.z=z;
+  b.onclick=()=>{ if(n==="France"){ map.fitBounds(TERR[+tSel.value][1]); } else map.setZoom(z); }; ech.appendChild(b);});
+function updScaleUi(){
+  const z=map.getZoom(); let k=0; SCALES.forEach((s,i)=>{ if(z>=s[1]-.75) k=i; });
+  [...ech.children].forEach((b,i)=>b.classList.toggle("on",i===k));
+  document.getElementById("zoomlvl").textContent="Zoom "+z.toFixed(1);
+}
+
+const BASE={};
+const IGN = l => `https://data.geopf.fr/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=${l}&STYLE=normal&TILEMATRIXSET=PM&FORMAT=${l.startsWith("ORTHO")?"image/jpeg":"image/png"}&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}`;
+const FONDS = {
+  "Plan IGN": L.tileLayer(IGN("GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2"),{maxZoom:19,maxNativeZoom:19,attribution:'© <a href="https://www.ign.fr/">IGN</a> – Géoplateforme'}),
+  "OpenStreetMap": L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">contributeurs OpenStreetMap</a>'}),
+  "Photos aériennes": L.tileLayer(IGN("ORTHOIMAGERY.ORTHOPHOTOS"),{maxZoom:19,attribution:'© IGN – BD ORTHO'}),
+};
+let fondCourant="Plan IGN";
+try{ const f=localStorage.getItem("carte-fond"); if(FONDS[f]) fondCourant=f; }catch(e){}
+FONDS[fondCourant].addTo(map);
+L.control.layers(FONDS,null,{position:"topright",collapsed:true}).addTo(map);
+map.on("baselayerchange",e=>{ try{localStorage.setItem("carte-fond",e.name);}catch(_){} });
+map.attributionControl.setPrefix(false); map.attributionControl.addTo(map);
+async function loadBase(){
+  const [deps,regs,cen] = await Promise.all(["departements","regions"].map(n=>getJSON("data/"+n+".json")).concat([Promise.resolve(null)]));
+  BASE.depGeo=deps; BASE.regGeo=regs;
+  render();
+}
+function restyle(){}
+function refreshCommunes(){}
+function drawLabels(){}
+let LIEUX=[]; getJSON("data/lieux.json").then(d=>{ LIEUX=d; }).catch(()=>{});
+// ---------- Événements
+const cluster = L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:z=>z>=10?24:38,spiderfyOnMaxZoom:true,disableClusteringAtZoom:14,
+  iconCreateFunction(c){
+    const ms=c.getAllChildMarkers(), n=ms.length, cnt={};
+    ms.forEach(m=>cnt[m.options.cat]=(cnt[m.options.cat]||0)+1);
+    let acc=0; const stops=[];
+    Object.keys(CATS).forEach(k=>{ if(!cnt[k])return; const a=acc/n*360, b2=(acc+cnt[k])/n*360; stops.push(`${col(k)} ${a}deg ${b2}deg`); acc+=cnt[k]; });
+    const s = n<10?30:n<40?38:46;
+    return L.divIcon({className:"",iconSize:[s,s],html:`<div class="cl" style="width:${s}px;height:${s}px;background:conic-gradient(${stops.join(",")})"><span style="width:${s-10}px;height:${s-10}px">${n}</span></div>`});
+  }});
+map.addLayer(cluster);
+function pin(e){ const s = e.gravite>=3?20:e.gravite==2?15:11;
+  return L.divIcon({className:"",iconSize:[s,s],html:`<div class="pin" style="width:${s}px;height:${s}px;background:${col(e.categorie)}"></div>`}); }
+
+function minDate(){ const days=+document.getElementById("period").value; return days?new Date(Date.now()-days*864e5).toISOString().slice(0,10):""; }
+function filtered(){
+  const q=norm(document.getElementById("q").value.trim()), min=minDate();
+  return EVENTS.filter(e => active.has(e.categorie) && (!min || e.date>=min) &&
+    (!q || norm([e.commune,e.departement,e.titre,e.resume].join(" ")).includes(q)));
+}
+function chips(){
+  const min=minDate(), box=document.getElementById("chips"); box.innerHTML="";
+  Object.entries(CATS).forEach(([k,c])=>{
+    const n=EVENTS.filter(e=>e.categorie===k && (!min||e.date>=min)).length;
+    const b=document.createElement("button"); b.className="chip"+(active.has(k)?"":" off");
+    b.innerHTML=`<span class="dot" style="background:${col(k)}"></span>${c.label} <span class="n">${n}</span>`;
+    b.onclick=()=>{ active.has(k)?active.delete(k):active.add(k); try{localStorage.setItem("carte-cats",JSON.stringify([...active]));}catch(e){} render(); };
+    box.appendChild(b);
+  });
+}
+function render(){
+  chips();
+  const ev=filtered();
+  cluster.clearLayers();
+  if(mode==="points"){
+    cluster.addLayers(ev.filter(e=>isFinite(e.lat)&&isFinite(e.lon)).map(e=>{
+      const m=L.marker([e.lat,e.lon],{icon:pin(e),cat:e.categorie,title:e.titre}); m.on("click",()=>openSheet(e)); return m; }));
+  }
+  renderChoro(ev); renderList(ev); renderHist(ev);
+}
+
+// ---------- Vues agrégées (départements / régions)
+let choro=null;
+const RAMP=["#fde9d9","#f9c4a8","#f39a7a","#e46a55","#c43c3c","#8f1f35"];
+function depOf(e){ const d=String(e.departement||"").toUpperCase(); return d.startsWith("97")?d.slice(0,3):d.padStart(2,"0").slice(0,2); }
+const DEP2REG={};
+function regOfDep(code){ return DEP2REG[code]; }
+function renderChoro(ev){
+  if(choro){ map.removeLayer(choro); choro=null; }
+  const lg=document.getElementById("legend");
+  if(mode==="points"||!BASE.depGeo){ lg.style.display="none"; return; }
+  const geo = mode==="dep"?BASE.depGeo:BASE.regGeo, cnt={};
+  ev.forEach(e=>{ const k = mode==="dep"?depOf(e):regOfDep(depOf(e)); if(k) (cnt[k]=cnt[k]||[]).push(e); });
+  const max=Math.max(1,...Object.values(cnt).map(a=>a.length));
+  const colr=n=>!n?"transparent":RAMP[Math.min(RAMP.length-1,Math.floor(Math.sqrt(n/max)*(RAMP.length-.01)))];
+  choro=L.geoJSON(geo,{pane:"pChoro",renderer:L.canvas({pane:"pChoro"}),style:f=>{const n=(cnt[f.properties.code]||[]).length;return {color:"transparent",weight:0,fillColor:colr(n),fillOpacity:n?.78:0};},
+    onEachFeature:(f,l)=>{ const list=cnt[f.properties.code]||[];
+      l.bindTooltip(`<b>${esc(f.properties.nom)}</b> · ${list.length} événement${list.length>1?"s":""}`,{sticky:true,className:"ctip"});
+      l.on("click",ev2=>{L.DomEvent.stopPropagation(ev2); openZone(f, list, l);}); }}).addTo(map);
+  lg.style.display="block";
+  lg.innerHTML=`<div>Événements par ${mode==="dep"?"département":"région"}</div><div class="ramp">${RAMP.map(c=>`<span style="background:${c}"></span>`).join("")}</div><div class="ends"><span>1</span><span>${max}</span></div>`;
+}
+function breakdown(list){
+  const c={}; list.forEach(e=>c[e.categorie]=(c[e.categorie]||0)+1); const m=Math.max(1,...Object.values(c));
+  return `<div class="bars">${Object.keys(CATS).map(k=>`<div class="r"><span style="width:150px">${CATS[k].label}</span><i style="width:${(c[k]||0)/m*120}px;background:${col(k)}"></i><span class="meta">${c[k]||0}</span></div>`).join("")}</div>`;
+}
+function evList(list){
+  return [...list].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,30).map(e=>`<div class="item" data-id="${esc(e.id)}"><div class="bar" style="background:${col(e.categorie)}"></div><div><div class="h">${esc(e.titre)}</div><div class="s">${esc(shortDate(e.date))} · ${esc(e.commune)}</div></div></div>`).join("");
+}
+function wireItems(){ document.querySelectorAll("#sheetin .item").forEach(it=>it.onclick=()=>{ const e=EVENTS.find(x=>x.id===it.dataset.id); if(e){ map.setView([e.lat,e.lon],Math.max(map.getZoom(),11)); openSheet(e);} }); }
+function openZone(f,list,l){
+  const s=document.getElementById("sheet");
+  document.getElementById("sheetin").innerHTML=`<button class="close" aria-label="Fermer" onclick="closeSheet()">×</button>
+    <div class="sub">${mode==="dep"?"Département "+esc(f.properties.code):"Région"}</div><h2>${esc(f.properties.nom)}</h2>
+    <p>${list.length} événement${list.length>1?"s":""} sur la période et les catégories choisies.</p>${breakdown(list)}
+    <button class="btn" id="zz">Zoomer et voir les points</button>${evList(list)}`;
+  s.style.display="block"; s.scrollTop=0; wireItems();
+  document.getElementById("zz").onclick=()=>{ setMode("points"); map.fitBounds(l.getBounds(),{padding:[20,20]}); };
+}
+function pip(pt,geom){
+  const polys = geom.type==="Polygon"?[geom.coordinates]:geom.type==="MultiPolygon"?geom.coordinates:[];
+  const [x,y]=pt; let inside=false;
+  for(const poly of polys){ let ins=false; for(const ring of poly){ for(let i=0,j=ring.length-1;i<ring.length;j=i++){ const [xi,yi]=ring[i],[xj,yj]=ring[j];
+      if(((yi>y)!==(yj>y)) && (x<(xj-xi)*(y-yi)/(yj-yi)+xi)) ins=!ins; } } if(ins) inside=true; }
+  return inside;
+}
+function openCommune(f,l){
+  const list=filtered().filter(e=>l.getBounds().contains([e.lat,e.lon]) && pip([e.lon,e.lat],f.geometry));
+  const s=document.getElementById("sheet");
+  document.getElementById("sheetin").innerHTML=`<button class="close" aria-label="Fermer" onclick="closeSheet()">×</button>
+    <div class="sub">Commune · ${esc(f.properties.c)} · ${fmtN(f.properties.p)} habitants</div><h2>${esc(f.properties.n)}</h2>
+    <p>${list.length?list.length+" événement"+(list.length>1?"s":"")+" localisé"+(list.length>1?"s":"")+" dans la commune sur la période choisie.":"Aucun événement localisé dans la commune sur la période choisie."}</p>
+    ${list.length?breakdown(list)+evList(list):""}<button class="btn" id="zc">Cadrer sur la commune</button>`;
+  s.style.display="block"; s.scrollTop=0; wireItems();
+  document.getElementById("zc").onclick=()=>map.fitBounds(l.getBounds(),{padding:[30,30]});
+}
+function setMode(m){ mode=m; document.querySelectorAll("#mode button").forEach(b=>b.classList.toggle("on",b.dataset.m===m)); render(); }
+document.querySelectorAll("#mode button").forEach(b=>b.onclick=()=>{ closeSheet(); setMode(b.dataset.m); });
+
+// ---------- Liste, histogramme, fiche
+function renderList(ev){
+  const box=document.getElementById("list"); box.innerHTML="";
+  if(!ev.length){box.innerHTML=`<p class="meta" style="padding:20px">Aucun événement pour ces filtres.</p>`;return;}
+  let cur="";
+  [...ev].sort((a,b)=>b.date.localeCompare(a.date)).forEach(e=>{
+    if(e.date!==cur){cur=e.date;const d=document.createElement("div");d.className="day";d.textContent=fmtDate(e.date);box.appendChild(d);}
+    const it=document.createElement("div");it.className="item";
+    it.innerHTML=`<div class="bar" style="background:${col(e.categorie)}"></div><div><div class="h">${esc(e.titre)}</div><div class="s">${esc(CATS[e.categorie]?.short)} · ${esc(e.commune)}${e.departement?" ("+esc(e.departement)+")":""}</div></div>`;
+    it.onclick=()=>{setView("map");setMode("points");map.setView([e.lat,e.lon],Math.max(map.getZoom(),14));openSheet(e);};
+    box.appendChild(it);
+  });
+}
+function renderHist(ev){
+  const svg=document.getElementById("histsvg"), W=214,H=54;
+  const days=+document.getElementById("period").value||90, n=Math.min(days,60), end=new Date(), keys=[];
+  for(let i=n-1;i>=0;i--) keys.push(new Date(end-i*864e5).toISOString().slice(0,10));
+  const by={}; keys.forEach(k=>by[k]={});
+  ev.forEach(e=>{ if(by[e.date]) by[e.date][e.categorie]=(by[e.date][e.categorie]||0)+1; });
+  const max=Math.max(1,...keys.map(k=>Object.values(by[k]).reduce((a,b)=>a+b,0))), bw=W/n; let out="";
+  keys.forEach((k,i)=>{ let y=H-10; Object.keys(CATS).forEach(c=>{const v=by[k][c]||0; if(!v)return; const h=v/max*(H-12); y-=h;
+    out+=`<rect x="${(i*bw+.5).toFixed(1)}" y="${y.toFixed(1)}" width="${Math.max(1,bw-1).toFixed(1)}" height="${h.toFixed(1)}" fill="${col(c)}"><title>${shortDate(k)} : ${v} ${CATS[c].short.toLowerCase()}</title></rect>`;});});
+  out+=`<text x="0" y="${H}" font-size="9" fill="${css("--muted")}">${shortDate(keys[0])}</text><text x="${W}" y="${H}" font-size="9" text-anchor="end" fill="${css("--muted")}">${shortDate(keys[n-1])}</text>`;
+  svg.innerHTML=out; document.getElementById("histr").textContent="max "+max;
+}
+function openSheet(e){
+  const s=document.getElementById("sheet"), c=CATS[e.categorie]||{short:e.categorie};
+  const src=(e.sources||[]).map(x=>{const u=safeUrl(x.url);return u?`<a href="${esc(u)}" target="_blank" rel="noopener">↗ ${esc(x.nom||u)}</a>`:"";}).join("");
+  document.getElementById("sheetin").innerHTML=`<button class="close" aria-label="Fermer" onclick="closeSheet()">×</button>
+    <span class="tag" style="background:${col(e.categorie)}">${esc(c.short)}</span>
+    <div class="sub">${esc(fmtDate(e.date))} · ${esc(e.commune)}${e.departement?" ("+esc(e.departement)+")":""}</div>
+    <h2>${esc(e.titre)}</h2><p>${esc(e.resume)}</p>
+    <div class="kv">${e.bilan?`<b>Bilan</b><span>${esc(e.bilan)}</span>`:""}
+      <b>Nature</b><span>${esc(NATURE[e.nature]||e.nature||"—")}</span>
+      <b>Fiabilité</b><span>${esc(CONF[e.confiance]||e.confiance||"—")}</span></div>
+    <div class="sub">Sources</div><div class="src">${src||"<span class='meta'>—</span>"}</div>
+    <button class="btn" id="zev">Zoomer sur le lieu</button>`;
+  s.style.display="block"; s.scrollTop=0;
+  document.getElementById("zev").onclick=()=>map.setView([e.lat,e.lon],15);
+}
+function closeSheet(){document.getElementById("sheet").style.display="none";}
+window.closeSheet=closeSheet;
+map.on("click",closeSheet);
+function setView(v){document.querySelectorAll("#tabs button").forEach(t=>t.classList.toggle("on",t.dataset.v===v));
+  document.getElementById("list").style.display=v==="list"?"block":"none"; if(v==="map")setTimeout(()=>map.invalidateSize(),0);}
+document.querySelectorAll("#tabs button").forEach(t=>t.onclick=()=>setView(t.dataset.v));
+document.getElementById("period").onchange=render;
+
+// ---------- Recherche : filtre + aller à une commune
+const qIn=document.getElementById("q"), sugg=document.getElementById("sugg"); let qt, sIdx=-1, sRes=[];
+qIn.oninput=()=>{ clearTimeout(qt); qt=setTimeout(()=>{ render(); suggest(); },180); };
+let banCtl=null;
+async function suggest(){
+  const raw=qIn.value.trim(), q=norm(raw); sIdx=-1;
+  if(q.length<3){ sugg.style.display="none"; return; }
+  let res=[];
+  try{
+    if(banCtl) banCtl.abort(); banCtl=new AbortController();
+    const r=await fetch("https://api-adresse.data.gouv.fr/search/?limit=6&autocomplete=1&q="+encodeURIComponent(raw),{signal:banCtl.signal});
+    const j=await r.json();
+    res=(j.features||[]).map(f=>({lon:f.geometry.coordinates[0],lat:f.geometry.coordinates[1],nom:f.properties.label,info:({municipality:"Commune",street:"Rue",housenumber:"Adresse",locality:"Lieu-dit"})[f.properties.type]||"",
+      z:({municipality:13,street:17,housenumber:18,locality:16})[f.properties.type]||15}));
+  }catch(e){
+    if(e.name==="AbortError") return;
+    for(const l of LIEUX){ const n=norm(l[2]); if(n.startsWith(q)) res.push({lon:l[0],lat:l[1],nom:l[2],info:l[5]+" · "+fmtN(l[3])+" hab.",z:13}); if(res.length>=6) break; }
+  }
+  sRes=res;
+  if(!sRes.length){ sugg.style.display="none"; return; }
+  sugg.innerHTML=sRes.map((l,i)=>`<div data-i="${i}"><span>📍 ${esc(l.nom)}</span><small>${esc(l.info)}</small></div>`).join("");
+  sugg.style.display="block";
+  sugg.querySelectorAll("div").forEach(d=>d.onmousedown=ev=>{ev.preventDefault(); goPlace(sRes[+d.dataset.i]);});
+}
+let placeMk=null;
+function goPlace(l){ sugg.style.display="none"; qIn.value=""; render(); setView("map"); map.setView([l.lat,l.lon], l.z); if(placeMk) map.removeLayer(placeMk); placeMk=L.circleMarker([l.lat,l.lon],{radius:7,color:"#111",weight:2,fillColor:"#fff",fillOpacity:1}).bindTooltip(esc(l.nom)).addTo(map); }
+qIn.onkeydown=e=>{ const items=[...sugg.querySelectorAll("div")]; if(!items.length||sugg.style.display==="none") return;
+  if(e.key==="ArrowDown"){sIdx=Math.min(items.length-1,sIdx+1);} else if(e.key==="ArrowUp"){sIdx=Math.max(0,sIdx-1);} else if(e.key==="Enter"&&sIdx>=0){ e.preventDefault(); goPlace(sRes[sIdx]); return; } else if(e.key==="Escape"){sugg.style.display="none";return;} else return;
+  e.preventDefault(); items.forEach((d,i)=>d.classList.toggle("on",i===sIdx)); };
+qIn.onblur=()=>setTimeout(()=>sugg.style.display="none",150);
+
+// ---------- Rafraîchissements liés au zoom
+map.on("zoomend",()=>{ restyle(); updScaleUi(); });
+map.on("moveend",()=>{ refreshCommunes(); drawLabels(); updScaleUi(); });
+updScaleUi();
+function notice(t){const n=document.getElementById("notice");n.textContent=t;n.style.display=t?"block":"none";}
+
+// ---------- Données
+function clean(id,d){
+  if(!d||!CATS[d.categorie]||typeof d.date!=="string") return null;
+  const lat=+d.lat, lon=+d.lon; if(!isFinite(lat)||!isFinite(lon)) return null;
+  return {id, categorie:d.categorie, date:d.date.slice(0,10), commune:String(d.commune||""), departement:String(d.departement||""),
+    lat, lon, titre:String(d.titre||""), resume:String(d.resume||""), bilan:d.bilan?String(d.bilan):"",
+    gravite:+d.gravite||1, nature:d.nature, confiance:d.confiance, sources:Array.isArray(d.sources)?d.sources.slice(0,10):[]};
+}
+function updMeta(){
+  let t=EVENTS.length+" événements";
+  if(window.__maj){ try{ t+=" · mis à jour le "+new Date(window.__maj).toLocaleString("fr-FR",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"}); }catch(e){} }
+  document.getElementById("meta").textContent=t;
+}
+getJSON("data/dep2reg.json").then(m=>Object.assign(DEP2REG,m)).catch(()=>{});
+loadBase().catch(err=>{ console.error(err); notice("Le fond de carte n'a pas pu être chargé."); });
+async function chargerEvenements(){
+  try{
+    const j=await getJSON("data/evenements.json?v="+Math.floor(Date.now()/6e5));
+    EVENTS=(j.evenements||[]).map(d=>clean(d.id,d)).filter(Boolean);
+    window.__maj=j.derniere_maj; notice(EVENTS.length?"":"Aucun événement enregistré pour l'instant.");
+  }catch(e){ notice("Impossible de charger les événements."); }
+  updMeta(); render();
+}
+render(); chargerEvenements(); setInterval(chargerEvenements, 15*60*1000);
+</script>
+</body>
+</html>
