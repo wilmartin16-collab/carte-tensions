@@ -1,89 +1,212 @@
 {
- "derniere_maj": "2026-11-01T16:30:00+01:00",
+ "derniere_maj": "2026-11-02T07:24:59+01:00",
  "evenements": [
   {
-   "id": "ne-20261028-farie-tera",
-   "categorie": "routes",
-   "date": "2026-10-28",
-   "pays": "Niger",
-   "lieu": "Axe Farié – Téra",
-   "region": "Tillabéri",
-   "lat": 14.01,
-   "lon": 0.75,
+   "id": "ml-20261029-san-enseignants",
+   "ajoute_le": "2026-11-02",
+   "auteur": "Hommes armés non identifiés",
+   "bilan": "3 enseignants libérés (CAP de San)",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-10-29",
+   "gravite": 1,
+   "lat": 13.3,
+   "lieu": "Secteur du CAP de San",
+   "lon": -4.9,
+   "nature": "fait",
+   "pays": "Mali",
    "precision": "approx",
-   "etat": "travaux",
-   "axe": "Farié–Téra",
-   "trace": [
+   "region": "San",
+   "resume": "Trois enseignants relevant du centre d'animation pédagogique de San, enlevés plus d'une semaine auparavant par des hommes armés, ont été libérés. Les responsables du CAP attribuent cette issue au rôle de la population locale.",
+   "sources": [
     {
-     "lon": 1.58,
-     "lat": 13.66
-    },
-    {
-     "lon": 1.1,
-     "lat": 13.85
-    },
-    {
-     "lon": 0.75,
-     "lat": 14.01
+     "nom": "Studio Tamani (29/10)",
+     "url": "https://www.studiotamani.org/209642-san-liberation-des-enseignants-enleves"
     }
    ],
-   "titre": "Chantier de réhabilitation de l'axe Farié–Téra",
-   "resume": "Le ministre de l'Équipement a visité le chantier de cette route de la région de Tillabéri, zone des trois frontières régulièrement visée par des attaques. Des perturbations de circulation sont à prévoir pendant les travaux.",
-   "bilan": "Circulation possible avec perturbations",
+   "titre": "Libération de trois enseignants enlevés dans le secteur de San"
+  },
+  {
+   "id": "ml-20261029-gao-intilit",
+   "ajoute_le": "2026-11-02",
+   "auteur": "Hommes armés non identifiés",
+   "axe": "Gao – Intilit",
+   "bilan": "Passagers dépouillés, pas de victime signalée (Studio Tamani)",
+   "categorie": "routes",
+   "confiance": "a_confirmer",
+   "date": "2026-10-29",
+   "etat": "perturbee",
    "gravite": 1,
-   "nature": "mesure",
-   "confiance": "officiel",
+   "lat": 15.9,
+   "lieu": "Axe Gao – Intilit",
+   "lon": 0.6,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Gao",
+   "resume": "Un car a été braqué en milieu de semaine et un second l'aurait été deux jours plus tard sur le même trajet. Les passagers ont été dépouillés et leurs bagages fouillés ; les voyageurs réclament un renforcement de la sécurité sur ce tronçon.",
+   "sources": [
+    {
+     "nom": "Studio Tamani (30/10)",
+     "url": "https://www.studiotamani.org/209675-de-nouveaux-braquages-signales-sur-laxe-gao-intilit"
+    }
+   ],
+   "titre": "Nouveaux braquages de cars de voyageurs sur l'axe Gao–Intilit",
+   "trace": [
+    {
+     "lat": 16.27,
+     "lon": -0.04
+    },
+    {
+     "lat": 15.95,
+     "lon": 0.5
+    },
+    {
+     "lat": 15.58,
+     "lon": 1.07
+    }
+   ]
+  },
+  {
+   "id": "sn-20261028-faranding",
+   "ajoute_le": "2026-11-02",
+   "auteur": "Hommes armés non identifiés",
+   "bilan": "1 blessé grave et 6,7 millions FCFA emportés selon une source sécuritaire citée par l'APS",
+   "categorie": "mines",
+   "confiance": "probable",
+   "date": "2026-10-28",
+   "gravite": 2,
+   "lat": 12.8,
+   "lieu": "Site aurifère de Faranding (département de Saraya)",
+   "lon": -11.8,
+   "nature": "fait",
+   "pays": "Sénégal",
+   "precision": "approx",
+   "region": "Kédougou",
+   "resume": "Vers 2 heures du matin, six hommes armés ont pénétré dans la base d'une société chinoise, tiré en l'air et contraint un gardien à descendre de son mirador. Le trésorier de la base a été agressé et les assaillants sont repartis avec l'argent liquide. Les forces de sécurité ont lancé des recherches.",
+   "sources": [
+    {
+     "nom": "Le Soleil (APS, 28/10)",
+     "url": "https://lesoleil.sn/non-classe/kedougou-une-attaque-armee-dans-un-site-minier-fait-un-blesse-grave-et-67-millions-de-fcfa-emportes/"
+    },
+    {
+     "nom": "Africtelegraph (28/10)",
+     "url": "https://africtelegraph.com/blog/kedougou-un-site-aurifere-de-faranding-vise-par-un-commando-arme/"
+    }
+   ],
+   "titre": "Un commando armé attaque la base d'une société minière à Faranding"
+  },
+  {
+   "id": "ne-20261028-farie-tera",
    "auteur": "",
+   "axe": "Farié–Téra",
+   "bilan": "Circulation possible avec perturbations",
+   "categorie": "routes",
+   "confiance": "officiel",
+   "date": "2026-10-28",
+   "etat": "travaux",
+   "gravite": 1,
+   "lat": 14.01,
+   "lieu": "Axe Farié – Téra",
+   "lon": 0.75,
+   "nature": "mesure",
+   "pays": "Niger",
+   "precision": "approx",
+   "region": "Tillabéri",
+   "resume": "Le ministre de l'Équipement a visité le chantier de cette route de la région de Tillabéri, zone des trois frontières régulièrement visée par des attaques. Des perturbations de circulation sont à prévoir pendant les travaux.",
    "sources": [
     {
      "nom": "ANP (28/10)",
      "url": "https://anp.ne/2026/10/28/"
     }
+   ],
+   "titre": "Chantier de réhabilitation de l'axe Farié–Téra",
+   "trace": [
+    {
+     "lat": 13.66,
+     "lon": 1.58
+    },
+    {
+     "lat": 13.85,
+     "lon": 1.1
+    },
+    {
+     "lat": 14.01,
+     "lon": 0.75
+    }
    ]
   },
   {
-   "id": "ml-20261026-convoi",
-   "categorie": "routes",
+   "id": "ml-20261026-lere-diabaly",
+   "ajoute_le": "2026-11-02",
+   "auteur": "Forces armées maliennes",
+   "bilan": "Aucun bilan chiffré communiqué par l'armée ; cible « neutralisée » à Diabaly selon le communiqué",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
    "date": "2026-10-26",
-   "pays": "Mali",
-   "lieu": "Bamako",
-   "region": "Bamako",
-   "lat": 12.66,
-   "lon": -7.97,
-   "precision": "exacte",
-   "etat": "escorte",
-   "axe": "Accès à Bamako",
-   "titre": "Un convoi de 1 107 citernes arrive à Bamako sous escorte",
-   "resume": "Le plus important convoi signalé en octobre est arrivé dans la matinée sous escorte militaire. Ces arrivées massives et groupées montrent que la circulation libre des transporteurs n'est pas rétablie.",
-   "bilan": "1 107 camions-citernes arrivés",
    "gravite": 1,
+   "lat": 15.98,
+   "lieu": "Nord-ouest de Léré et est de Diabaly",
+   "lon": -4.45,
    "nature": "fait",
-   "confiance": "probable",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Tombouctou / Ségou",
+   "resume": "Selon l'état-major, une première frappe a visé le 26 octobre une quinzaine d'hommes abrités à environ 75 km au nord-ouest de Léré, et une seconde le 27 octobre un regroupement de véhicules et de motos à environ 24 km à l'est de Diabaly, dans le cadre de l'opération Dougoukoloko.",
+   "sources": [
+    {
+     "nom": "La Nouvelle Tribune (28/10)",
+     "url": "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-un-regroupement-presume-terroriste-pres-de-tombouctou/"
+    },
+    {
+     "nom": "Bénin Web TV (28/10)",
+     "url": "https://beninwebtv.bj/mali-larmee-annonce-deux-frappes-pres-de-lere-et-diabaly/"
+    }
+   ],
+   "titre": "L'armée malienne annonce deux frappes aériennes près de Léré et de Diabaly"
+  },
+  {
+   "id": "ml-20261026-convoi",
    "auteur": "",
+   "axe": "Accès à Bamako",
+   "bilan": "1 107 camions-citernes arrivés",
+   "categorie": "routes",
+   "confiance": "probable",
+   "date": "2026-10-26",
+   "etat": "escorte",
+   "gravite": 1,
+   "lat": 12.66,
+   "lieu": "Bamako",
+   "lon": -7.97,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Bamako",
+   "resume": "Le plus important convoi signalé en octobre est arrivé dans la matinée sous escorte militaire. Ces arrivées massives et groupées montrent que la circulation libre des transporteurs n'est pas rétablie.",
    "sources": [
     {
      "nom": "Senego (27/10)",
      "url": "https://senego.com/mali-un-convoi-de-1-107-camions-citernes-ravitaille-bamako-en-carburant_2018006.html"
     }
-   ]
+   ],
+   "titre": "Un convoi de 1 107 citernes arrive à Bamako sous escorte"
   },
   {
    "id": "ne-20261022-agadez",
-   "categorie": "terrorisme",
-   "date": "2026-10-22",
-   "pays": "Niger",
-   "lieu": "Agadez",
-   "region": "Agadez",
-   "lat": 16.97,
-   "lon": 7.99,
-   "precision": "exacte",
-   "titre": "Libération de deux Européennes enlevées à Agadez en 2025",
-   "resume": "Une Autrichienne et une Suisse, enlevées chez elles à Agadez en janvier et avril 2025, ont été libérées après plus de 21 mois de captivité et ont transité par Benghazi. Les enlèvements n'ont jamais été revendiqués, mais l'État islamique au Sahel est soupçonné.",
-   "bilan": "2 otages libérées",
-   "gravite": 1,
-   "nature": "judiciaire",
-   "confiance": "confirme",
    "auteur": "EI au Sahel (soupçonné)",
+   "bilan": "2 otages libérées",
+   "categorie": "terrorisme",
+   "confiance": "confirme",
+   "date": "2026-10-22",
+   "gravite": 1,
+   "lat": 16.97,
+   "lieu": "Agadez",
+   "lon": 7.99,
+   "nature": "judiciaire",
+   "pays": "Niger",
+   "precision": "exacte",
+   "region": "Agadez",
+   "resume": "Une Autrichienne et une Suisse, enlevées chez elles à Agadez en janvier et avril 2025, ont été libérées après plus de 21 mois de captivité et ont transité par Benghazi. Les enlèvements n'ont jamais été revendiqués, mais l'État islamique au Sahel est soupçonné.",
    "sources": [
     {
      "nom": "RFI via Dakaractu",
@@ -93,25 +216,25 @@
      "nom": "Africanews",
      "url": "https://www.africanews.com/amp/2026/10/22/two-european-women-kidnapped-in-niger-freed-in-libya/"
     }
-   ]
+   ],
+   "titre": "Libération de deux Européennes enlevées à Agadez en 2025"
   },
   {
    "id": "ml-20261021-sounga",
-   "categorie": "terrorisme",
-   "date": "2026-10-21",
-   "pays": "Mali",
-   "lieu": "Sounga (commune de Mougna, cercle de Djenné)",
-   "region": "Mopti",
-   "lat": 14.08,
-   "lon": -4.4,
-   "precision": "approx",
-   "titre": "Assaut du JNIM contre Sounga, village défendu par des chasseurs dozos",
-   "resume": "Seul village de la commune à refuser un accord avec le JNIM, Sounga est sous blocus depuis mai. Un assaut massif lancé dans l'après-midi a été repoussé par les dozos. Le village a ensuite subi des tirs et des frappes de drones, et ses habitants appellent les autorités à l'aide.",
-   "bilan": "4 dozos tués et une dizaine de blessés selon une source locale ; maisons incendiées",
-   "gravite": 2,
-   "nature": "fait",
-   "confiance": "probable",
    "auteur": "JNIM",
+   "bilan": "4 dozos tués et une dizaine de blessés selon une source locale ; maisons incendiées",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-10-21",
+   "gravite": 2,
+   "lat": 14.08,
+   "lieu": "Sounga (commune de Mougna, cercle de Djenné)",
+   "lon": -4.4,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Mopti",
+   "resume": "Seul village de la commune à refuser un accord avec le JNIM, Sounga est sous blocus depuis mai. Un assaut massif lancé dans l'après-midi a été repoussé par les dozos. Le village a ensuite subi des tirs et des frappes de drones, et ses habitants appellent les autorités à l'aide.",
    "sources": [
     {
      "nom": "RFI via allAfrica (29/10)",
@@ -121,73 +244,135 @@
      "nom": "Points chauds",
      "url": "https://pointschauds.info/mali-pres-de-djenne-sounga-dernier-village-de-mougna-a-resister-au-jnim-attaque-par-les-jihadistes/"
     }
-   ]
+   ],
+   "titre": "Assaut du JNIM contre Sounga, village défendu par des chasseurs dozos"
   },
   {
    "id": "ml-20261021-menaka",
-   "categorie": "terrorisme",
-   "date": "2026-10-21",
-   "pays": "Mali",
-   "lieu": "Ménaka et Talhandak",
-   "region": "Ménaka",
-   "lat": 15.918,
-   "lon": 2.402,
-   "precision": "approx",
-   "titre": "Frappes de l'armée malienne à Talhandak et Ménaka",
-   "resume": "Dans le cadre de l'opération Dougoukoloko, l'armée dit avoir détruit un point de regroupement de groupes armés et un véhicule lors de frappes les 20 et 21 octobre.",
-   "bilan": "Selon l'armée, un repaire et un véhicule neutralisés",
-   "gravite": 1,
-   "nature": "mesure",
-   "confiance": "officiel",
    "auteur": "FAMa",
+   "bilan": "Selon l'armée, un repaire et un véhicule neutralisés",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-10-21",
+   "gravite": 1,
+   "lat": 15.918,
+   "lieu": "Ménaka et Talhandak",
+   "lon": 2.402,
+   "nature": "mesure",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Ménaka",
+   "resume": "Dans le cadre de l'opération Dougoukoloko, l'armée dit avoir détruit un point de regroupement de groupes armés et un véhicule lors de frappes les 20 et 21 octobre.",
    "sources": [
     {
      "nom": "Alwihda Info (22/10)",
      "url": "https://www.alwihdainfo.com/niger-double-attaque-terroriste-a-tillaberi-10-soldats-tues-et-41-terroristes-neutralises-a142288/"
     }
-   ]
+   ],
+   "titre": "Frappes de l'armée malienne à Talhandak et Ménaka"
+  },
+  {
+   "id": "ne-20261020-agadez-bus",
+   "ajoute_le": "2026-11-02",
+   "auteur": "Hommes armés non identifiés",
+   "bilan": "Au moins 12 morts dont un militaire et une dizaine de blessés selon les autorités régionales (bilan provisoire) ; l'AFP évoquait au moins 11 morts",
+   "categorie": "terrorisme",
+   "confiance": "confirme",
+   "date": "2026-10-20",
+   "gravite": 3,
+   "lat": 17.2,
+   "lieu": "Axe Tchirozérine – Agadez (à 35 km d'Agadez)",
+   "lon": 7.86,
+   "nature": "fait",
+   "pays": "Niger",
+   "precision": "approx",
+   "region": "Agadez",
+   "resume": "Des assaillants circulant dans trois véhicules 4x4 ont intercepté deux bus de la SONITRAV et ouvert le feu sur les passagers avant de s'enfuir. Des militaires présents à bord ont riposté. Le conseil régional de sécurité a placé les forces en alerte maximale et une enquête est ouverte.",
+   "sources": [
+    {
+     "nom": "ActuNiger",
+     "url": "https://www.actuniger.com/societe/22481-insecurite-les-autorites-dagadez-en-etat-dalerte-maximale-apres-une-attaque-armee-qui-a-fait-douze-morts-sur-laxe-tchiro-agadez"
+    },
+    {
+     "nom": "Studio Kalangou",
+     "url": "https://www.studiokalangou.org/142868-en-bref-attaque-agriculture-sport-les-informations-de-la-semaine"
+    },
+    {
+     "nom": "Afrique Diplomatique (AFP)",
+     "url": "https://afrique-diplomatique.com/niger-au-moins-11-morts-dans-une-attaque-contre-deux-bus-dans-le-nord-du-pays/"
+    }
+   ],
+   "titre": "Deux bus de voyageurs mitraillés près d'Agadez : au moins 12 morts"
   },
   {
    "id": "ml-20261019-intahaka",
-   "categorie": "mines",
-   "date": "2026-10-19",
-   "pays": "Mali",
-   "lieu": "Site aurifère d'Intahaka",
-   "region": "Gao",
-   "lat": 16.9,
-   "lon": -0.1,
-   "precision": "approx",
-   "titre": "L'armée reprend le site aurifère d'Intahaka",
-   "resume": "Les forces armées maliennes disent avoir repris le contrôle de ce gisement d'or artisanal, présenté comme tenu par des groupes armés. Des représentants du ministère des Mines se sont rendus sur place. Les détails des opérations n'ont pas été publiés.",
-   "bilan": "Aucun bilan publié",
-   "gravite": 2,
-   "nature": "mesure",
-   "confiance": "a_confirmer",
    "auteur": "FAMa",
+   "bilan": "Aucun bilan publié",
+   "categorie": "mines",
+   "confiance": "a_confirmer",
+   "date": "2026-10-19",
+   "gravite": 2,
+   "lat": 16.9,
+   "lieu": "Site aurifère d'Intahaka",
+   "lon": -0.1,
+   "nature": "mesure",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Gao",
+   "resume": "Les forces armées maliennes disent avoir repris le contrôle de ce gisement d'or artisanal, présenté comme tenu par des groupes armés. Des représentants du ministère des Mines se sont rendus sur place. Les détails des opérations n'ont pas été publiés.",
    "sources": [
     {
      "nom": "Le Gnawo (19/10)",
      "url": "https://www.gnawo.com/mali-les-forces-armees-securisent-un-site-minier-a-gao/"
     }
-   ]
+   ],
+   "titre": "L'armée reprend le site aurifère d'Intahaka"
+  },
+  {
+   "id": "ml-20261018-tagadayat",
+   "ajoute_le": "2026-11-02",
+   "auteur": "État islamique au Sahel (présumé, non revendiqué)",
+   "bilan": "Au moins 48 civils tués selon le bureau exécutif de la communauté Idaksahak et un élu touareg du CNT cité par AP ; bilan non vérifié de manière indépendante",
+   "categorie": "terrorisme",
+   "confiance": "confirme",
+   "date": "2026-10-18",
+   "gravite": 3,
+   "lat": 16.1,
+   "lieu": "Campements de Tagadayat et Tinabow (env. 50 km de Ménaka)",
+   "lon": 2.6,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Ménaka",
+   "resume": "Des hommes armés à moto ont ouvert le feu sur des habitants et incendié des habitations dans deux campements situés à une cinquantaine de kilomètres de Ménaka. Les victimes auraient été accusées par les assaillants d'avoir renseigné l'armée malienne sur leurs positions.",
+   "sources": [
+    {
+     "nom": "Studio Tamani (20/10)",
+     "url": "https://www.studiotamani.org/209304-menaka-au-moins-48-civils-tues-dans-des-attaques-contre-des-campements"
+    },
+    {
+     "nom": "AP via ABC News (20/10)",
+     "url": "https://abcnews.com/International/wireStory/attack-islamic-state-affiliated-group-mali-kills-48-137413904"
+    }
+   ],
+   "titre": "Au moins 48 civils tués dans l'attaque de campements près de Ménaka"
   },
   {
    "id": "sn-20261016-gambie",
-   "categorie": "meteo",
-   "date": "2026-10-16",
-   "pays": "Sénégal",
-   "lieu": "Fleuve Gambie à Simenti",
-   "region": "Tambacounda",
-   "lat": 13.03,
-   "lon": -13.29,
-   "precision": "approx",
-   "titre": "Le fleuve Gambie monte : vigilance renforcée, le fleuve Sénégal sous les seuils",
-   "resume": "Le ministre de l'Hydraulique indique qu'aucune station du fleuve Sénégal n'a atteint la cote d'alerte, mais que la montée du fleuve Gambie (+22 cm à Simenti) appelle à la vigilance. Les services restent mobilisés au moins jusqu'à fin octobre, notamment en raison des lâchers de Manantali.",
-   "bilan": "Pas de victime signalée",
-   "gravite": 1,
-   "nature": "mesure",
-   "confiance": "officiel",
    "auteur": "",
+   "bilan": "Pas de victime signalée",
+   "categorie": "meteo",
+   "confiance": "officiel",
+   "date": "2026-10-16",
+   "gravite": 1,
+   "lat": 13.03,
+   "lieu": "Fleuve Gambie à Simenti",
+   "lon": -13.29,
+   "nature": "mesure",
+   "pays": "Sénégal",
+   "precision": "approx",
+   "region": "Tambacounda",
+   "resume": "Le ministre de l'Hydraulique indique qu'aucune station du fleuve Sénégal n'a atteint la cote d'alerte, mais que la montée du fleuve Gambie (+22 cm à Simenti) appelle à la vigilance. Les services restent mobilisés au moins jusqu'à fin octobre, notamment en raison des lâchers de Manantali.",
    "sources": [
     {
      "nom": "APS via allAfrica (16/10)",
@@ -197,25 +382,25 @@
      "nom": "Senego",
      "url": "https://senego.com/cheikh-tidiane-dieye-appelle-a-la-vigilance-le-fleuve-gambie-monte-de-22-cm-a-simenti_2013812.html"
     }
-   ]
+   ],
+   "titre": "Le fleuve Gambie monte : vigilance renforcée, le fleuve Sénégal sous les seuils"
   },
   {
    "id": "ml-20261014-manantali",
-   "categorie": "meteo",
-   "date": "2026-10-14",
-   "pays": "Mali",
-   "lieu": "Barrage de Manantali",
-   "region": "Kayes",
-   "lat": 13.2,
-   "lon": -10.43,
-   "precision": "exacte",
-   "titre": "Manantali dépasse 208,14 m : lâchers d'eau annoncés par l'OMVS",
-   "resume": "La retenue du barrage a franchi la cote de 208,14 mètres, ce qui a conduit l'OMVS à annoncer des lâchers d'eau. Ces lâchers peuvent faire monter le fleuve Sénégal en aval et provoquer des débordements localisés.",
-   "bilan": "Pas de dégâts signalés à ce stade",
-   "gravite": 1,
-   "nature": "mesure",
-   "confiance": "probable",
    "auteur": "",
+   "bilan": "Pas de dégâts signalés à ce stade",
+   "categorie": "meteo",
+   "confiance": "probable",
+   "date": "2026-10-14",
+   "gravite": 1,
+   "lat": 13.2,
+   "lieu": "Barrage de Manantali",
+   "lon": -10.43,
+   "nature": "mesure",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Kayes",
+   "resume": "La retenue du barrage a franchi la cote de 208,14 mètres, ce qui a conduit l'OMVS à annoncer des lâchers d'eau. Ces lâchers peuvent faire monter le fleuve Sénégal en aval et provoquer des débordements localisés.",
    "sources": [
     {
      "nom": "Seneweb (fil Falémé)",
@@ -225,53 +410,27 @@
      "nom": "APS via allAfrica (16/10)",
      "url": "https://fr.allafrica.com/stories/202610160154.html"
     }
-   ]
+   ],
+   "titre": "Manantali dépasse 208,14 m : lâchers d'eau annoncés par l'OMVS"
   },
   {
    "id": "ml-20261010-convois",
-   "categorie": "routes",
-   "date": "2026-10-10",
-   "pays": "Mali",
-   "lieu": "Axe Kayes – Diéma – Bamako",
-   "region": "Kayes / Koulikoro",
-   "lat": 14.54,
-   "lon": -9.18,
-   "precision": "approx",
-   "etat": "escorte",
-   "axe": "RN1 Kayes–Bamako",
-   "trace": [
-    {
-     "lon": -11.44,
-     "lat": 14.45
-    },
-    {
-     "lon": -10.3,
-     "lat": 14.7
-    },
-    {
-     "lon": -9.18,
-     "lat": 14.54
-    },
-    {
-     "lon": -8.08,
-     "lat": 13.88
-    },
-    {
-     "lon": -8.07,
-     "lat": 12.74
-    },
-    {
-     "lon": -8.0,
-     "lat": 12.64
-    }
-   ],
-   "titre": "Carburant : Bamako ravitaillée uniquement par convois escortés",
-   "resume": "Plus d'un an après le blocus décrété par le JNIM, l'approvisionnement de la capitale dépend de convois militaires. Selon les chiffres officiels, 643 citernes sont arrivées le 3 octobre et 957 le 10 octobre, après 3 796 en septembre. Aucun calendrier de fin des escortes n'est annoncé.",
-   "bilan": "Circulation des citernes sous escorte uniquement",
-   "gravite": 2,
-   "nature": "mesure",
-   "confiance": "officiel",
    "auteur": "",
+   "axe": "RN1 Kayes–Bamako",
+   "bilan": "Circulation des citernes sous escorte uniquement",
+   "categorie": "routes",
+   "confiance": "officiel",
+   "date": "2026-10-10",
+   "etat": "escorte",
+   "gravite": 2,
+   "lat": 14.54,
+   "lieu": "Axe Kayes – Diéma – Bamako",
+   "lon": -9.18,
+   "nature": "mesure",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kayes / Koulikoro",
+   "resume": "Plus d'un an après le blocus décrété par le JNIM, l'approvisionnement de la capitale dépend de convois militaires. Selon les chiffres officiels, 643 citernes sont arrivées le 3 octobre et 957 le 10 octobre, après 3 796 en septembre. Aucun calendrier de fin des escortes n'est annoncé.",
    "sources": [
     {
      "nom": "NotreAfrik (APA/DGCC)",
@@ -281,25 +440,51 @@
      "nom": "Africtelegraph",
      "url": "https://africtelegraph.com/blog/carburant-au-mali-bamako-sous-perfusion-logistique-face-au-blocus/"
     }
+   ],
+   "titre": "Carburant : Bamako ravitaillée uniquement par convois escortés",
+   "trace": [
+    {
+     "lat": 14.45,
+     "lon": -11.44
+    },
+    {
+     "lat": 14.7,
+     "lon": -10.3
+    },
+    {
+     "lat": 14.54,
+     "lon": -9.18
+    },
+    {
+     "lat": 13.88,
+     "lon": -8.08
+    },
+    {
+     "lat": 12.74,
+     "lon": -8.07
+    },
+    {
+     "lat": 12.64,
+     "lon": -8
+    }
    ]
   },
   {
    "id": "bf-20261009-gonadaouri",
-   "categorie": "terrorisme",
-   "date": "2026-10-09",
-   "pays": "Burkina Faso",
-   "lieu": "Gonadaouri (Oudalan)",
-   "region": "Oudalan",
-   "lat": 14.8,
-   "lon": -0.35,
-   "precision": "approx",
-   "titre": "Combats meurtriers entre l'État islamique et le JNIM dans l'Oudalan",
-   "resume": "Les deux groupes jihadistes rivaux se sont affrontés près des frontières malienne et nigérienne, dans une série de combats commencée en août. L'État islamique au Sahel affirme avoir tué plus de 400 combattants du JNIM. Des sources spécialisées font état de lourdes pertes des deux côtés, dont des commandants de l'EI.",
-   "bilan": "Plus de 400 morts selon l'EI (non vérifié) ; au moins 60 selon un journal mauritanien",
-   "gravite": 3,
-   "nature": "fait",
-   "confiance": "a_confirmer",
    "auteur": "EI au Sahel / JNIM",
+   "bilan": "Plus de 400 morts selon l'EI (non vérifié) ; au moins 60 selon un journal mauritanien",
+   "categorie": "terrorisme",
+   "confiance": "a_confirmer",
+   "date": "2026-10-09",
+   "gravite": 3,
+   "lat": 14.8,
+   "lieu": "Gonadaouri (Oudalan)",
+   "lon": -0.35,
+   "nature": "fait",
+   "pays": "Burkina Faso",
+   "precision": "approx",
+   "region": "Oudalan",
+   "resume": "Les deux groupes jihadistes rivaux se sont affrontés près des frontières malienne et nigérienne, dans une série de combats commencée en août. L'État islamique au Sahel affirme avoir tué plus de 400 combattants du JNIM. Des sources spécialisées font état de lourdes pertes des deux côtés, dont des commandants de l'EI.",
    "sources": [
     {
      "nom": "KOACI (16/10)",
@@ -313,25 +498,25 @@
      "nom": "Mondafrique (18/10)",
      "url": "https://mondafrique.com/politique/victoire-militaire-de-letat-islamique-contre-ses-rivaux-dal-qaida-au-burkina-faso/"
     }
-   ]
+   ],
+   "titre": "Combats meurtriers entre l'État islamique et le JNIM dans l'Oudalan"
   },
   {
    "id": "ml-20261006-kidal",
-   "categorie": "terrorisme",
-   "date": "2026-10-06",
-   "pays": "Mali",
-   "lieu": "Kidal",
-   "region": "Kidal",
-   "lat": 18.441,
-   "lon": 1.407,
-   "precision": "exacte",
-   "titre": "L'armée malienne et l'Africa Corps reprennent Kidal",
-   "resume": "Après plusieurs jours de frappes aériennes sur la région, le FLA a annoncé un « repli stratégique » de Kidal, qu'il tenait depuis le 25 avril. Un convoi d'environ 120 véhicules parti d'Anéfis est entré dans la ville sans combat au sol notable. Le FLA accuse les frappes d'avoir détruit des infrastructures civiles, ce qui n'a pas pu être vérifié.",
-   "bilan": "Pas de bilan vérifié",
-   "gravite": 2,
-   "nature": "mesure",
-   "confiance": "confirme",
    "auteur": "FAMa / Africa Corps ; FLA",
+   "bilan": "Pas de bilan vérifié",
+   "categorie": "terrorisme",
+   "confiance": "confirme",
+   "date": "2026-10-06",
+   "gravite": 2,
+   "lat": 18.441,
+   "lieu": "Kidal",
+   "lon": 1.407,
+   "nature": "mesure",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Kidal",
+   "resume": "Après plusieurs jours de frappes aériennes sur la région, le FLA a annoncé un « repli stratégique » de Kidal, qu'il tenait depuis le 25 avril. Un convoi d'environ 120 véhicules parti d'Anéfis est entré dans la ville sans combat au sol notable. Le FLA accuse les frappes d'avoir détruit des infrastructures civiles, ce qui n'a pas pu être vérifié.",
    "sources": [
     {
      "nom": "KOACI (06/10)",
@@ -345,45 +530,27 @@
      "nom": "Connection ivoirienne",
      "url": "https://connectionivoirienne.net/2026/10/07/mali-kidal-repasse-sous-controle-des-fama-le-fla-annonce-un-repli-strategique/"
     }
-   ]
+   ],
+   "titre": "L'armée malienne et l'Africa Corps reprennent Kidal"
   },
   {
    "id": "sn-20261002-kidira",
-   "categorie": "routes",
-   "date": "2026-10-02",
-   "pays": "Sénégal / Mali",
-   "lieu": "Kidira – Diboli – Kayes",
-   "region": "Tambacounda / Kayes",
-   "lat": 14.46,
-   "lon": -12.21,
-   "precision": "exacte",
-   "etat": "coupee",
-   "axe": "Corridor nord Dakar–Bamako",
-   "trace": [
-    {
-     "lon": -12.21,
-     "lat": 14.46
-    },
-    {
-     "lon": -12.17,
-     "lat": 14.47
-    },
-    {
-     "lon": -11.9,
-     "lat": 14.45
-    },
-    {
-     "lon": -11.44,
-     "lat": 14.45
-    }
-   ],
-   "titre": "Route de Kidira fermée : le corridor nord Dakar–Bamako à l'arrêt",
-   "resume": "Les attaques répétées sur l'axe Kidira–Kayes ont fait basculer tout le fret vers le sud. Les autorités sénégalaises ont confirmé début octobre la fermeture de la route de Kidira. Le commerce local s'effondre.",
-   "bilan": "Trafic interrompu",
-   "gravite": 3,
-   "nature": "mesure",
-   "confiance": "probable",
    "auteur": "",
+   "axe": "Corridor nord Dakar–Bamako",
+   "bilan": "Trafic interrompu",
+   "categorie": "routes",
+   "confiance": "probable",
+   "date": "2026-10-02",
+   "etat": "coupee",
+   "gravite": 3,
+   "lat": 14.46,
+   "lieu": "Kidira – Diboli – Kayes",
+   "lon": -12.21,
+   "nature": "mesure",
+   "pays": "Sénégal / Mali",
+   "precision": "exacte",
+   "region": "Tambacounda / Kayes",
+   "resume": "Les attaques répétées sur l'axe Kidira–Kayes ont fait basculer tout le fret vers le sud. Les autorités sénégalaises ont confirmé début octobre la fermeture de la route de Kidira. Le commerce local s'effondre.",
    "sources": [
     {
      "nom": "Financial Afrik (15/10)",
@@ -393,65 +560,45 @@
      "nom": "APS via allAfrica (août)",
      "url": "https://fr.allafrica.com/stories/202608170688.html"
     }
+   ],
+   "titre": "Route de Kidira fermée : le corridor nord Dakar–Bamako à l'arrêt",
+   "trace": [
+    {
+     "lat": 14.46,
+     "lon": -12.21
+    },
+    {
+     "lat": 14.47,
+     "lon": -12.17
+    },
+    {
+     "lat": 14.45,
+     "lon": -11.9
+    },
+    {
+     "lat": 14.45,
+     "lon": -11.44
+    }
    ]
   },
   {
    "id": "sn-20261001-moussala",
-   "categorie": "routes",
-   "date": "2026-10-01",
-   "pays": "Sénégal / Mali",
-   "lieu": "Poste frontalier de Moussala",
-   "region": "Kédougou",
-   "lat": 12.86,
-   "lon": -11.38,
-   "precision": "exacte",
-   "etat": "perturbee",
-   "axe": "Corridor sud Tambacounda–Kédougou–Moussala–Kita–Bamako",
-   "trace": [
-    {
-     "lon": -13.67,
-     "lat": 13.77
-    },
-    {
-     "lon": -12.35,
-     "lat": 12.86
-    },
-    {
-     "lon": -12.18,
-     "lat": 12.56
-    },
-    {
-     "lon": -11.79,
-     "lat": 12.84
-    },
-    {
-     "lon": -11.38,
-     "lat": 12.86
-    },
-    {
-     "lon": -11.24,
-     "lat": 12.84
-    },
-    {
-     "lon": -9.49,
-     "lat": 13.04
-    },
-    {
-     "lon": -8.07,
-     "lat": 12.74
-    },
-    {
-     "lon": -8.0,
-     "lat": 12.64
-    }
-   ],
-   "titre": "File de camions de plusieurs dizaines de kilomètres à Moussala",
-   "resume": "En visite au poste frontalier, le ministre sénégalais de l'Intérieur a constaté une file de poids lourds longue de plusieurs dizaines de kilomètres. Le report du trafic sature un tronçon partiellement non bitumé, et côté malien la route de Kéniéba est très dégradée. Kédougou a manqué d'essence fin septembre.",
-   "bilan": "Saturation, délais de passage de plusieurs jours",
-   "gravite": 2,
-   "nature": "fait",
-   "confiance": "probable",
    "auteur": "",
+   "axe": "Corridor sud Tambacounda–Kédougou–Moussala–Kita–Bamako",
+   "bilan": "Saturation, délais de passage de plusieurs jours",
+   "categorie": "routes",
+   "confiance": "probable",
+   "date": "2026-10-01",
+   "etat": "perturbee",
+   "gravite": 2,
+   "lat": 12.86,
+   "lieu": "Poste frontalier de Moussala",
+   "lon": -11.38,
+   "nature": "fait",
+   "pays": "Sénégal / Mali",
+   "precision": "exacte",
+   "region": "Kédougou",
+   "resume": "En visite au poste frontalier, le ministre sénégalais de l'Intérieur a constaté une file de poids lourds longue de plusieurs dizaines de kilomètres. Le report du trafic sature un tronçon partiellement non bitumé, et côté malien la route de Kéniéba est très dégradée. Kédougou a manqué d'essence fin septembre.",
    "sources": [
     {
      "nom": "Financial Afrik (15/10)",
@@ -461,53 +608,63 @@
      "nom": "APA",
      "url": "https://fr.apanews.net/business/corridor-dakar-bamako-le-fret-se-reporte-vers-moussala/"
     }
-   ]
-  },
-  {
-   "id": "ml-20260914-konna",
-   "categorie": "terrorisme",
-   "date": "2026-09-14",
-   "pays": "Mali",
-   "lieu": "Konna",
-   "region": "Mopti",
-   "lat": 14.947,
-   "lon": -3.894,
-   "precision": "exacte",
-   "titre": "Attaque du JNIM contre la position militaire de Konna",
-   "resume": "Quatre jours après Dioura, le JNIM a frappé le camp de Konna, à une cinquantaine de kilomètres de Sévaré. Des habitants ont décrit un encerclement du camp par des combattants à moto. L'issue reste confuse.",
-   "bilan": "Le JNIM revendique 33 membres des forces progouvernementales tués à Konna et Sévaré ; non vérifié",
-   "gravite": 2,
-   "nature": "fait",
-   "confiance": "a_confirmer",
-   "auteur": "JNIM",
-   "sources": [
+   ],
+   "titre": "File de camions de plusieurs dizaines de kilomètres à Moussala",
+   "trace": [
     {
-     "nom": "Reuters via BusinessDay",
-     "url": "https://www.businessday.co.za/world/africa/2026-09-21-more-than-100-malian-soldiers-killed-in-rebel-attacks-in-september-sources-say/"
+     "lat": 13.77,
+     "lon": -13.67
     },
     {
-     "nom": "The Sahel Brief (15/09)",
-     "url": "https://buttondown.com/TheSahelBrief/archive/sahel-morning-brief-15-september-2026/"
+     "lat": 12.86,
+     "lon": -12.35
+    },
+    {
+     "lat": 12.56,
+     "lon": -12.18
+    },
+    {
+     "lat": 12.84,
+     "lon": -11.79
+    },
+    {
+     "lat": 12.86,
+     "lon": -11.38
+    },
+    {
+     "lat": 12.84,
+     "lon": -11.24
+    },
+    {
+     "lat": 13.04,
+     "lon": -9.49
+    },
+    {
+     "lat": 12.74,
+     "lon": -8.07
+    },
+    {
+     "lat": 12.64,
+     "lon": -8
     }
    ]
   },
   {
    "id": "ml-20260914-sevare",
-   "categorie": "terrorisme",
-   "date": "2026-09-14",
-   "pays": "Mali",
-   "lieu": "Sévaré (aéroport)",
-   "region": "Mopti",
-   "lat": 14.535,
-   "lon": -4.095,
-   "precision": "exacte",
-   "titre": "Frappes de drones et tirs sur la zone aéroportuaire de Sévaré",
-   "resume": "Le JNIM a visé à plusieurs reprises l'aéroport de Sévaré, qui abrite des avions et des drones militaires. Il revendique la destruction de systèmes de défense aérienne. Des blessés maliens et russes ont été soignés à l'hôpital de la ville.",
-   "bilan": "Blessés parmi les militaires maliens et russes ; pas de bilan chiffré",
-   "gravite": 2,
-   "nature": "fait",
-   "confiance": "probable",
    "auteur": "JNIM",
+   "bilan": "Blessés parmi les militaires maliens et russes ; pas de bilan chiffré",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-09-14",
+   "gravite": 2,
+   "lat": 14.535,
+   "lieu": "Sévaré (aéroport)",
+   "lon": -4.095,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Mopti",
+   "resume": "Le JNIM a visé à plusieurs reprises l'aéroport de Sévaré, qui abrite des avions et des drones militaires. Il revendique la destruction de systèmes de défense aérienne. Des blessés maliens et russes ont été soignés à l'hôpital de la ville.",
    "sources": [
     {
      "nom": "The Sahel Brief (23/09)",
@@ -517,25 +674,53 @@
      "nom": "Afrik.com",
      "url": "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain"
     }
-   ]
+   ],
+   "titre": "Frappes de drones et tirs sur la zone aéroportuaire de Sévaré"
+  },
+  {
+   "id": "ml-20260914-konna",
+   "auteur": "JNIM",
+   "bilan": "Le JNIM revendique 33 membres des forces progouvernementales tués à Konna et Sévaré ; non vérifié",
+   "categorie": "terrorisme",
+   "confiance": "a_confirmer",
+   "date": "2026-09-14",
+   "gravite": 2,
+   "lat": 14.947,
+   "lieu": "Konna",
+   "lon": -3.894,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Mopti",
+   "resume": "Quatre jours après Dioura, le JNIM a frappé le camp de Konna, à une cinquantaine de kilomètres de Sévaré. Des habitants ont décrit un encerclement du camp par des combattants à moto. L'issue reste confuse.",
+   "sources": [
+    {
+     "nom": "Reuters via BusinessDay",
+     "url": "https://www.businessday.co.za/world/africa/2026-09-21-more-than-100-malian-soldiers-killed-in-rebel-attacks-in-september-sources-say/"
+    },
+    {
+     "nom": "The Sahel Brief (15/09)",
+     "url": "https://buttondown.com/TheSahelBrief/archive/sahel-morning-brief-15-september-2026/"
+    }
+   ],
+   "titre": "Attaque du JNIM contre la position militaire de Konna"
   },
   {
    "id": "ml-20260910-dioura",
-   "categorie": "terrorisme",
-   "date": "2026-09-10",
-   "pays": "Mali",
-   "lieu": "Dioura",
-   "region": "Mopti",
-   "lat": 14.825,
-   "lon": -5.251,
-   "precision": "exacte",
-   "titre": "Le camp militaire de Dioura pris d'assaut par le JNIM",
-   "resume": "À l'aube, le JNIM a attaqué l'un des principaux camps de l'armée dans le centre du pays. Il a revendiqué sa prise avant de se retirer, selon son mode opératoire habituel. Le bilan s'est alourdi au fil des jours, de nombreux soldats portés disparus ayant en fait été tués ou capturés.",
-   "bilan": "Au moins 100 militaires et 5 paramilitaires russes tués selon des sources sécuritaires et locales (AFP) ; le JNIM revendique 150 morts et 93 prisonniers ; pas de bilan officiel",
-   "gravite": 3,
-   "nature": "fait",
-   "confiance": "probable",
    "auteur": "JNIM",
+   "bilan": "Au moins 100 militaires et 5 paramilitaires russes tués selon des sources sécuritaires et locales (AFP) ; le JNIM revendique 150 morts et 93 prisonniers ; pas de bilan officiel",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-09-10",
+   "gravite": 3,
+   "lat": 14.825,
+   "lieu": "Dioura",
+   "lon": -5.251,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Mopti",
+   "resume": "À l'aube, le JNIM a attaqué l'un des principaux camps de l'armée dans le centre du pays. Il a revendiqué sa prise avant de se retirer, selon son mode opératoire habituel. Le bilan s'est alourdi au fil des jours, de nombreux soldats portés disparus ayant en fait été tués ou capturés.",
    "sources": [
     {
      "nom": "AFP via DH (18/09)",
@@ -545,25 +730,25 @@
      "nom": "RFI via Dakaractu (11/09)",
      "url": "https://www.dakaractu.com/Mali-des-dizaines-de-soldats-tues-dans-l-attaque-du-camp-de-Dioura-par-les-jihadistes-du-Jnim_a275916.amp.html"
     }
-   ]
+   ],
+   "titre": "Le camp militaire de Dioura pris d'assaut par le JNIM"
   },
   {
    "id": "ml-20260902-inondations",
-   "categorie": "meteo",
-   "date": "2026-09-02",
-   "pays": "Mali",
-   "lieu": "Bilan national (Bamako)",
-   "region": "Bamako",
-   "lat": 12.64,
-   "lon": -7.99,
-   "precision": "pays",
-   "titre": "Saison des pluies : 13 morts au Mali depuis le début de l'hivernage",
-   "resume": "Le comité de gestion de la crise d'inondation a actualisé son bilan national : inondations, foudre et vents violents ont provoqué 153 effondrements. La situation s'est nettement dégradée depuis le point du 13 août. La protection civile maintient des équipes d'intervention rapide à Bamako.",
-   "bilan": "13 morts, 17 blessés, 2 790 personnes affectées (355 ménages)",
-   "gravite": 2,
-   "nature": "fait",
-   "confiance": "officiel",
    "auteur": "",
+   "bilan": "13 morts, 17 blessés, 2 790 personnes affectées (355 ménages)",
+   "categorie": "meteo",
+   "confiance": "officiel",
+   "date": "2026-09-02",
+   "gravite": 2,
+   "lat": 12.64,
+   "lieu": "Bilan national (Bamako)",
+   "lon": -7.99,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "pays",
+   "region": "Bamako",
+   "resume": "Le comité de gestion de la crise d'inondation a actualisé son bilan national : inondations, foudre et vents violents ont provoqué 153 effondrements. La situation s'est nettement dégradée depuis le point du 13 août. La protection civile maintient des équipes d'intervention rapide à Bamako.",
    "sources": [
     {
      "nom": "Wakat Séra",
@@ -573,25 +758,25 @@
      "nom": "APA",
      "url": "https://fr.apanews.net/disasters/mali-13-morts-depuis-le-debut-de-lhivernage/"
     }
-   ]
+   ],
+   "titre": "Saison des pluies : 13 morts au Mali depuis le début de l'hivernage"
   },
   {
    "id": "ml-20260111-bafoulabe",
-   "categorie": "mines",
-   "date": "2026-01-11",
-   "pays": "Mali",
-   "lieu": "Cercle de Bafoulabé (Gangontery, Karaga, Gouroundapé)",
-   "region": "Kayes",
-   "lat": 13.75,
-   "lon": -10.8,
-   "precision": "approx",
-   "titre": "Trois sites industriels et carriers attaqués dans le cercle de Bafoulabé",
-   "resume": "Une cimenterie, une carrière de chaux et une usine de carreaux ont été ravagées au petit matin par des jihadistes, qui avaient déjà visé ces sites en juillet 2025. Des civils ont été enlevés. L'objectif affiché est d'affaiblir l'économie de la région de Kayes.",
-   "bilan": "Plusieurs personnes enlevées ; installations détruites",
-   "gravite": 3,
-   "nature": "fait",
-   "confiance": "confirme",
    "auteur": "JNIM",
+   "bilan": "Plusieurs personnes enlevées ; installations détruites",
+   "categorie": "mines",
+   "confiance": "confirme",
+   "date": "2026-01-11",
+   "gravite": 3,
+   "lat": 13.75,
+   "lieu": "Cercle de Bafoulabé (Gangontery, Karaga, Gouroundapé)",
+   "lon": -10.8,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kayes",
+   "resume": "Une cimenterie, une carrière de chaux et une usine de carreaux ont été ravagées au petit matin par des jihadistes, qui avaient déjà visé ces sites en juillet 2025. Des civils ont été enlevés. L'objectif affiché est d'affaiblir l'économie de la région de Kayes.",
    "sources": [
     {
      "nom": "RFI via allAfrica",
@@ -601,25 +786,25 @@
      "nom": "Africanews",
      "url": "https://www.africanews.com/2026/01/13/gunmen-attack-three-industrial-sites-in-western-mali-kidnap-civilians/"
     }
-   ]
+   ],
+   "titre": "Trois sites industriels et carriers attaqués dans le cercle de Bafoulabé"
   },
   {
    "id": "ml-20260103-morila",
-   "categorie": "mines",
-   "date": "2026-01-03",
-   "pays": "Mali",
-   "lieu": "Mine d'or de Morila",
-   "region": "Sikasso",
-   "lat": 11.68,
-   "lon": -6.63,
-   "precision": "approx",
-   "titre": "Double attaque de la mine d'or de Morila",
-   "resume": "Des hommes armés ont pris le contrôle de la mine deux jours de suite, incendiant des engins et des installations. Sept employés ont été pris en otage puis relâchés le lendemain soir. L'activité a été suspendue le temps d'évaluer les dégâts.",
-   "bilan": "Aucun mort parmi les employés ; 7 otages relâchés ; matériel incendié",
-   "gravite": 3,
-   "nature": "fait",
-   "confiance": "confirme",
    "auteur": "JNIM (présumé)",
+   "bilan": "Aucun mort parmi les employés ; 7 otages relâchés ; matériel incendié",
+   "categorie": "mines",
+   "confiance": "confirme",
+   "date": "2026-01-03",
+   "gravite": 3,
+   "lat": 11.68,
+   "lieu": "Mine d'or de Morila",
+   "lon": -6.63,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Sikasso",
+   "resume": "Des hommes armés ont pris le contrôle de la mine deux jours de suite, incendiant des engins et des installations. Sept employés ont été pris en otage puis relâchés le lendemain soir. L'activité a été suspendue le temps d'évaluer les dégâts.",
    "sources": [
     {
      "nom": "Reuters via TimesLIVE",
@@ -629,31 +814,32 @@
      "nom": "RFI via allAfrica",
      "url": "https://fr.allafrica.com/stories/202601080076.html"
     }
-   ]
+   ],
+   "titre": "Double attaque de la mine d'or de Morila"
   },
   {
    "id": "ml-20251226-kalana",
-   "categorie": "mines",
-   "date": "2025-12-26",
-   "pays": "Mali",
-   "lieu": "Kalana (Yanfolila)",
-   "region": "Sikasso",
-   "lat": 10.78,
-   "lon": -8.2,
-   "precision": "approx",
-   "titre": "Travailleurs chinois enlevés sur un site minier de Kalana",
-   "resume": "Sur un site minier proche de la frontière guinéenne, des travailleurs chinois ont été enlevés et du matériel emporté. Une semaine plus tard, des engins étaient incendiés sur la mine voisine de Denso.",
-   "bilan": "Travailleurs enlevés (nombre non précisé)",
-   "gravite": 2,
-   "nature": "fait",
-   "confiance": "probable",
    "auteur": "JNIM (présumé)",
+   "bilan": "Travailleurs enlevés (nombre non précisé)",
+   "categorie": "mines",
+   "confiance": "probable",
+   "date": "2025-12-26",
+   "gravite": 2,
+   "lat": 10.78,
+   "lieu": "Kalana (Yanfolila)",
+   "lon": -8.2,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Sikasso",
+   "resume": "Sur un site minier proche de la frontière guinéenne, des travailleurs chinois ont été enlevés et du matériel emporté. Une semaine plus tard, des engins étaient incendiés sur la mine voisine de Denso.",
    "sources": [
     {
      "nom": "RFI via allAfrica",
      "url": "https://fr.allafrica.com/stories/202601080076.html"
     }
-   ]
+   ],
+   "titre": "Travailleurs chinois enlevés sur un site minier de Kalana"
   }
  ]
 }
