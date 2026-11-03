@@ -1,8 +1,105 @@
 {
- "derniere_maj": "2026-11-02T07:24:59+01:00",
+ "derniere_maj": "2026-11-03T07:33:14+01:00",
  "evenements": [
   {
-   "id": "ml-20261029-san-enseignants",
+   "ajoute_le": "2026-11-03",
+   "auteur": "",
+   "axe": "Frontière algérienne – Arlit – Agadez",
+   "bilan": "53 citernes et 1,65 million de litres selon Le Sahel ; une soixantaine de citernes selon RFI ; aucun incident signalé",
+   "categorie": "routes",
+   "confiance": "probable",
+   "date": "2026-10-31",
+   "etat": "escorte",
+   "gravite": 1,
+   "lat": 16.97,
+   "lieu": "Agadez",
+   "lon": 7.99,
+   "nature": "fait",
+   "pays": "Niger",
+   "precision": "exacte",
+   "region": "Agadez",
+   "resume": "Sur fond de pénurie de carburant au Niger, une colonne de camions-citernes venue d'Algérie et sécurisée par des militaires algériens, relayés à la frontière par les forces nigériennes, est arrivée à Agadez. Le ministre du Pétrole l'a réceptionnée le 1er novembre et a annoncé un comité de crise sur l'approvisionnement.",
+   "sources": [
+    {
+     "nom": "Madar, d'après RFI (31/10)",
+     "url": "https://fr.madar.mr/actualites/sahel/niger-first-algerian-military-convoy-sixty-fuel-tankers-reaches-agadez-20261031/"
+    },
+    {
+     "nom": "Madar, d'après Le Sahel (01/11)",
+     "url": "https://fr.madar.mr/actualites/sahel/niger-algerian-fuel-53-tankers-1-65-million-litres-agadez-tini-supply-crisis-committee-main-20261102/"
+    }
+   ],
+   "titre": "Un premier convoi de citernes escorté par l'armée algérienne arrive à Agadez",
+   "trace": [
+    {
+     "lat": 19.57,
+     "lon": 5.84
+    },
+    {
+     "lat": 18.9,
+     "lon": 7
+    },
+    {
+     "lat": 18.74,
+     "lon": 7.35
+    },
+    {
+     "lat": 16.97,
+     "lon": 7.99
+    }
+   ],
+   "id": "ne-20261031-agadez-convoi-algerien"
+  },
+  {
+   "ajoute_le": "2026-11-03",
+   "auteur": "",
+   "axe": "Accès à Bamako (convois escortés depuis l'ouest)",
+   "bilan": "596 camions-citernes arrivés, 415 déjà en stationnement ; environ 4 000 en octobre contre 3 796 en septembre (DGCC, via Bamada/Madar)",
+   "categorie": "routes",
+   "confiance": "probable",
+   "date": "2026-10-31",
+   "etat": "escorte",
+   "gravite": 1,
+   "lat": 12.66,
+   "lieu": "Bamako",
+   "lon": -7.97,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Bamako",
+   "resume": "Un convoi de 596 camions-citernes a rejoint les parkings de Bamako au matin du 31 octobre après un trajet de nuit encadré par les FAMa. Selon la DGCC, près de 4 000 citernes sont arrivées en octobre, l'approvisionnement de la capitale reposant toujours sur des convois escortés.",
+   "sources": [
+    {
+     "nom": "Madar (31/10)",
+     "url": "https://fr.madar.mr/actualites/sahel/mali-596-fuel-tankers-reach-bamako-nearly-4000-in-october-20261031"
+    }
+   ],
+   "titre": "Nouveau convoi de 596 citernes à Bamako, près de 4 000 arrivées sur le mois d'octobre",
+   "trace": [
+    {
+     "lat": 14.45,
+     "lon": -11.43
+    },
+    {
+     "lat": 14.52,
+     "lon": -9.18
+    },
+    {
+     "lat": 13.85,
+     "lon": -8.08
+    },
+    {
+     "lat": 12.74,
+     "lon": -8.13
+    },
+    {
+     "lat": 12.66,
+     "lon": -7.97
+    }
+   ],
+   "id": "ml-20261031-convoi-596"
+  },
+  {
    "ajoute_le": "2026-11-02",
    "auteur": "Hommes armés non identifiés",
    "bilan": "3 enseignants libérés (CAP de San)",
@@ -24,10 +121,10 @@
      "url": "https://www.studiotamani.org/209642-san-liberation-des-enseignants-enleves"
     }
    ],
-   "titre": "Libération de trois enseignants enlevés dans le secteur de San"
+   "titre": "Libération de trois enseignants enlevés dans le secteur de San",
+   "id": "ml-20261029-san-enseignants"
   },
   {
-   "id": "ml-20261029-gao-intilit",
    "ajoute_le": "2026-11-02",
    "auteur": "Hommes armés non identifiés",
    "axe": "Gao – Intilit",
@@ -65,10 +162,10 @@
      "lat": 15.58,
      "lon": 1.07
     }
-   ]
+   ],
+   "id": "ml-20261029-gao-intilit"
   },
   {
-   "id": "sn-20261028-faranding",
    "ajoute_le": "2026-11-02",
    "auteur": "Hommes armés non identifiés",
    "bilan": "1 blessé grave et 6,7 millions FCFA emportés selon une source sécuritaire citée par l'APS",
@@ -94,10 +191,10 @@
      "url": "https://africtelegraph.com/blog/kedougou-un-site-aurifere-de-faranding-vise-par-un-commando-arme/"
     }
    ],
-   "titre": "Un commando armé attaque la base d'une société minière à Faranding"
+   "titre": "Un commando armé attaque la base d'une société minière à Faranding",
+   "id": "sn-20261028-faranding"
   },
   {
-   "id": "ne-20261028-farie-tera",
    "auteur": "",
    "axe": "Farié–Téra",
    "bilan": "Circulation possible avec perturbations",
@@ -134,10 +231,10 @@
      "lat": 14.01,
      "lon": 0.75
     }
-   ]
+   ],
+   "id": "ne-20261028-farie-tera"
   },
   {
-   "id": "ml-20261026-lere-diabaly",
    "ajoute_le": "2026-11-02",
    "auteur": "Forces armées maliennes",
    "bilan": "Aucun bilan chiffré communiqué par l'armée ; cible « neutralisée » à Diabaly selon le communiqué",
@@ -163,10 +260,10 @@
      "url": "https://beninwebtv.bj/mali-larmee-annonce-deux-frappes-pres-de-lere-et-diabaly/"
     }
    ],
-   "titre": "L'armée malienne annonce deux frappes aériennes près de Léré et de Diabaly"
+   "titre": "L'armée malienne annonce deux frappes aériennes près de Léré et de Diabaly",
+   "id": "ml-20261026-lere-diabaly"
   },
   {
-   "id": "ml-20261026-convoi",
    "auteur": "",
    "axe": "Accès à Bamako",
    "bilan": "1 107 camions-citernes arrivés",
@@ -189,10 +286,10 @@
      "url": "https://senego.com/mali-un-convoi-de-1-107-camions-citernes-ravitaille-bamako-en-carburant_2018006.html"
     }
    ],
-   "titre": "Un convoi de 1 107 citernes arrive à Bamako sous escorte"
+   "titre": "Un convoi de 1 107 citernes arrive à Bamako sous escorte",
+   "id": "ml-20261026-convoi"
   },
   {
-   "id": "ne-20261022-agadez",
    "auteur": "EI au Sahel (soupçonné)",
    "bilan": "2 otages libérées",
    "categorie": "terrorisme",
@@ -217,10 +314,10 @@
      "url": "https://www.africanews.com/amp/2026/10/22/two-european-women-kidnapped-in-niger-freed-in-libya/"
     }
    ],
-   "titre": "Libération de deux Européennes enlevées à Agadez en 2025"
+   "titre": "Libération de deux Européennes enlevées à Agadez en 2025",
+   "id": "ne-20261022-agadez"
   },
   {
-   "id": "ml-20261021-sounga",
    "auteur": "JNIM",
    "bilan": "4 dozos tués et une dizaine de blessés selon une source locale ; maisons incendiées",
    "categorie": "terrorisme",
@@ -245,10 +342,10 @@
      "url": "https://pointschauds.info/mali-pres-de-djenne-sounga-dernier-village-de-mougna-a-resister-au-jnim-attaque-par-les-jihadistes/"
     }
    ],
-   "titre": "Assaut du JNIM contre Sounga, village défendu par des chasseurs dozos"
+   "titre": "Assaut du JNIM contre Sounga, village défendu par des chasseurs dozos",
+   "id": "ml-20261021-sounga"
   },
   {
-   "id": "ml-20261021-menaka",
    "auteur": "FAMa",
    "bilan": "Selon l'armée, un repaire et un véhicule neutralisés",
    "categorie": "terrorisme",
@@ -269,10 +366,10 @@
      "url": "https://www.alwihdainfo.com/niger-double-attaque-terroriste-a-tillaberi-10-soldats-tues-et-41-terroristes-neutralises-a142288/"
     }
    ],
-   "titre": "Frappes de l'armée malienne à Talhandak et Ménaka"
+   "titre": "Frappes de l'armée malienne à Talhandak et Ménaka",
+   "id": "ml-20261021-menaka"
   },
   {
-   "id": "ne-20261020-agadez-bus",
    "ajoute_le": "2026-11-02",
    "auteur": "Hommes armés non identifiés",
    "bilan": "Au moins 12 morts dont un militaire et une dizaine de blessés selon les autorités régionales (bilan provisoire) ; l'AFP évoquait au moins 11 morts",
@@ -302,10 +399,10 @@
      "url": "https://afrique-diplomatique.com/niger-au-moins-11-morts-dans-une-attaque-contre-deux-bus-dans-le-nord-du-pays/"
     }
    ],
-   "titre": "Deux bus de voyageurs mitraillés près d'Agadez : au moins 12 morts"
+   "titre": "Deux bus de voyageurs mitraillés près d'Agadez : au moins 12 morts",
+   "id": "ne-20261020-agadez-bus"
   },
   {
-   "id": "ml-20261019-intahaka",
    "auteur": "FAMa",
    "bilan": "Aucun bilan publié",
    "categorie": "mines",
@@ -326,10 +423,10 @@
      "url": "https://www.gnawo.com/mali-les-forces-armees-securisent-un-site-minier-a-gao/"
     }
    ],
-   "titre": "L'armée reprend le site aurifère d'Intahaka"
+   "titre": "L'armée reprend le site aurifère d'Intahaka",
+   "id": "ml-20261019-intahaka"
   },
   {
-   "id": "ml-20261018-tagadayat",
    "ajoute_le": "2026-11-02",
    "auteur": "État islamique au Sahel (présumé, non revendiqué)",
    "bilan": "Au moins 48 civils tués selon le bureau exécutif de la communauté Idaksahak et un élu touareg du CNT cité par AP ; bilan non vérifié de manière indépendante",
@@ -355,10 +452,10 @@
      "url": "https://abcnews.com/International/wireStory/attack-islamic-state-affiliated-group-mali-kills-48-137413904"
     }
    ],
-   "titre": "Au moins 48 civils tués dans l'attaque de campements près de Ménaka"
+   "titre": "Au moins 48 civils tués dans l'attaque de campements près de Ménaka",
+   "id": "ml-20261018-tagadayat"
   },
   {
-   "id": "sn-20261016-gambie",
    "auteur": "",
    "bilan": "Pas de victime signalée",
    "categorie": "meteo",
@@ -383,10 +480,10 @@
      "url": "https://senego.com/cheikh-tidiane-dieye-appelle-a-la-vigilance-le-fleuve-gambie-monte-de-22-cm-a-simenti_2013812.html"
     }
    ],
-   "titre": "Le fleuve Gambie monte : vigilance renforcée, le fleuve Sénégal sous les seuils"
+   "titre": "Le fleuve Gambie monte : vigilance renforcée, le fleuve Sénégal sous les seuils",
+   "id": "sn-20261016-gambie"
   },
   {
-   "id": "ml-20261014-manantali",
    "auteur": "",
    "bilan": "Pas de dégâts signalés à ce stade",
    "categorie": "meteo",
@@ -411,10 +508,10 @@
      "url": "https://fr.allafrica.com/stories/202610160154.html"
     }
    ],
-   "titre": "Manantali dépasse 208,14 m : lâchers d'eau annoncés par l'OMVS"
+   "titre": "Manantali dépasse 208,14 m : lâchers d'eau annoncés par l'OMVS",
+   "id": "ml-20261014-manantali"
   },
   {
-   "id": "ml-20261010-convois",
    "auteur": "",
    "axe": "RN1 Kayes–Bamako",
    "bilan": "Circulation des citernes sous escorte uniquement",
@@ -467,10 +564,10 @@
      "lat": 12.64,
      "lon": -8
     }
-   ]
+   ],
+   "id": "ml-20261010-convois"
   },
   {
-   "id": "bf-20261009-gonadaouri",
    "auteur": "EI au Sahel / JNIM",
    "bilan": "Plus de 400 morts selon l'EI (non vérifié) ; au moins 60 selon un journal mauritanien",
    "categorie": "terrorisme",
@@ -499,10 +596,10 @@
      "url": "https://mondafrique.com/politique/victoire-militaire-de-letat-islamique-contre-ses-rivaux-dal-qaida-au-burkina-faso/"
     }
    ],
-   "titre": "Combats meurtriers entre l'État islamique et le JNIM dans l'Oudalan"
+   "titre": "Combats meurtriers entre l'État islamique et le JNIM dans l'Oudalan",
+   "id": "bf-20261009-gonadaouri"
   },
   {
-   "id": "ml-20261006-kidal",
    "auteur": "FAMa / Africa Corps ; FLA",
    "bilan": "Pas de bilan vérifié",
    "categorie": "terrorisme",
@@ -531,10 +628,10 @@
      "url": "https://connectionivoirienne.net/2026/10/07/mali-kidal-repasse-sous-controle-des-fama-le-fla-annonce-un-repli-strategique/"
     }
    ],
-   "titre": "L'armée malienne et l'Africa Corps reprennent Kidal"
+   "titre": "L'armée malienne et l'Africa Corps reprennent Kidal",
+   "id": "ml-20261006-kidal"
   },
   {
-   "id": "sn-20261002-kidira",
    "auteur": "",
    "axe": "Corridor nord Dakar–Bamako",
    "bilan": "Trafic interrompu",
@@ -579,10 +676,10 @@
      "lat": 14.45,
      "lon": -11.44
     }
-   ]
+   ],
+   "id": "sn-20261002-kidira"
   },
   {
-   "id": "sn-20261001-moussala",
    "auteur": "",
    "axe": "Corridor sud Tambacounda–Kédougou–Moussala–Kita–Bamako",
    "bilan": "Saturation, délais de passage de plusieurs jours",
@@ -647,10 +744,10 @@
      "lat": 12.64,
      "lon": -8
     }
-   ]
+   ],
+   "id": "sn-20261001-moussala"
   },
   {
-   "id": "ml-20260914-sevare",
    "auteur": "JNIM",
    "bilan": "Blessés parmi les militaires maliens et russes ; pas de bilan chiffré",
    "categorie": "terrorisme",
@@ -675,10 +772,10 @@
      "url": "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain"
     }
    ],
-   "titre": "Frappes de drones et tirs sur la zone aéroportuaire de Sévaré"
+   "titre": "Frappes de drones et tirs sur la zone aéroportuaire de Sévaré",
+   "id": "ml-20260914-sevare"
   },
   {
-   "id": "ml-20260914-konna",
    "auteur": "JNIM",
    "bilan": "Le JNIM revendique 33 membres des forces progouvernementales tués à Konna et Sévaré ; non vérifié",
    "categorie": "terrorisme",
@@ -703,10 +800,10 @@
      "url": "https://buttondown.com/TheSahelBrief/archive/sahel-morning-brief-15-september-2026/"
     }
    ],
-   "titre": "Attaque du JNIM contre la position militaire de Konna"
+   "titre": "Attaque du JNIM contre la position militaire de Konna",
+   "id": "ml-20260914-konna"
   },
   {
-   "id": "ml-20260910-dioura",
    "auteur": "JNIM",
    "bilan": "Au moins 100 militaires et 5 paramilitaires russes tués selon des sources sécuritaires et locales (AFP) ; le JNIM revendique 150 morts et 93 prisonniers ; pas de bilan officiel",
    "categorie": "terrorisme",
@@ -731,10 +828,10 @@
      "url": "https://www.dakaractu.com/Mali-des-dizaines-de-soldats-tues-dans-l-attaque-du-camp-de-Dioura-par-les-jihadistes-du-Jnim_a275916.amp.html"
     }
    ],
-   "titre": "Le camp militaire de Dioura pris d'assaut par le JNIM"
+   "titre": "Le camp militaire de Dioura pris d'assaut par le JNIM",
+   "id": "ml-20260910-dioura"
   },
   {
-   "id": "ml-20260902-inondations",
    "auteur": "",
    "bilan": "13 morts, 17 blessés, 2 790 personnes affectées (355 ménages)",
    "categorie": "meteo",
@@ -759,10 +856,10 @@
      "url": "https://fr.apanews.net/disasters/mali-13-morts-depuis-le-debut-de-lhivernage/"
     }
    ],
-   "titre": "Saison des pluies : 13 morts au Mali depuis le début de l'hivernage"
+   "titre": "Saison des pluies : 13 morts au Mali depuis le début de l'hivernage",
+   "id": "ml-20260902-inondations"
   },
   {
-   "id": "ml-20260111-bafoulabe",
    "auteur": "JNIM",
    "bilan": "Plusieurs personnes enlevées ; installations détruites",
    "categorie": "mines",
@@ -787,10 +884,10 @@
      "url": "https://www.africanews.com/2026/01/13/gunmen-attack-three-industrial-sites-in-western-mali-kidnap-civilians/"
     }
    ],
-   "titre": "Trois sites industriels et carriers attaqués dans le cercle de Bafoulabé"
+   "titre": "Trois sites industriels et carriers attaqués dans le cercle de Bafoulabé",
+   "id": "ml-20260111-bafoulabe"
   },
   {
-   "id": "ml-20260103-morila",
    "auteur": "JNIM (présumé)",
    "bilan": "Aucun mort parmi les employés ; 7 otages relâchés ; matériel incendié",
    "categorie": "mines",
@@ -815,10 +912,10 @@
      "url": "https://fr.allafrica.com/stories/202601080076.html"
     }
    ],
-   "titre": "Double attaque de la mine d'or de Morila"
+   "titre": "Double attaque de la mine d'or de Morila",
+   "id": "ml-20260103-morila"
   },
   {
-   "id": "ml-20251226-kalana",
    "auteur": "JNIM (présumé)",
    "bilan": "Travailleurs enlevés (nombre non précisé)",
    "categorie": "mines",
@@ -839,7 +936,8 @@
      "url": "https://fr.allafrica.com/stories/202601080076.html"
     }
    ],
-   "titre": "Travailleurs chinois enlevés sur un site minier de Kalana"
+   "titre": "Travailleurs chinois enlevés sur un site minier de Kalana",
+   "id": "ml-20251226-kalana"
   }
  ]
 }
