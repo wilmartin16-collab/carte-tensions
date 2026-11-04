@@ -1,6 +1,130 @@
 {
- "derniere_maj": "2026-11-03T07:33:14+01:00",
+ "derniere_maj": "2026-11-04T07:28:13+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-04",
+   "auteur": "Forces armées maliennes (FAMa)",
+   "bilan": "Aucun bilan communiqué par l'armée",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-03",
+   "gravite": 1,
+   "lat": 16.45,
+   "lieu": "Environ 70 km au sud-ouest de Gourma-Rharous",
+   "lon": -2.4,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Tombouctou",
+   "resume": "L'état-major affirme avoir visé le 3 novembre, par deux frappes successives, une concentration de combattants armés et de matériel de guerre localisée à environ 70 km au sud-ouest de Gourma-Rharous.",
+   "sources": [
+    {
+     "nom": "Bamada.net, d'après l'EMGA (03/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-fama-niono-tessalit-gourma-rharous"
+    }
+   ],
+   "titre": "Deux frappes successives de l'armée malienne au sud-ouest de Gourma-Rharous",
+   "id": "ml-20261103-gourma-rharous-frappes"
+  },
+  {
+   "ajoute_le": "2026-11-04",
+   "auteur": "Forces armées maliennes (FAMa)",
+   "bilan": "Aucun bilan communiqué par l'armée",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-02",
+   "gravite": 1,
+   "lat": 19.95,
+   "lieu": "Environ 28 km au sud de Tessalit",
+   "lon": 1.01,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kidal",
+   "resume": "Selon un communiqué de l'état-major, un point de regroupement d'individus armés disposant de matériel de guerre a été repéré par surveillance puis frappé le 2 novembre à environ 28 km au sud de Tessalit.",
+   "sources": [
+    {
+     "nom": "Bamada.net, d'après l'EMGA (03/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-fama-niono-tessalit-gourma-rharous"
+    }
+   ],
+   "titre": "L'armée malienne annonce une frappe sur un regroupement armé au sud de Tessalit",
+   "id": "ml-20261102-tessalit-frappe"
+  },
+  {
+   "ajoute_le": "2026-11-04",
+   "auteur": "Forces armées maliennes (FAMa)",
+   "bilan": "Aucun bilan chiffré pour la frappe du 2 novembre ; 3 individus « neutralisés » et une moto détruite lors des opérations des 29-30 octobre (état-major, non vérifié)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-02",
+   "gravite": 1,
+   "lat": 14.25,
+   "lieu": "Environ 30 km à l'est de Niono",
+   "lon": -5.72,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Ségou",
+   "resume": "Dans le cadre de l'opération Dougoukoloko, l'état-major indique avoir frappé le 2 novembre une importante base de groupes armés abritant du matériel de guerre et des véhicules armés, à une trentaine de kilomètres à l'est de Niono. Deux opérations menées les 29 et 30 octobre dans le même secteur avaient déjà été annoncées.",
+   "sources": [
+    {
+     "nom": "Bamada.net, d'après l'EMGA (03/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-fama-niono-tessalit-gourma-rharous"
+    },
+    {
+     "nom": "Bamada.net, d'après Le Nouvel Horizon (03/11)",
+     "url": "https://bamada.net/les-fama-passent-a-loffensive-a-niono-plusieurs-positions-terroristes-detruites-en-48-heures"
+    }
+   ],
+   "titre": "Frappe aérienne de l'armée malienne sur une base de groupes armés à l'est de Niono",
+   "id": "ml-20261102-niono-frappe"
+  },
+  {
+   "ajoute_le": "2026-11-04",
+   "auteur": "Hommes armés non identifiés",
+   "axe": "Gao – N'Tillit",
+   "bilan": "Pas de victime signalée ; 100 000 FCFA par véhicule et 10 000 FCFA par passager au premier barrage, 50 000 et 5 000 FCFA au second (usagers cités par Studio Tamani)",
+   "categorie": "routes",
+   "confiance": "a_confirmer",
+   "date": "2026-11-02",
+   "etat": "perturbee",
+   "gravite": 1,
+   "lat": 15.9,
+   "lieu": "Axe Gao – N'Tillit",
+   "lon": 0.6,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Gao",
+   "resume": "Des usagers rapportent plusieurs barrages tenus par des hommes armés qui rançonnent véhicules et passagers sur la route Gao–N'Tillit, déjà touchée par des braquages de cars fin octobre. Certains voyageurs disent avoir dû emprunter de l'argent pour poursuivre leur trajet.",
+   "sources": [
+    {
+     "nom": "Studio Tamani (02/11)",
+     "url": "https://www.studiotamani.org/209763-gao-des-voyageurs-soumis-a-des-peages-imposes-par-des-hommes-armes-sur-laxe-gao-ntilllit"
+    },
+    {
+     "nom": "Bamada.net (02/11)",
+     "url": "https://bamada.net/gao-des-voyageurs-soumis-a-des-peages-imposes-par-des-hommes-armes-sur-laxe-gao-ntilllit"
+    }
+   ],
+   "titre": "Des hommes armés imposent des péages illégaux aux voyageurs sur l'axe Gao–N'Tillit",
+   "trace": [
+    {
+     "lat": 16.27,
+     "lon": -0.04
+    },
+    {
+     "lat": 15.95,
+     "lon": 0.5
+    },
+    {
+     "lat": 15.58,
+     "lon": 1.07
+    }
+   ],
+   "id": "ml-20261102-gao-ntillit-peages"
+  },
   {
    "ajoute_le": "2026-11-03",
    "auteur": "",
@@ -264,6 +388,31 @@
    "id": "ml-20261026-lere-diabaly"
   },
   {
+   "ajoute_le": "2026-11-04",
+   "auteur": "Armée malienne (selon RFI et sources locales ; non reconnu)",
+   "bilan": "13 civils tués dont 6 enfants et une femme, plusieurs blessés graves (RFI, sources locales) ; pas de communication de l'armée",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-10-26",
+   "gravite": 3,
+   "lat": 16.9,
+   "lieu": "Campement de Laghlaf, près de Lerneb (cercle de Goundam)",
+   "lon": -5,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Tombouctou",
+   "resume": "Dans la nuit du 25 au 26 octobre, une frappe de drone a touché un petit campement nomade à Laghlaf, non loin de la frontière mauritanienne, tuant deux familles sous leurs tentes. RFI l'attribue à l'armée malienne sur la foi de nombreuses sources locales ; l'état-major ne s'est pas exprimé et une ONG réclame une enquête indépendante.",
+   "sources": [
+    {
+     "nom": "RFI via allAfrica (26/10)",
+     "url": "https://fr.allafrica.com/stories/202610270196.html"
+    }
+   ],
+   "titre": "Treize civils tués par une frappe de drone attribuée à l'armée près de Lerneb",
+   "id": "ml-20261026-laghlaf-drone"
+  },
+  {
    "auteur": "",
    "axe": "Accès à Bamako",
    "bilan": "1 107 camions-citernes arrivés",
@@ -429,7 +578,7 @@
   {
    "ajoute_le": "2026-11-02",
    "auteur": "État islamique au Sahel (présumé, non revendiqué)",
-   "bilan": "Au moins 48 civils tués selon le bureau exécutif de la communauté Idaksahak et un élu touareg du CNT cité par AP ; bilan non vérifié de manière indépendante",
+   "bilan": "Au moins 48 civils tués selon le bureau exécutif de la communauté Idaksahak et un élu touareg du CNT cité par AP ; 54 corps découverts à Tagadayat par une patrouille FAMa et 9 survivants évacués selon l'état-major (communiqué du 24/10) ; bilans non vérifiés de manière indépendante",
    "categorie": "terrorisme",
    "confiance": "confirme",
    "date": "2026-10-18",
@@ -450,6 +599,10 @@
     {
      "nom": "AP via ABC News (20/10)",
      "url": "https://abcnews.com/International/wireStory/attack-islamic-state-affiliated-group-mali-kills-48-137413904"
+    },
+    {
+     "nom": "Bamada.net, d'après l'EMGA et Le Sursaut (02/11)",
+     "url": "https://bamada.net/region-de-menaka-54-cadavres-decouverts-au-campement-a-tagadayat"
     }
    ],
    "titre": "Au moins 48 civils tués dans l'attaque de campements près de Ménaka",
@@ -832,6 +985,31 @@
    "id": "ml-20260910-dioura"
   },
   {
+   "ajoute_le": "2026-11-04",
+   "auteur": "JNIM (présumé)",
+   "bilan": "3 civils tués dont un enfant (HRW) ; type d'engin non vérifié de façon indépendante",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-09-05",
+   "gravite": 2,
+   "lat": 13.6,
+   "lieu": "Piste près de Mera (Ouahigouya)",
+   "lon": -2.47,
+   "nature": "fait",
+   "pays": "Burkina Faso",
+   "precision": "approx",
+   "region": "Nord (Yatenga)",
+   "resume": "Quatre jours après l'attaque de Soubo, un véhicule a sauté sur un engin explosif sur la piste reliant Mera à Soubo et Sissamba. Les habitants accusent le JNIM d'avoir posé l'engin ; l'armée a ensuite désamorcé trois autres engins sur le secteur.",
+   "sources": [
+    {
+     "nom": "Human Rights Watch (04/11)",
+     "url": "https://www.hrw.org/news/2026/11/04/burkina-faso-islamist-armed-group-targets-civilians"
+    }
+   ],
+   "titre": "Rapport HRW : un engin explosif tue trois civils sur une piste près de Mera",
+   "id": "bf-20260905-mera-engin"
+  },
+  {
    "auteur": "",
    "bilan": "13 morts, 17 blessés, 2 790 personnes affectées (355 ménages)",
    "categorie": "meteo",
@@ -858,6 +1036,35 @@
    ],
    "titre": "Saison des pluies : 13 morts au Mali depuis le début de l'hivernage",
    "id": "ml-20260902-inondations"
+  },
+  {
+   "ajoute_le": "2026-11-04",
+   "auteur": "JNIM (selon HRW ; attaque reconnue par le groupe)",
+   "bilan": "24 civils tués et au moins 20 blessés (HRW) ; le JNIM affirme que les victimes étaient des VDP",
+   "categorie": "mines",
+   "confiance": "probable",
+   "date": "2026-09-01",
+   "gravite": 3,
+   "lat": 13.62,
+   "lieu": "Site d'orpaillage de Soubo (Ouahigouya)",
+   "lon": -2.5,
+   "nature": "fait",
+   "pays": "Burkina Faso",
+   "precision": "approx",
+   "region": "Nord (Yatenga)",
+   "resume": "Human Rights Watch a documenté dans un rapport publié le 4 novembre l'attaque nocturne d'une soixantaine de combattants à moto contre un site d'orpaillage proche de Soubo : des mineurs endormis ou en fuite ont été abattus et des centaines d'abris incendiés. Le JNIM reconnaît l'attaque mais affirme avoir visé des VDP, ce que contestent les témoins.",
+   "sources": [
+    {
+     "nom": "Human Rights Watch (04/11)",
+     "url": "https://www.hrw.org/news/2026/11/04/burkina-faso-islamist-armed-group-targets-civilians"
+    },
+    {
+     "nom": "allAfrica (04/11)",
+     "url": "https://allafrica.com/stories/202611040136.html"
+    }
+   ],
+   "titre": "Rapport HRW : 24 civils tués par le JNIM sur le site d'orpaillage de Soubo le 1er septembre",
+   "id": "bf-20260901-soubo"
   },
   {
    "auteur": "JNIM",
