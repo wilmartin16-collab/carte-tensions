@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-04T07:28:13+01:00",
+ "derniere_maj": "2026-11-05T07:28:15+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-04",
@@ -124,6 +124,43 @@
     }
    ],
    "id": "ml-20261102-gao-ntillit-peages"
+  },
+  {
+   "ajoute_le": "2026-11-05",
+   "auteur": "Autorités et forces de sécurité guinéennes",
+   "bilan": "Plus de 8 000 personnes enregistrées à Kouremalé au 2 novembre (maire de Kouremalé) ; plus de 450 arrivées à Yanfolila le 4 novembre (Studio Tamani) ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié ; usage de gaz lacrymogène selon le maire de Kouremalé",
+   "categorie": "mines",
+   "confiance": "confirme",
+   "date": "2026-11-02",
+   "gravite": 2,
+   "lat": 11.42,
+   "lieu": "Siguiri (zones d'orpaillage)",
+   "lon": -9.17,
+   "nature": "mesure",
+   "pays": "Guinée",
+   "precision": "approx",
+   "region": "Kankan (Siguiri)",
+   "resume": "Un communiqué interministériel du 2 novembre interdit l'exploitation artisanale de l'or dans les cours d'eau, zones protégées et abords des agglomérations de Siguiri, avec un déploiement permanent des forces de sécurité. Des milliers d'orpailleurs, surtout burkinabè et maliens, ont été chassés et ont afflué vers Kouremalé et Yanfolila au Mali ; Conakry affirme que la mesure vise l'orpaillage illégal et non les étrangers.",
+   "sources": [
+    {
+     "nom": "Guinéenews (02/11)",
+     "url": "https://guineenews.org/2026/11/02/siguiri-le-gouvernement-sort-lartillerie-lourde-contre-lexploitation-anarchique-de-lor/"
+    },
+    {
+     "nom": "Guinee360 (05/11)",
+     "url": "https://www.guinee360.com/05/11/2026/interdiction-de-lorpaillage-a-siguiri-le-burkina-faso-fait-etat-de-blesses-par-balles-parmi-ses-ressortissants/"
+    },
+    {
+     "nom": "Studio Tamani (04/11)",
+     "url": "https://www.studiotamani.org/209871-mali-kouremale-face-a-lafflux-de-milliers-de-personnes-venues-de-la-guinee"
+    },
+    {
+     "nom": "MADAR (04/11)",
+     "url": "https://fr.madar.mr/actualites/sahel/mali-guinea-expelled-gold-miners-8000-kouremale-450-yanfolila-burkina-delegation-siguiri-20261104"
+    }
+   ],
+   "titre": "Guinée : interdiction de l'orpaillage à Siguiri, des milliers d'orpailleurs étrangers refoulés vers le Mali",
+   "id": "gn-20261102-siguiri-orpaillage"
   },
   {
    "ajoute_le": "2026-11-03",
