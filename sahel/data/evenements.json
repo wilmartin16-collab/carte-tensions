@@ -1,6 +1,35 @@
 {
- "derniere_maj": "2026-11-05T07:28:15+01:00",
+ "derniere_maj": "2026-11-06T07:26:34+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-06",
+   "auteur": "Forces armées maliennes (FAMa)",
+   "bilan": "Aucun bilan humain communiqué par l'armée",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-04",
+   "gravite": 1,
+   "lat": 14.07,
+   "lieu": "Environs de Koro (ainsi que Sandaré et Sofara)",
+   "lon": -3.08,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Bandiagara / Kayes (Nioro) / Mopti (Djenné)",
+   "resume": "Dans le cadre de l'opération Dougoukoloko, l'état-major malien dit avoir frappé les 3 et 4 novembre des regroupements et positions d'hommes armés dans les secteurs de Koro, Sandaré et Sofara. Le communiqué évoque la destruction d'abris, de véhicules, de dépôts de carburant et de matériel, sans bilan humain.",
+   "sources": [
+    {
+     "nom": "MADAR, d'après l'EMGA (05/11)",
+     "url": "https://fr.madar.mr/actualites/sahel/mali-army-airstrikes-koro-sandare-sofara-dougoukoloko-editor-20261105"
+    },
+    {
+     "nom": "Echos Médias",
+     "url": "https://www.echosmedias.org/koro-sandare-sofara-les-fama-frappent-trois-positions-terroristes-en-deux-jours/"
+    }
+   ],
+   "titre": "L'armée malienne annonce des frappes aériennes près de Koro, Sandaré et Sofara",
+   "id": "ml-20261104-koro-sandare-sofara-frappes"
+  },
   {
    "ajoute_le": "2026-11-04",
    "auteur": "Forces armées maliennes (FAMa)",
