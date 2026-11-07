@@ -1,6 +1,31 @@
 {
- "derniere_maj": "2026-11-06T07:26:34+01:00",
+ "derniere_maj": "2026-11-07T07:24:33+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-07",
+   "auteur": "Forces armées maliennes (FAMa)",
+   "bilan": "Aucun bilan humain communiqué par l'EMGA",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-05",
+   "gravite": 1,
+   "lat": 14.15,
+   "lieu": "Environs de Kouakourou et de Sofara",
+   "lon": -4.3,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Mopti (Djenné)",
+   "resume": "Selon l'état-major malien, deux frappes ont visé le 5 novembre, dans le cadre de l'opération Dougoukoloko, une base de groupes armés à environ 6 km au nord-est de Kouakourou puis un groupe d'hommes à moto à une trentaine de kilomètres au nord-est de Sofara. L'armée évoque la destruction de matériel et d'un dépôt de carburant, sans chiffre de victimes.",
+   "sources": [
+    {
+     "nom": "Bamada.net, d'après l'EMGA (06/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-fama-frappent-positions-terroristes-kouakourou-sofara"
+    }
+   ],
+   "titre": "L'armée malienne annonce deux nouvelles frappes près de Kouakourou et de Sofara",
+   "id": "ml-20261105-kouakourou-sofara-frappes"
+  },
   {
    "ajoute_le": "2026-11-06",
    "auteur": "Forces armées maliennes (FAMa)",
@@ -157,11 +182,11 @@
   {
    "ajoute_le": "2026-11-05",
    "auteur": "Autorités et forces de sécurité guinéennes",
-   "bilan": "Plus de 8 000 personnes enregistrées à Kouremalé au 2 novembre (maire de Kouremalé) ; plus de 450 arrivées à Yanfolila le 4 novembre (Studio Tamani) ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié ; usage de gaz lacrymogène selon le maire de Kouremalé",
+   "bilan": "Près de 80 000 personnes de six nationalités entrées au Mali par Kouremalé depuis le 2 novembre selon le ministre malien de la Sécurité (5 nov.) ; plus de 40 000 présentes à Kouremalé selon le Premier ministre malien ; 4 décès liés à la situation selon la ministre malienne de la Santé ; plus de 8 000 enregistrées au 2 novembre selon le maire de Benkadi ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié",
    "categorie": "mines",
    "confiance": "confirme",
    "date": "2026-11-02",
-   "gravite": 2,
+   "gravite": 3,
    "lat": 11.42,
    "lieu": "Siguiri (zones d'orpaillage)",
    "lon": -9.17,
@@ -169,7 +194,7 @@
    "pays": "Guinée",
    "precision": "approx",
    "region": "Kankan (Siguiri)",
-   "resume": "Un communiqué interministériel du 2 novembre interdit l'exploitation artisanale de l'or dans les cours d'eau, zones protégées et abords des agglomérations de Siguiri, avec un déploiement permanent des forces de sécurité. Des milliers d'orpailleurs, surtout burkinabè et maliens, ont été chassés et ont afflué vers Kouremalé et Yanfolila au Mali ; Conakry affirme que la mesure vise l'orpaillage illégal et non les étrangers.",
+   "resume": "Un communiqué interministériel du 2 novembre interdit l'exploitation artisanale de l'or dans les cours d'eau, zones protégées et abords des agglomérations de Siguiri, avec un déploiement permanent des forces de sécurité. Des dizaines de milliers d'orpailleurs et travailleurs étrangers, surtout burkinabè et maliens, ont été chassés vers Kouremalé, Yanfolila et Bamako, où Bamako parle de catastrophe humanitaire ; Conakry affirme viser l'orpaillage illégal et non les étrangers.",
    "sources": [
     {
      "nom": "Guinéenews (02/11)",
@@ -180,12 +205,12 @@
      "url": "https://www.guinee360.com/05/11/2026/interdiction-de-lorpaillage-a-siguiri-le-burkina-faso-fait-etat-de-blesses-par-balles-parmi-ses-ressortissants/"
     },
     {
-     "nom": "Studio Tamani (04/11)",
-     "url": "https://www.studiotamani.org/209871-mali-kouremale-face-a-lafflux-de-milliers-de-personnes-venues-de-la-guinee"
+     "nom": "Studio Tamani (06/11)",
+     "url": "https://www.studiotamani.org/209954-mali-venues-de-la-guinee-pres-de-80-000-personnes-ont-franchi-la-frontiere-malienne"
     },
     {
-     "nom": "MADAR (04/11)",
-     "url": "https://fr.madar.mr/actualites/sahel/mali-guinea-expelled-gold-miners-8000-kouremale-450-yanfolila-burkina-delegation-siguiri-20261104"
+     "nom": "Koaci (04/11)",
+     "url": "https://www.koaci.com/article/2026/11/04/guinee/politique/guinee-le-gouvernement-ferme-la-porte-a-lexploitation-anarchique-de-lor-a-siguiri_202273.html"
     }
    ],
    "titre": "Guinée : interdiction de l'orpaillage à Siguiri, des milliers d'orpailleurs étrangers refoulés vers le Mali",
