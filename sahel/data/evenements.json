@@ -1,6 +1,31 @@
 {
- "derniere_maj": "2026-11-07T07:24:33+01:00",
+ "derniere_maj": "2026-11-08T07:22:48+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-08",
+   "auteur": "JNIM — revendication",
+   "bilan": "Aucun bilan communiqué (revendication du JNIM non vérifiée)",
+   "categorie": "terrorisme",
+   "confiance": "a_confirmer",
+   "date": "2026-11-06",
+   "gravite": 2,
+   "lat": 12.95,
+   "lieu": "Bla",
+   "lon": -5.76,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Ségou",
+   "resume": "Le JNIM affirme, dans des messages de sa branche de propagande, s'être emparé dans la soirée du 6 novembre d'un poste de contrôle des FAMa à Bla, dans la région de Ségou. Ni l'armée ni une source indépendante n'ont confirmé l'attaque à ce stade.",
+   "sources": [
+    {
+     "nom": "African Perceptions (07/11)",
+     "url": "https://africanperceptions.org/en/2026/11/malis-war-of-attrition-on-two-fronts-azawad-drones-in-the-north-jnim-columns-in-the-centre/"
+    }
+   ],
+   "titre": "Le JNIM revendique la prise d'un poste de contrôle de l'armée malienne à Bla",
+   "id": "ml-20261106-bla-poste-jnim"
+  },
   {
    "ajoute_le": "2026-11-07",
    "auteur": "Forces armées maliennes (FAMa)",
@@ -25,6 +50,35 @@
    ],
    "titre": "L'armée malienne annonce deux nouvelles frappes près de Kouakourou et de Sofara",
    "id": "ml-20261105-kouakourou-sofara-frappes"
+  },
+  {
+   "ajoute_le": "2026-11-08",
+   "auteur": "Front de libération de l'Azawad (FLA) — revendication",
+   "bilan": "Aucun bilan communiqué (revendication du FLA non vérifiée)",
+   "categorie": "terrorisme",
+   "confiance": "a_confirmer",
+   "date": "2026-11-05",
+   "gravite": 2,
+   "lat": 18.05,
+   "lieu": "Anéfis",
+   "lon": 0.61,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Kidal",
+   "resume": "Dans un communiqué, le Front de libération de l'Azawad affirme avoir mené le 5 novembre plusieurs frappes de drones kamikazes contre les positions des FAMa et de l'Africa Corps à Anéfis. Aucun bilan n'a été donné et l'état-major malien n'a pas réagi ; un mois après la reprise de Kidal, la progression de l'armée dans la région reste bloquée.",
+   "sources": [
+    {
+     "nom": "RFI via Yahoo Actualités (06/11)",
+     "url": "https://fr.news.yahoo.com/mali-mois-apr%C3%A8s-reprise-kidal-124221769.html"
+    },
+    {
+     "nom": "African Perceptions (07/11)",
+     "url": "https://africanperceptions.org/en/2026/11/malis-war-of-attrition-on-two-fronts-azawad-drones-in-the-north-jnim-columns-in-the-centre/"
+    }
+   ],
+   "titre": "Le FLA revendique des frappes de drones contre le camp de l'armée malienne et de l'Africa Corps à Anéfis",
+   "id": "ml-20261105-anefis-drones-fla"
   },
   {
    "ajoute_le": "2026-11-06",
@@ -182,7 +236,7 @@
   {
    "ajoute_le": "2026-11-05",
    "auteur": "Autorités et forces de sécurité guinéennes",
-   "bilan": "Près de 80 000 personnes de six nationalités entrées au Mali par Kouremalé depuis le 2 novembre selon le ministre malien de la Sécurité (5 nov.) ; plus de 40 000 présentes à Kouremalé selon le Premier ministre malien ; 4 décès liés à la situation selon la ministre malienne de la Santé ; plus de 8 000 enregistrées au 2 novembre selon le maire de Benkadi ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié",
+   "bilan": "Près de 80 000 personnes de six nationalités entrées au Mali par Kouremalé depuis le 2 novembre selon le ministre malien de la Sécurité (5 nov.) ; plus de 40 000 présentes à Kouremalé selon le Premier ministre malien ; environ 50 000 retours attendus selon le gouvernement burkinabè ; 4 décès liés à la situation selon la ministre malienne de la Santé ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié ; premier convoi de 48 bus (3 400 personnes) arrivé à Bobo-Dioulasso le 6 novembre selon Ouagadougou",
    "categorie": "mines",
    "confiance": "confirme",
    "date": "2026-11-02",
@@ -194,7 +248,7 @@
    "pays": "Guinée",
    "precision": "approx",
    "region": "Kankan (Siguiri)",
-   "resume": "Un communiqué interministériel du 2 novembre interdit l'exploitation artisanale de l'or dans les cours d'eau, zones protégées et abords des agglomérations de Siguiri, avec un déploiement permanent des forces de sécurité. Des dizaines de milliers d'orpailleurs et travailleurs étrangers, surtout burkinabè et maliens, ont été chassés vers Kouremalé, Yanfolila et Bamako, où Bamako parle de catastrophe humanitaire ; Conakry affirme viser l'orpaillage illégal et non les étrangers.",
+   "resume": "Un communiqué interministériel du 2 novembre interdit l'exploitation artisanale de l'or dans les cours d'eau, zones protégées et abords des agglomérations de Siguiri, avec un déploiement permanent des forces de sécurité ; 22 administrateurs territoriaux ont été limogés le 3 novembre. Des dizaines de milliers d'orpailleurs étrangers, surtout burkinabè et maliens, ont été chassés vers Kouremalé et Bamako ; le 7 novembre, Bamako a ordonné de retenir les arrivants à la frontière, tandis que le Burkina rapatrie les siens par convois de bus.",
    "sources": [
     {
      "nom": "Guinéenews (02/11)",
@@ -209,8 +263,8 @@
      "url": "https://www.studiotamani.org/209954-mali-venues-de-la-guinee-pres-de-80-000-personnes-ont-franchi-la-frontiere-malienne"
     },
     {
-     "nom": "Koaci (04/11)",
-     "url": "https://www.koaci.com/article/2026/11/04/guinee/politique/guinee-le-gouvernement-ferme-la-porte-a-lexploitation-anarchique-de-lor-a-siguiri_202273.html"
+     "nom": "MADAR (07/11)",
+     "url": "https://fr.madar.mr/actualites/sahel/siguiri-gold-expulsions-regional-crisis-guinea-mali-burkina-kouremale-bobo-dioulasso-convoys-main-20261107"
     }
    ],
    "titre": "Guinée : interdiction de l'orpaillage à Siguiri, des milliers d'orpailleurs étrangers refoulés vers le Mali",
