@@ -1,6 +1,109 @@
 {
- "derniere_maj": "2026-11-08T07:22:48+01:00",
+ "derniere_maj": "2026-11-09T07:25:45+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-09",
+   "auteur": "Forces armées maliennes (FAMa)",
+   "bilan": "Six positions « traitées » selon l'armée ; aucun bilan humain communiqué",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-07",
+   "gravite": 1,
+   "lat": 17.63,
+   "lieu": "Environ 90 km au sud de Kidal",
+   "lon": 1.41,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kidal",
+   "resume": "Selon l'état-major malien, six positions d'un regroupement armé équipé de matériel de guerre ont été visées le 7 novembre à environ 90 km au sud de Kidal. L'armée indique que la surveillance se poursuit pour évaluer les effets des frappes.",
+   "sources": [
+    {
+     "nom": "MADAR, d'après l'EMGA (08/11)",
+     "url": "https://fr.madar.mr/actualites/sahel/mali-army-strikes-armed-groups-menaka-kidal-operation-dougoukoloko-20261108"
+    }
+   ],
+   "titre": "L'armée malienne dit avoir frappé six positions armées à 90 km au sud de Kidal",
+   "id": "ml-20261107-kidal-frappe"
+  },
+  {
+   "ajoute_le": "2026-11-09",
+   "auteur": "",
+   "axe": "Accès à Bamako (convois escortés depuis l'ouest)",
+   "bilan": "665 citernes arrivées, aucun incident signalé (DGCC, via Malijet/MADAR)",
+   "categorie": "routes",
+   "confiance": "probable",
+   "date": "2026-11-07",
+   "etat": "escorte",
+   "gravite": 1,
+   "lat": 12.66,
+   "lieu": "Bamako",
+   "lon": -7.97,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Bamako",
+   "resume": "Un convoi de 665 camions-citernes encadré par l'armée a atteint Bamako vers 3 heures du matin le 7 novembre, selon la DGCC. Après les formalités douanières, les citernes devaient être escortées par la police jusqu'aux stations ; l'approvisionnement de la capitale dépend toujours de ces convois.",
+   "sources": [
+    {
+     "nom": "MADAR (07/11)",
+     "url": "https://fr.madar.mr/actualites/sahel/mali-665-fuel-tankers-reach-bamako-first-november-convoy-20261107"
+    },
+    {
+     "nom": "Mali 24",
+     "url": "https://mali24.info/approvisionnement-en-hydrocarbures-665-nouveaux-camions-citernes-arrivent-a-bamako-sous-escorte-des-fama/amp/"
+    }
+   ],
+   "titre": "Premier convoi de novembre : 665 camions-citernes arrivent à Bamako sous escorte des FAMa",
+   "trace": [
+    {
+     "lat": 14.45,
+     "lon": -11.43
+    },
+    {
+     "lat": 14.52,
+     "lon": -9.18
+    },
+    {
+     "lat": 13.85,
+     "lon": -8.08
+    },
+    {
+     "lat": 12.74,
+     "lon": -8.13
+    },
+    {
+     "lat": 12.66,
+     "lon": -7.97
+    }
+   ],
+   "id": "ml-20261107-convoi-665"
+  },
+  {
+   "ajoute_le": "2026-11-09",
+   "auteur": "Forces armées maliennes (FAMa)",
+   "bilan": "Aucun bilan communiqué par l'armée",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-06",
+   "gravite": 1,
+   "lat": 15.6,
+   "lieu": "Environ 50 km au sud-ouest de Ménaka",
+   "lon": 1.85,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Ménaka",
+   "resume": "D'après un communiqué de l'état-major général des armées publié le 8 novembre, un regroupement d'hommes armés disposant de matériel de guerre a été frappé le 6 novembre à une cinquantaine de kilomètres au sud-ouest de Ménaka, dans le cadre de l'opération Dougoukoloko. Les groupes visés ne sont pas nommés.",
+   "sources": [
+    {
+     "nom": "MADAR, d'après l'EMGA (08/11)",
+     "url": "https://fr.madar.mr/actualites/sahel/mali-army-strikes-armed-groups-menaka-kidal-operation-dougoukoloko-20261108"
+    }
+   ],
+   "titre": "L'armée malienne annonce une frappe sur un regroupement armé au sud-ouest de Ménaka",
+   "id": "ml-20261106-menaka-frappe"
+  },
   {
    "ajoute_le": "2026-11-08",
    "auteur": "JNIM — revendication",
@@ -236,7 +339,7 @@
   {
    "ajoute_le": "2026-11-05",
    "auteur": "Autorités et forces de sécurité guinéennes",
-   "bilan": "Près de 80 000 personnes de six nationalités entrées au Mali par Kouremalé depuis le 2 novembre selon le ministre malien de la Sécurité (5 nov.) ; plus de 40 000 présentes à Kouremalé selon le Premier ministre malien ; environ 50 000 retours attendus selon le gouvernement burkinabè ; 4 décès liés à la situation selon la ministre malienne de la Santé ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié ; premier convoi de 48 bus (3 400 personnes) arrivé à Bobo-Dioulasso le 6 novembre selon Ouagadougou",
+   "bilan": "Au 7 novembre, environ 100 000 refoulés recensés dans le district de Bamako et près de 60 000 à Kouremalé, où six décès ont été enregistrés, plus des blessés et 413 personnes prises en charge à Bamako (CECOGEC malien) ; 1 263 personnes interpellées à Siguiri et transférées à Conakry (communiqué conjoint guinéen du 7 nov.) ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié ; rapatriements par dizaines de bus et camions vers le Burkina depuis le 5 novembre",
    "categorie": "mines",
    "confiance": "confirme",
    "date": "2026-11-02",
@@ -248,7 +351,7 @@
    "pays": "Guinée",
    "precision": "approx",
    "region": "Kankan (Siguiri)",
-   "resume": "Un communiqué interministériel du 2 novembre interdit l'exploitation artisanale de l'or dans les cours d'eau, zones protégées et abords des agglomérations de Siguiri, avec un déploiement permanent des forces de sécurité ; 22 administrateurs territoriaux ont été limogés le 3 novembre. Des dizaines de milliers d'orpailleurs étrangers, surtout burkinabè et maliens, ont été chassés vers Kouremalé et Bamako ; le 7 novembre, Bamako a ordonné de retenir les arrivants à la frontière, tandis que le Burkina rapatrie les siens par convois de bus.",
+   "resume": "Un communiqué interministériel du 2 novembre interdit l'exploitation artisanale de l'or dans les cours d'eau, zones protégées et abords des agglomérations de Siguiri, avec un déploiement permanent des forces de sécurité ; 22 administrateurs territoriaux ont été limogés le 3 novembre. Des dizaines de milliers d'orpailleurs étrangers, surtout burkinabè et maliens, ont été chassés vers Kouremalé et Bamako, et Conakry annonce poursuivre les opérations à Mandiana, Kérouané et Kouroussa ; le Mali organise des convois vers le Burkina et un site d'accueil d'urgence à Ouinzinbougou.",
    "sources": [
     {
      "nom": "Guinéenews (02/11)",
@@ -259,12 +362,12 @@
      "url": "https://www.guinee360.com/05/11/2026/interdiction-de-lorpaillage-a-siguiri-le-burkina-faso-fait-etat-de-blesses-par-balles-parmi-ses-ressortissants/"
     },
     {
-     "nom": "Studio Tamani (06/11)",
-     "url": "https://www.studiotamani.org/209954-mali-venues-de-la-guinee-pres-de-80-000-personnes-ont-franchi-la-frontiere-malienne"
-    },
-    {
      "nom": "MADAR (07/11)",
      "url": "https://fr.madar.mr/actualites/sahel/siguiri-gold-expulsions-regional-crisis-guinea-mali-burkina-kouremale-bobo-dioulasso-convoys-main-20261107"
+    },
+    {
+     "nom": "MADAR (08/11)",
+     "url": "https://fr.madar.mr/actualites/sahel/mali-guinea-expelled-160000-bamako-kouremale-six-dead-conakry-1263-arrests-20261107/"
     }
    ],
    "titre": "Guinée : interdiction de l'orpaillage à Siguiri, des milliers d'orpailleurs étrangers refoulés vers le Mali",
