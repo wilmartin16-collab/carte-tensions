@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-10T07:25:09+01:00",
+ "derniere_maj": "2026-11-11T07:25:47+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-09",
@@ -337,9 +337,9 @@
    "id": "ml-20261102-gao-ntillit-peages"
   },
   {
-   "ajoute_le": "2026-11-05",
+   "ajoute_le": "2026-11-11",
    "auteur": "Autorités et forces de sécurité guinéennes",
-   "bilan": "Au 7 novembre, environ 100 000 refoulés recensés dans le district de Bamako et près de 60 000 à Kouremalé, où six décès ont été enregistrés, plus des blessés et 413 personnes prises en charge à Bamako (CECOGEC malien) ; 1 263 personnes interpellées à Siguiri et transférées à Conakry (communiqué conjoint guinéen du 7 nov.) ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié ; rapatriements par dizaines de bus et camions vers le Burkina depuis le 5 novembre",
+   "bilan": "Environ 160 000 refoulés arrivés de Guinée depuis début novembre selon les chiffres officiels maliens (près de 100 000 dans le district de Bamako, 60 000 à Kouremalé), six décès signalés à Kouremalé ; environ 17 000 personnes convoyées vers le Burkina les 7 et 8 novembre (CECOGEC malien) ; 1 412 personnes interpellées au total côté guinéen (1 263 à Siguiri, puis 100 à Kérouané et 49 à Siguiri les 7-8 nov.), jugements annoncés à partir du 10 novembre (communiqué conjoint guinéen n° 03 du 9 nov.) ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié",
    "categorie": "mines",
    "confiance": "confirme",
    "date": "2026-11-02",
@@ -351,23 +351,23 @@
    "pays": "Guinée",
    "precision": "approx",
    "region": "Kankan (Siguiri)",
-   "resume": "Un communiqué interministériel du 2 novembre interdit l'exploitation artisanale de l'or dans les cours d'eau, zones protégées et abords des agglomérations de Siguiri, avec un déploiement permanent des forces de sécurité ; 22 administrateurs territoriaux ont été limogés le 3 novembre. Des dizaines de milliers d'orpailleurs étrangers, surtout burkinabè et maliens, ont été chassés vers Kouremalé et Bamako, et Conakry annonce poursuivre les opérations à Mandiana, Kérouané et Kouroussa ; le Mali organise des convois vers le Burkina et un site d'accueil d'urgence à Ouinzinbougou ; le Premier ministre malien s'est rendu à Kouremalé le 8 novembre.",
+   "resume": "Un communiqué interministériel du 2 novembre interdit l'exploitation artisanale de l'or dans les cours d'eau, zones protégées et abords des agglomérations de Siguiri, avec un déploiement permanent des forces de sécurité, et les opérations se sont étendues à Kérouané. Des dizaines de milliers d'orpailleurs étrangers, surtout burkinabè et maliens, ont été refoulés vers Kouremalé et Bamako ; en visite à Kouremalé le 8 novembre, le Premier ministre malien a dit respecter la décision souveraine de Conakry tout en déplorant un « refoulement non concerté », pendant que Bamako multiplie les convois de rapatriement vers le Burkina et contacte d'autres pays d'origine.",
    "sources": [
     {
      "nom": "Guinéenews (02/11)",
      "url": "https://guineenews.org/2026/11/02/siguiri-le-gouvernement-sort-lartillerie-lourde-contre-lexploitation-anarchique-de-lor/"
     },
     {
-     "nom": "Guinee360 (05/11)",
-     "url": "https://www.guinee360.com/05/11/2026/interdiction-de-lorpaillage-a-siguiri-le-burkina-faso-fait-etat-de-blesses-par-balles-parmi-ses-ressortissants/"
-    },
-    {
-     "nom": "MADAR (07/11)",
-     "url": "https://fr.madar.mr/actualites/sahel/siguiri-gold-expulsions-regional-crisis-guinea-mali-burkina-kouremale-bobo-dioulasso-convoys-main-20261107"
-    },
-    {
      "nom": "MADAR (08/11)",
-     "url": "https://fr.madar.mr/actualites/sahel/mali-guinea-expelled-160000-bamako-kouremale-six-dead-conakry-1263-arrests-20261107/"
+     "url": "https://fr.madar.mr/actualites/sahel/mali-pm-abdoulaye-maiga-kouremale-visit-cecogec-17000-returned-burkina-20261108"
+    },
+    {
+     "nom": "Guinee7 (09/11)",
+     "url": "https://www.guinee7.com/2026/11/09/orpaillage-clandestin-1-412-personnes-arretees-en-guinee-les-premiers-jugements-debutent-ce-mardi/"
+    },
+    {
+     "nom": "RFI via allAfrica (10/11)",
+     "url": "https://fr.allafrica.com/stories/202611100487.html"
     }
    ],
    "titre": "Guinée : interdiction de l'orpaillage à Siguiri, des milliers d'orpailleurs étrangers refoulés vers le Mali",
