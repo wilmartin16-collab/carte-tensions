@@ -1,6 +1,81 @@
 {
- "derniere_maj": "2026-11-11T07:25:47+01:00",
+ "derniere_maj": "2026-11-12T07:25:49+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-12",
+   "auteur": "Forces armées maliennes",
+   "bilan": "Aucun bilan chiffré communiqué (état-major des FAMa)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-11",
+   "gravite": 1,
+   "lat": 16.12,
+   "lieu": "Secteur de Tonka",
+   "lon": -3.77,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Tombouctou",
+   "resume": "Selon l'état-major, deux motocyclistes présentés comme terroristes ont été suivis jusqu'à un lieu de regroupement dans le secteur de Tonka, cercle de Goundam, avant que la position soit « traitée ». Le communiqué ne précise ni la nature de l'action ni ses conséquences.",
+   "sources": [
+    {
+     "nom": "Bamada.net – communiqué FAMa (11/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-larmee-malienne-neutralise-plusieurs-objectifs-terroristes-a-tinzaouatene-tonka-et-sikasso"
+    }
+   ],
+   "titre": "Opération ciblée de l'armée malienne contre un point de regroupement armé dans le secteur de Tonka",
+   "id": "ml-20261111-tonka-operation"
+  },
+  {
+   "ajoute_le": "2026-11-12",
+   "auteur": "Forces armées maliennes",
+   "bilan": "Bilan consolidé non communiqué (état-major des FAMa)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-11",
+   "gravite": 2,
+   "lat": 11.32,
+   "lieu": "25 km à l'est de Sikasso",
+   "lon": -5.44,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Sikasso",
+   "resume": "L'état-major malien dit avoir mené deux frappes de précision contre une base de groupes armés équipée de motos, de véhicules et de matériel de guerre, à environ 25 km à l'est de la ville de Sikasso. Le communiqué précise que le bilan est en cours d'établissement.",
+   "sources": [
+    {
+     "nom": "Bamada.net – communiqué FAMa (11/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-larmee-malienne-neutralise-plusieurs-objectifs-terroristes-a-tinzaouatene-tonka-et-sikasso"
+    }
+   ],
+   "titre": "Deux frappes de l'armée malienne sur une « importante base » armée à l'est de Sikasso",
+   "id": "ml-20261111-sikasso-frappes"
+  },
+  {
+   "ajoute_le": "2026-11-12",
+   "auteur": "Forces armées maliennes et partenaires",
+   "bilan": "Aucun bilan chiffré communiqué (état-major des FAMa)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-10",
+   "gravite": 1,
+   "lat": 20.13,
+   "lieu": "Environs de Tinzaouatène (27 km au nord-ouest)",
+   "lon": 2.8,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kidal",
+   "resume": "Dans le cadre de l'opération « Dougoukoloko », l'état-major malien indique avoir frappé à trois reprises, avec ses partenaires, un site identifié comme terroriste à environ 27 km au nord-ouest de Tinzaouatène, près de la frontière algérienne. Il affirme qu'aucun mouvement n'a été observé ensuite.",
+   "sources": [
+    {
+     "nom": "Bamada.net – communiqué FAMa (11/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-larmee-malienne-neutralise-plusieurs-objectifs-terroristes-a-tinzaouatene-tonka-et-sikasso"
+    }
+   ],
+   "titre": "L'armée malienne annonce une triple frappe sur une position armée près de Tinzaouatène",
+   "id": "ml-20261110-tinzaouatene-frappe"
+  },
   {
    "ajoute_le": "2026-11-09",
    "auteur": "Forces armées maliennes (FAMa)",
