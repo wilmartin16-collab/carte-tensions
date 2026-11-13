@@ -1,10 +1,10 @@
 {
- "derniere_maj": "2026-11-12T07:25:49+01:00",
+ "derniere_maj": "2026-11-13T07:25:21+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-12",
    "auteur": "Forces armées maliennes",
-   "bilan": "Aucun bilan chiffré communiqué (état-major des FAMa)",
+   "bilan": "Selon un second communiqué des FAMa (12/11), au moins 2 opérateurs de drones « neutralisés » et leur drone détruit à environ 6 km au sud de Tonka ; non vérifié de source indépendante",
    "categorie": "terrorisme",
    "confiance": "officiel",
    "date": "2026-11-11",
@@ -16,11 +16,15 @@
    "pays": "Mali",
    "precision": "approx",
    "region": "Tombouctou",
-   "resume": "Selon l'état-major, deux motocyclistes présentés comme terroristes ont été suivis jusqu'à un lieu de regroupement dans le secteur de Tonka, cercle de Goundam, avant que la position soit « traitée ». Le communiqué ne précise ni la nature de l'action ni ses conséquences.",
+   "resume": "Selon l'état-major, deux motocyclistes présentés comme terroristes ont été suivis jusqu'à un lieu de regroupement dans le secteur de Tonka, cercle de Goundam, avant que la position soit « traitée ». Un communiqué du lendemain fait état, dans le même secteur, d'une action contre des opérateurs de drones à environ 6 km au sud de Tonka ; il n'est pas établi qu'il s'agisse du même fait.",
    "sources": [
     {
      "nom": "Bamada.net – communiqué FAMa (11/11)",
      "url": "https://bamada.net/operation-dougoukoloko-larmee-malienne-neutralise-plusieurs-objectifs-terroristes-a-tinzaouatene-tonka-et-sikasso"
+    },
+    {
+     "nom": "Bamada.net – communiqué FAMa (12/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-positions-terroristes-a-bablena-et-tonka"
     }
    ],
    "titre": "Opération ciblée de l'armée malienne contre un point de regroupement armé dans le secteur de Tonka",
@@ -52,6 +56,31 @@
    "id": "ml-20261111-sikasso-frappes"
   },
   {
+   "ajoute_le": "2026-11-13",
+   "auteur": "Forces armées maliennes",
+   "bilan": "3 assaillants « neutralisés » selon l'armée malienne (non vérifié de source indépendante)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-11",
+   "gravite": 1,
+   "lat": 11.41,
+   "lieu": "Carrefour de Bablena (ouest de Koumantou)",
+   "lon": -6.9,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Bougouni",
+   "resume": "Selon l'état-major des FAMa, un détachement de combattants présentés comme terroristes a été intercepté au carrefour de Bablena, à une quinzaine de kilomètres à l'ouest de Koumantou. L'armée affirme avoir récupéré quatre motos et trois pistolets-mitrailleurs.",
+   "sources": [
+    {
+     "nom": "Bamada.net – communiqué FAMa (12/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-positions-terroristes-a-bablena-et-tonka"
+    }
+   ],
+   "titre": "L'armée malienne dit avoir intercepté un détachement armé au carrefour de Bablena, près de Koumantou",
+   "id": "ml-20261111-bablena-koumantou"
+  },
+  {
    "ajoute_le": "2026-11-12",
    "auteur": "Forces armées maliennes et partenaires",
    "bilan": "Aucun bilan chiffré communiqué (état-major des FAMa)",
@@ -75,6 +104,31 @@
    ],
    "titre": "L'armée malienne annonce une triple frappe sur une position armée près de Tinzaouatène",
    "id": "ml-20261110-tinzaouatene-frappe"
+  },
+  {
+   "ajoute_le": "2026-11-13",
+   "auteur": "Forces armées maliennes",
+   "bilan": "1 personne interpellée (armée malienne)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-09",
+   "gravite": 1,
+   "lat": 16.95,
+   "lieu": "Nord de Tombouctou",
+   "lon": -3,
+   "nature": "mesure",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Tombouctou",
+   "resume": "L'armée malienne annonce avoir intercepté au nord de Tombouctou un chargement de 2 000 postes radio portatifs, un pick-up et huit motos qu'elle dit destinés à des groupes armés. Un homme a été interpellé ; selon l'armée, la cargaison venait de Bassikounou, dans l'est de la Mauritanie.",
+   "sources": [
+    {
+     "nom": "Bamada.net / APA (11-12/11)",
+     "url": "https://bamada.net/mali-larmee-saisit-2-000-radios-destinees-a-des-groupes-armes-pres-de-tombouctou"
+    }
+   ],
+   "titre": "L'armée malienne saisit 2 000 radios portatives destinées à des groupes armés au nord de Tombouctou",
+   "id": "ml-20261109-tombouctou-radios"
   },
   {
    "ajoute_le": "2026-11-09",
