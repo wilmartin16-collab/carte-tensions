@@ -1,6 +1,68 @@
 {
- "derniere_maj": "2026-11-13T07:25:21+01:00",
+ "derniere_maj": "2026-11-14T07:21:33+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-14",
+   "auteur": "Hommes armés (présumés jihadistes)",
+   "bilan": "",
+   "categorie": "terrorisme",
+   "confiance": "a_confirmer",
+   "date": "2026-11-13",
+   "gravite": 1,
+   "lat": 12.36,
+   "lieu": "Cercle de Yorosso",
+   "lon": -4.78,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Koutiala",
+   "resume": "Selon des habitants interrogés par Studio Tamani, des hommes armés exigent dans plusieurs villages du cercle de Yorosso le versement annuel d'une dîme prélevée sur les récoltes et le bétail, ce qui inquiète les populations. Aucun village ni montant n'est précisé.",
+   "sources": [
+    {
+     "nom": "Bamada.net / Studio Tamani (13/11)",
+     "url": "https://bamada.net/yorosso-des-hommes-armes-imposent-le-paiement-dune-dime-aux-agriculteurs"
+    }
+   ],
+   "titre": "Des hommes armés imposent une « zakat » sur les récoltes et le bétail dans le cercle de Yorosso",
+   "id": "ml-20261113-yorosso-zakat"
+  },
+  {
+   "ajoute_le": "2026-11-14",
+   "auteur": "Hommes armés non identifiés (présumés jihadistes)",
+   "bilan": "37 morts sur le coup puis 38 après le décès d'un blessé (dont 11 membres de l'autodéfense et 7 femmes), selon un ancien élu local cité par l'AFP ; plusieurs blessés évacués à l'hôpital de Téra ; pas de bilan officiel",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-11-12",
+   "gravite": 3,
+   "lat": 14.05,
+   "lieu": "Route Tillim–Téra",
+   "lon": 0.7,
+   "nature": "fait",
+   "pays": "Niger",
+   "precision": "approx",
+   "region": "Tillabéri",
+   "resume": "Dans la matinée du 12 novembre, des habitants du village de Tillim qui se rendaient à la foire hebdomadaire de Téra, escortés par des membres d'un groupe d'autodéfense local, sont tombés dans une embuscade tendue par des hommes armés. Aucun bilan officiel n'a été communiqué et l'attaque n'a pas été revendiquée ; le lieu exact de l'embuscade n'est pas précisé.",
+   "sources": [
+    {
+     "nom": "Africa Radio / AFP (13/11)",
+     "url": "https://www.africaradio.com/actualite-117368-niger-au-moins-37-civils-tues-dans-une-embuscade-pres-de-la-frontiere-avec-le-mali-et-le-burkina-faso"
+    },
+    {
+     "nom": "Quartz (14/11)",
+     "url": "https://fr.qz.com/embuscade-37-morts-tera-niger-tillaberi-111426"
+    },
+    {
+     "nom": "Sahara Medias (13/11)",
+     "url": "https://fr.saharamedias.net/niger-37-victimes-civiles-tuees-dans-une-embuscade-tendue-par-des-hommes-armes-non-identifies/"
+    },
+    {
+     "nom": "KOACI (13/11)",
+     "url": "https://www.koaci.com/article/2026/11/13/niger/politique/niger-au-moins-30-civils-tues-dans-une-attaque-pres-de-la-frontiere-burkinabe_202596.html"
+    }
+   ],
+   "titre": "Embuscade contre des villageois se rendant au marché de Téra : au moins 37 civils tués",
+   "id": "ne-20261112-tera-tillim"
+  },
   {
    "ajoute_le": "2026-11-12",
    "auteur": "Forces armées maliennes",
@@ -56,6 +118,64 @@
    "id": "ml-20261111-sikasso-frappes"
   },
   {
+   "ajoute_le": "2026-11-14",
+   "auteur": "Forces armées maliennes",
+   "bilan": "Aucun bilan chiffré ; l'armée dit poursuivre la reconnaissance pour établir un bilan (non vérifié de source indépendante)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-11",
+   "gravite": 1,
+   "lat": 11.05,
+   "lieu": "Nord-est de Kadiana",
+   "lon": -6.55,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Bougouni",
+   "resume": "Selon l'état-major des FAMa (opération Dougoukoloko), une base de groupes armés répartie sur deux positions, au nord-est de Kadiana, a été visée par des frappes de précision après identification de combattants, de motos et de véhicules. Aucun bilan chiffré n'a été publié.",
+   "sources": [
+    {
+     "nom": "Bamada.net – communiqué FAMa (13/11)",
+     "url": "https://bamada.net/securisation-du-territoire-importantes-positions-terroristes-neutralisees-pres-de-kadiana-et-boulkessi"
+    },
+    {
+     "nom": "Mali 24 (13/11)",
+     "url": "https://mali24.info/lutte-antiterroriste-les-fama-frappent-des-bases-ennemies-a-kadiana-et-boulkessi/"
+    }
+   ],
+   "titre": "L'armée malienne annonce des frappes sur une base armée à 5 et 8 km au nord-est de Kadiana",
+   "id": "ml-20261111-kadiana-frappes"
+  },
+  {
+   "ajoute_le": "2026-11-14",
+   "auteur": "Forces armées maliennes",
+   "bilan": "Aucun bilan chiffré communiqué par l'armée (non vérifié de source indépendante)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-11",
+   "gravite": 1,
+   "lat": 14.75,
+   "lieu": "Périphérie de Boulkessi",
+   "lon": -1.65,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Douentza",
+   "resume": "Le même communiqué de l'état-major fait état de frappes contre plusieurs points de regroupement de groupes armés en périphérie du village de Boulkessi, près de la frontière burkinabè. Aucun bilan n'a été communiqué.",
+   "sources": [
+    {
+     "nom": "Bamada.net – communiqué FAMa (13/11)",
+     "url": "https://bamada.net/securisation-du-territoire-importantes-positions-terroristes-neutralisees-pres-de-kadiana-et-boulkessi"
+    },
+    {
+     "nom": "Mali 24 (13/11)",
+     "url": "https://mali24.info/lutte-antiterroriste-les-fama-frappent-des-bases-ennemies-a-kadiana-et-boulkessi/"
+    }
+   ],
+   "titre": "L'armée malienne dit avoir frappé plusieurs points de regroupement armés autour de Boulkessi",
+   "id": "ml-20261111-boulkessi-frappes"
+  },
+  {
    "ajoute_le": "2026-11-13",
    "auteur": "Forces armées maliennes",
    "bilan": "3 assaillants « neutralisés » selon l'armée malienne (non vérifié de source indépendante)",
@@ -79,6 +199,43 @@
    ],
    "titre": "L'armée malienne dit avoir intercepté un détachement armé au carrefour de Bablena, près de Koumantou",
    "id": "ml-20261111-bablena-koumantou"
+  },
+  {
+   "ajoute_le": "2026-11-14",
+   "auteur": "Forces de défense et de sécurité guinéennes / manifestants",
+   "bilan": "10 morts dont 5 étrangers et 13 blessés (civils et forces de sécurité), bilan provisoire du ministère guinéen de l'Administration du territoire (communiqué du 12/11) ; « une dizaine de morts » selon le Forum des forces sociales de Guinée",
+   "categorie": "mines",
+   "confiance": "confirme",
+   "date": "2026-11-11",
+   "gravite": 3,
+   "lat": 11.6,
+   "lieu": "Sètiguiya, district de Balato (Kintinian)",
+   "lon": -9.4,
+   "nature": "fait",
+   "pays": "Guinée",
+   "precision": "approx",
+   "region": "Kankan (Siguiri)",
+   "resume": "Une patrouille mixte chargée de faire respecter l'interdiction de l'orpaillage du 2 novembre s'est heurtée à des manifestants qui avaient érigé des barricades ; des tirs ont été échangés selon le gouvernement, tandis qu'un témoin cité par l'AFP dit avoir vu les forces de sécurité tirer. Deux pick-up et un camion des forces de sécurité ainsi que deux concasseurs ont été incendiés et une arme de guerre emportée ; la justice a été saisie.",
+   "sources": [
+    {
+     "nom": "Africa Radio / AFP (13/11)",
+     "url": "https://www.africaradio.com/actualite-117356-guinee-dix-personnes-tuees-lors-de-heurts-entre-forces-de-l-ordre-et-orpailleurs-a-siguiri"
+    },
+    {
+     "nom": "Afrik Soir – communiqué gouvernemental (13/11)",
+     "url": "https://afriksoir.net/guinee-dix-deces-et-treize-blesses-dans-des-affrontements-autour-de-lorpaillage-illegal-a-setiguiyah/"
+    },
+    {
+     "nom": "Journal de Conakry (13/11)",
+     "url": "https://journaldeconakry.com/guinee-dix-morts-dont-cinq-etrangers-dans-des-affrontements-lies-a-lorpaillage-illegal/"
+    },
+    {
+     "nom": "Wakat Séra (13/11)",
+     "url": "https://www.wakatsera.com/guinee-dix-morts-dans-des-heurts-autour-de-lorpaillage-illegal/"
+    }
+   ],
+   "titre": "Heurts meurtriers entre forces de sécurité et orpailleurs près de Kintinian : 10 morts et 13 blessés",
+   "id": "gn-20261111-kintinian-heurts"
   },
   {
    "ajoute_le": "2026-11-12",
@@ -468,7 +625,7 @@
   {
    "ajoute_le": "2026-11-11",
    "auteur": "Autorités et forces de sécurité guinéennes",
-   "bilan": "Environ 160 000 refoulés arrivés de Guinée depuis début novembre selon les chiffres officiels maliens (près de 100 000 dans le district de Bamako, 60 000 à Kouremalé), six décès signalés à Kouremalé ; environ 17 000 personnes convoyées vers le Burkina les 7 et 8 novembre (CECOGEC malien) ; 1 412 personnes interpellées au total côté guinéen (1 263 à Siguiri, puis 100 à Kérouané et 49 à Siguiri les 7-8 nov.), jugements annoncés à partir du 10 novembre (communiqué conjoint guinéen n° 03 du 9 nov.) ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié",
+   "bilan": "Environ 160 000 refoulés arrivés de Guinée depuis début novembre selon les chiffres officiels maliens (près de 100 000 dans le district de Bamako, 60 000 à Kouremalé) ; 11 décès parmi les refoulés selon le communiqué n° 2026-11 du comité interministériel malien de gestion des crises (13/11), contre 6 au 7 novembre ; près de 2 950 personnes concernées par de nouveaux convois de rapatriement ; environ 17 000 personnes convoyées vers le Burkina les 7 et 8 novembre (CECOGEC malien) ; 1 412 personnes interpellées au total côté guinéen (communiqué conjoint guinéen n° 03 du 9 nov.) ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié. Voir aussi les heurts meurtriers du 11 novembre près de Kintinian.",
    "categorie": "mines",
    "confiance": "confirme",
    "date": "2026-11-02",
@@ -491,12 +648,12 @@
      "url": "https://fr.madar.mr/actualites/sahel/mali-pm-abdoulaye-maiga-kouremale-visit-cecogec-17000-returned-burkina-20261108"
     },
     {
-     "nom": "Guinee7 (09/11)",
-     "url": "https://www.guinee7.com/2026/11/09/orpaillage-clandestin-1-412-personnes-arretees-en-guinee-les-premiers-jugements-debutent-ce-mardi/"
-    },
-    {
      "nom": "RFI via allAfrica (10/11)",
      "url": "https://fr.allafrica.com/stories/202611100487.html"
+    },
+    {
+     "nom": "Bamada.net (13/11)",
+     "url": "https://bamada.net/refoules-de-guinee-le-bilan-salourdit-a-11-morts-pres-de-2-950-personnes-concernees-par-de-nouveaux-convois"
     }
    ],
    "titre": "Guinée : interdiction de l'orpaillage à Siguiri, des milliers d'orpailleurs étrangers refoulés vers le Mali",
