@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-14T07:21:33+01:00",
+ "derniere_maj": "2026-11-15T07:26:21+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-14",
@@ -62,6 +62,39 @@
    ],
    "titre": "Embuscade contre des villageois se rendant au marché de Téra : au moins 37 civils tués",
    "id": "ne-20261112-tera-tillim"
+  },
+  {
+   "ajoute_le": "2026-11-15",
+   "auteur": "JNIM (revendication non vérifiée)",
+   "bilan": "Aucun bilan communiqué",
+   "categorie": "terrorisme",
+   "confiance": "a_confirmer",
+   "date": "2026-11-12",
+   "gravite": 1,
+   "lat": 15.71,
+   "lieu": "Léré (camp militaire)",
+   "lon": -4.91,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Tombouctou",
+   "resume": "Le 12 novembre, le JNIM a affirmé avoir bombardé à l'obus le camp de l'armée malienne à Léré et mené deux attaques contre des positions militaires dans la région de Mopti, sans en préciser les lieux. Aucune confirmation ni démenti de l'armée n'a été rapporté.",
+   "sources": [
+    {
+     "nom": "Points Chauds (14/11)",
+     "url": "https://pointschauds.info/mali-frappes-aeriennes-de-larmee-a-kadiana-et-boulkessi-le-jnim-pilonne-lere-et-vide-des-villages-du-centre/"
+    },
+    {
+     "nom": "Quartz (14/11)",
+     "url": "https://fr.qz.com/jnim-vise-civils-regions-segou-mopti-mali-111426"
+    },
+    {
+     "nom": "Le Matin d'Algérie (14/11)",
+     "url": "https://lematindalgerie.com/attaques-du-jnim-contre-des-civils-dans-les-regions-de-segou-et-mopti-mali/"
+    }
+   ],
+   "titre": "Le JNIM revendique des tirs d'obus contre le camp militaire de Léré et deux attaques dans la région de Mopti",
+   "id": "ml-20261112-lere-obus"
   },
   {
    "ajoute_le": "2026-11-12",
@@ -288,6 +321,39 @@
    "id": "ml-20261109-tombouctou-radios"
   },
   {
+   "ajoute_le": "2026-11-15",
+   "auteur": "Jihadistes présumés (JNIM présumé), non revendiqué",
+   "bilan": "1 civil tué et une dizaine de blessés dont 3 graves, selon des sources locales citées par RFI ; pas de bilan officiel",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-11-08",
+   "gravite": 2,
+   "lat": 15.28,
+   "lieu": "Nampala (marché)",
+   "lon": -5.55,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Ségou",
+   "resume": "Un dimanche en fin d'après-midi (vraisemblablement le 8 novembre, date déduite des articles du 14), un drone a frappé le marché de Nampala. Des sources locales jointes par RFI attribuent le tir aux jihadistes, qui auraient agi en représailles à un accrochage survenu le même jour à une quarantaine de kilomètres ; l'attaque n'a pas été revendiquée.",
+   "sources": [
+    {
+     "nom": "RFI via Yahoo Actualités (14/11)",
+     "url": "https://fr.news.yahoo.com/mali-attaques-jnim-contre-civils-040341034.html"
+    },
+    {
+     "nom": "Quartz (14/11)",
+     "url": "https://fr.qz.com/jnim-vise-civils-regions-segou-mopti-mali-111426"
+    },
+    {
+     "nom": "Points Chauds (14/11)",
+     "url": "https://pointschauds.info/mali-frappes-aeriennes-de-larmee-a-kadiana-et-boulkessi-le-jnim-pilonne-lere-et-vide-des-villages-du-centre/"
+    }
+   ],
+   "titre": "Tir de drone sur le marché de Nampala : un civil tué et une dizaine de blessés",
+   "id": "ml-20261108-nampala-drone"
+  },
+  {
    "ajoute_le": "2026-11-09",
    "auteur": "Forces armées maliennes (FAMa)",
    "bilan": "Six positions « traitées » selon l'armée ; aucun bilan humain communiqué",
@@ -439,6 +505,39 @@
    ],
    "titre": "L'armée malienne annonce deux nouvelles frappes près de Kouakourou et de Sofara",
    "id": "ml-20261105-kouakourou-sofara-frappes"
+  },
+  {
+   "ajoute_le": "2026-11-15",
+   "auteur": "JNIM (présumé)",
+   "bilan": "Aucun bilan humain communiqué ; déplacement de la population de quatre villages (RFI)",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-11-05",
+   "gravite": 2,
+   "lat": 14.05,
+   "lieu": "Diengo, Goundaka, Djongué-Bambara (Fakala) et Kabio (Soye)",
+   "lon": -4.3,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Mopti",
+   "resume": "Entre le 3 et le 5 novembre, les habitants de quatre villages protégés par des chasseurs dozos ont fui après des attaques et des tirs de drones attribués au JNIM, selon RFI. Les déplacés ont rejoint Mopti, Djenné et Sofara ; le groupe n'a pas communiqué sur ces attaques.",
+   "sources": [
+    {
+     "nom": "RFI via Yahoo Actualités (14/11)",
+     "url": "https://fr.news.yahoo.com/mali-attaques-jnim-contre-civils-040341034.html"
+    },
+    {
+     "nom": "Quartz (14/11)",
+     "url": "https://fr.qz.com/jnim-vise-civils-regions-segou-mopti-mali-111426"
+    },
+    {
+     "nom": "Points Chauds (14/11)",
+     "url": "https://pointschauds.info/mali-frappes-aeriennes-de-larmee-a-kadiana-et-boulkessi-le-jnim-pilonne-lere-et-vide-des-villages-du-centre/"
+    }
+   ],
+   "titre": "Quatre villages des communes de Fakala et de Soye vidés de leurs habitants après des attaques attribuées au JNIM",
+   "id": "ml-20261105-fakala-soye-villages"
   },
   {
    "ajoute_le": "2026-11-08",
