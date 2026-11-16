@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-15T07:26:21+01:00",
+ "derniere_maj": "2026-11-16T07:21:07+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-14",
@@ -25,6 +25,35 @@
    ],
    "titre": "Des hommes armés imposent une « zakat » sur les récoltes et le bétail dans le cercle de Yorosso",
    "id": "ml-20261113-yorosso-zakat"
+  },
+  {
+   "ajoute_le": "2026-11-16",
+   "auteur": "Forces armées maliennes (FAMa) et partenaires",
+   "bilan": "Aucun chiffre ; l'état-major indique qu'un bilan consolidé reste à établir",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-13",
+   "gravite": 2,
+   "lat": 17.9,
+   "lieu": "Sud-est de Kidal, Yenchechi et Ingouzma (axe Gao–Anéfis–Aguelhok)",
+   "lon": 1.8,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kidal / Gao",
+   "resume": "Dans un communiqué publié le 14 novembre, l'état-major malien dit avoir mené le 13 novembre, avec ses « partenaires » et dans le cadre de l'opération Dougoukoloko, trois frappes dans les régions de Gao et de Kidal : un véhicule au nord de Yenchechi, un campement abritant combattants et matériel à environ 105 km au sud-est de Kidal, et un véhicule dissimulé près d'Ingouzma. Aucune confirmation indépendante.",
+   "sources": [
+    {
+     "nom": "Bamada.net (14/11)",
+     "url": "https://bamada.net/mali-letat-major-annonce-la-destruction-de-vehicules-et-dun-campement-terroriste-dans-le-nord-du-pays"
+    },
+    {
+     "nom": "RT en français (15/11)",
+     "url": "https://rtenfrancais.tv/news/140134-mali-armee-annonce-trois-frappes"
+    }
+   ],
+   "titre": "L'armée malienne annonce trois frappes dans le nord, dont un campement armé à 105 km au sud-est de Kidal",
+   "id": "ml-20261113-kidal-yenchechi-frappes"
   },
   {
    "ajoute_le": "2026-11-14",
@@ -724,7 +753,7 @@
   {
    "ajoute_le": "2026-11-11",
    "auteur": "Autorités et forces de sécurité guinéennes",
-   "bilan": "Environ 160 000 refoulés arrivés de Guinée depuis début novembre selon les chiffres officiels maliens (près de 100 000 dans le district de Bamako, 60 000 à Kouremalé) ; 11 décès parmi les refoulés selon le communiqué n° 2026-11 du comité interministériel malien de gestion des crises (13/11), contre 6 au 7 novembre ; près de 2 950 personnes concernées par de nouveaux convois de rapatriement ; environ 17 000 personnes convoyées vers le Burkina les 7 et 8 novembre (CECOGEC malien) ; 1 412 personnes interpellées au total côté guinéen (communiqué conjoint guinéen n° 03 du 9 nov.) ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié. Voir aussi les heurts meurtriers du 11 novembre près de Kintinian.",
+   "bilan": "Environ 160 000 refoulés arrivés de Guinée depuis début novembre selon les chiffres officiels maliens (près de 100 000 dans le district de Bamako, 60 000 à Kouremalé) ; 11 décès parmi les refoulés selon le communiqué n° 2026-11 du comité interministériel malien de gestion des crises (13/11), contre 6 au 7 novembre ; près de 2 950 personnes concernées par de nouveaux convois de rapatriement ; environ 17 000 personnes convoyées vers le Burkina les 7 et 8 novembre (CECOGEC malien) ; 1 412 personnes interpellées au total côté guinéen (communiqué conjoint guinéen n° 03 du 9 nov.) ; le 14 novembre, 1 557 orpailleurs interpellés et jugés à Conakry ont été remis aux autorités maliennes et burkinabè au poste de Kouremalé, selon la presse guinéenne ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié. Voir aussi les heurts meurtriers du 11 novembre près de Kintinian.",
    "categorie": "mines",
    "confiance": "confirme",
    "date": "2026-11-02",
@@ -743,16 +772,16 @@
      "url": "https://guineenews.org/2026/11/02/siguiri-le-gouvernement-sort-lartillerie-lourde-contre-lexploitation-anarchique-de-lor/"
     },
     {
-     "nom": "MADAR (08/11)",
-     "url": "https://fr.madar.mr/actualites/sahel/mali-pm-abdoulaye-maiga-kouremale-visit-cecogec-17000-returned-burkina-20261108"
-    },
-    {
      "nom": "RFI via allAfrica (10/11)",
      "url": "https://fr.allafrica.com/stories/202611100487.html"
     },
     {
      "nom": "Bamada.net (13/11)",
      "url": "https://bamada.net/refoules-de-guinee-le-bilan-salourdit-a-11-morts-pres-de-2-950-personnes-concernees-par-de-nouveaux-convois"
+    },
+    {
+     "nom": "Afrikinfomedias (15/11)",
+     "url": "https://www.afrikinfomedias.com/2026/11/15/exploitation-anarchique-de-lor-la-guinee-remet-1-557-orpailleurs-illegaux-aux-autorites-maliennes-et-burkinabe/"
     }
    ],
    "titre": "Guinée : interdiction de l'orpaillage à Siguiri, des milliers d'orpailleurs étrangers refoulés vers le Mali",
