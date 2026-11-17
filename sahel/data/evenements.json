@@ -1,6 +1,109 @@
 {
- "derniere_maj": "2026-11-16T07:21:07+01:00",
+ "derniere_maj": "2026-11-17T07:20:27+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-17",
+   "auteur": "Forces armées maliennes (FAMa) et partenaires",
+   "bilan": "Aucun chiffre communiqué par l'état-major",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-16",
+   "gravite": 2,
+   "lat": 14.32,
+   "lieu": "Environ 33 km au sud-ouest de Sévaré",
+   "lon": -4.32,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Mopti",
+   "resume": "Le même communiqué de l'état-major malien fait état d'une seconde frappe, le 16 novembre, contre un regroupement logistique et humain comprenant des motos, à une trentaine de kilomètres au sud-ouest de Sévaré. Aucun bilan n'a été publié et l'information n'est pas vérifiée de façon indépendante.",
+   "sources": [
+    {
+     "nom": "Alwihda Info (16/11)",
+     "url": "https://www.alwihdainfo.com/mali-frappes-aeriennes-des-fama-dans-les-regions-dabeibara-et-sevare/"
+    }
+   ],
+   "titre": "L'armée malienne dit avoir frappé un rassemblement armé à 33 km au sud-ouest de Sévaré",
+   "id": "ml-20261116-sevare-frappe"
+  },
+  {
+   "ajoute_le": "2026-11-17",
+   "auteur": "",
+   "axe": "Accès à Bamako (convois escortés depuis l'ouest)",
+   "bilan": "840 citernes arrivées ; 1 505 depuis le 1er novembre ; 996 à répartir en comptant 156 citernes déjà en attente (bilan relayé par Malijet / Bénin Web TV)",
+   "categorie": "routes",
+   "confiance": "probable",
+   "date": "2026-11-16",
+   "etat": "escorte",
+   "gravite": 1,
+   "lat": 12.66,
+   "lieu": "Bamako",
+   "lon": -7.97,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Bamako",
+   "resume": "Un nouveau convoi de 840 citernes de carburant a rejoint Bamako, selon un bilan relayé le 16 novembre, après celui de 665 camions du 7 novembre. Les douanes, la DGCC et la police assurent le décompte avant la répartition vers les dépôts et stations ; l'approvisionnement de la capitale continue de dépendre de convois encadrés par l'armée.",
+   "sources": [
+    {
+     "nom": "Bénin Web TV (16/11)",
+     "url": "https://beninwebtv.bj/mali-840-nouvelles-citernes-bamako-1505-novembre-2026/"
+    },
+    {
+     "nom": "Bénin Web TV",
+     "url": "https://beninwebtv.com/mali-840-citernes-de-carburant-arrivent-a-bamako-996-a-repartir/"
+    }
+   ],
+   "titre": "Un convoi de 840 camions-citernes arrive à Bamako, 1 505 citernes reçues depuis début novembre",
+   "trace": [
+    {
+     "lat": 14.45,
+     "lon": -11.43
+    },
+    {
+     "lat": 14.52,
+     "lon": -9.18
+    },
+    {
+     "lat": 13.85,
+     "lon": -8.08
+    },
+    {
+     "lat": 12.74,
+     "lon": -8.13
+    },
+    {
+     "lat": 12.66,
+     "lon": -7.97
+    }
+   ],
+   "id": "ml-20261116-convoi-840"
+  },
+  {
+   "ajoute_le": "2026-11-17",
+   "auteur": "Forces armées maliennes (FAMa) et partenaires",
+   "bilan": "Aucun chiffre communiqué par l'état-major",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-14",
+   "gravite": 2,
+   "lat": 19.2,
+   "lieu": "8 à 10 km au nord et nord-est d'Abeïbara",
+   "lon": 1.75,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kidal",
+   "resume": "Selon un communiqué de l'état-major général des armées, les FAMa et leurs partenaires ont frappé le 14 novembre, dans le cadre de l'opération Dougoukoloko, un lieu de rassemblement de combattants avec véhicules et dépôt de carburant à quelques kilomètres au nord d'Abeïbara. L'armée ne donne pas de bilan et dit poursuivre ses reconnaissances ; aucune confirmation indépendante.",
+   "sources": [
+    {
+     "nom": "Alwihda Info (16/11)",
+     "url": "https://www.alwihdainfo.com/mali-frappes-aeriennes-des-fama-dans-les-regions-dabeibara-et-sevare/"
+    }
+   ],
+   "titre": "L'armée malienne annonce une frappe sur un point de regroupement armé près d'Abeïbara",
+   "id": "ml-20261114-abeibara-frappe"
+  },
   {
    "ajoute_le": "2026-11-14",
    "auteur": "Hommes armés (présumés jihadistes)",
