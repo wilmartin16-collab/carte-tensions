@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-17T07:20:27+01:00",
+ "derniere_maj": "2026-11-18T07:30:00+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-17",
@@ -78,6 +78,39 @@
     }
    ],
    "id": "ml-20261116-convoi-840"
+  },
+  {
+   "ajoute_le": "2026-11-18",
+   "auteur": "Justice guinéenne (CRIEF)",
+   "bilan": "22 condamnés à 2 ans de prison et 10 millions GNF d'amende chacun (Guinéenews) ; la revue de presse RFI évoque aussi des peines de 3 ans pour des orpailleurs, alors que Guinéenews indique que leur dossier reste pendant",
+   "categorie": "mines",
+   "confiance": "probable",
+   "date": "2026-11-16",
+   "gravite": 1,
+   "lat": 11.42,
+   "lieu": "Siguiri (procès devant la CRIEF à Conakry)",
+   "lon": -9.17,
+   "nature": "judiciaire",
+   "pays": "Guinée",
+   "precision": "exacte",
+   "region": "Kankan",
+   "resume": "La chambre de jugement de la Cour de répression des infractions économiques et financières a condamné le 16 novembre 22 anciens administrateurs (préfets, sous-préfets, un gouverneur) poursuivis pour complicité dans les dégâts environnementaux et la pollution des cours d'eau liés à l'orpaillage clandestin à Siguiri. La défense conteste le verdict et envisage un appel, que le parquet spécial étudie aussi. Les orpailleurs étrangers interpellés n'étaient plus à l'audience, renvoyés dans leurs pays selon le procureur.",
+   "sources": [
+    {
+     "nom": "Guinéenews (16/11, verdict)",
+     "url": "https://guineenews.org/2026/11/16/condamnation-des-administrateurs-de-siguiri-le-procureur-de-la-crief-jubile-la-defense-conteste-le-verdict/"
+    },
+    {
+     "nom": "Guinéenews (16/11, audience)",
+     "url": "https://guineenews.org/2026/11/16/crief-pourquoi-les-222-orpailleurs-interpelles-a-siguiri-ne-comparaissent-plus-aux-cotes-des-22-administrateurs/"
+    },
+    {
+     "nom": "allAfrica, revue de presse RFI (17/11)",
+     "url": "https://fr.allafrica.com/stories/202611170258.html"
+    }
+   ],
+   "titre": "Orpaillage illégal à Siguiri : 22 ex-administrateurs territoriaux condamnés à deux ans de prison par la CRIEF",
+   "id": "gn-20261116-crief-siguiri"
   },
   {
    "ajoute_le": "2026-11-17",
@@ -856,7 +889,7 @@
   {
    "ajoute_le": "2026-11-11",
    "auteur": "Autorités et forces de sécurité guinéennes",
-   "bilan": "Environ 160 000 refoulés arrivés de Guinée depuis début novembre selon les chiffres officiels maliens (près de 100 000 dans le district de Bamako, 60 000 à Kouremalé) ; 11 décès parmi les refoulés selon le communiqué n° 2026-11 du comité interministériel malien de gestion des crises (13/11), contre 6 au 7 novembre ; près de 2 950 personnes concernées par de nouveaux convois de rapatriement ; environ 17 000 personnes convoyées vers le Burkina les 7 et 8 novembre (CECOGEC malien) ; 1 412 personnes interpellées au total côté guinéen (communiqué conjoint guinéen n° 03 du 9 nov.) ; le 14 novembre, 1 557 orpailleurs interpellés et jugés à Conakry ont été remis aux autorités maliennes et burkinabè au poste de Kouremalé, selon la presse guinéenne ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié. Voir aussi les heurts meurtriers du 11 novembre près de Kintinian.",
+   "bilan": "Environ 160 000 refoulés arrivés de Guinée depuis début novembre selon les chiffres officiels maliens (près de 100 000 dans le district de Bamako, 60 000 à Kouremalé) ; 11 décès parmi les refoulés selon le communiqué n° 2026-11 du comité interministériel malien de gestion des crises (13/11), puis 13 selon une dépêche APA ultérieure, contre 6 au 7 novembre ; près de 2 950 personnes concernées par de nouveaux convois de rapatriement ; environ 17 000 personnes convoyées vers le Burkina les 7 et 8 novembre (CECOGEC malien) ; 1 412 personnes interpellées au total côté guinéen (communiqué conjoint guinéen n° 03 du 9 nov.) ; le 14 novembre, 1 557 orpailleurs interpellés et jugés à Conakry ont été remis aux autorités maliennes et burkinabè au poste de Kouremalé, selon la presse guinéenne ; blessés dont « certains par balles » selon le ministre burkinabè de la Sécurité, non vérifié. Voir aussi les heurts meurtriers du 11 novembre près de Kintinian et la condamnation de 22 ex-administrateurs par la CRIEF le 16 novembre.",
    "categorie": "mines",
    "confiance": "confirme",
    "date": "2026-11-02",
@@ -875,8 +908,8 @@
      "url": "https://guineenews.org/2026/11/02/siguiri-le-gouvernement-sort-lartillerie-lourde-contre-lexploitation-anarchique-de-lor/"
     },
     {
-     "nom": "RFI via allAfrica (10/11)",
-     "url": "https://fr.allafrica.com/stories/202611100487.html"
+     "nom": "APA (13 morts parmi les refoulés)",
+     "url": "https://fr.apanews.net/community/mali-13-morts-parmi-les-personnes-refoulees-de-guinee/"
     },
     {
      "nom": "Bamada.net (13/11)",
@@ -1487,7 +1520,7 @@
   },
   {
    "auteur": "EI au Sahel / JNIM",
-   "bilan": "Plus de 400 morts selon l'EI (non vérifié) ; au moins 60 selon un journal mauritanien",
+   "bilan": "Plus de 400 morts selon l'EI (non vérifié) ; au moins 60 selon un journal mauritanien ; au moins 120 corps visibles sur les photos de l'EI selon i-Sahel (cité par Al Jazeera)",
    "categorie": "terrorisme",
    "confiance": "a_confirmer",
    "date": "2026-10-09",
@@ -1499,7 +1532,7 @@
    "pays": "Burkina Faso",
    "precision": "approx",
    "region": "Oudalan",
-   "resume": "Les deux groupes jihadistes rivaux se sont affrontés près des frontières malienne et nigérienne, dans une série de combats commencée en août. L'État islamique au Sahel affirme avoir tué plus de 400 combattants du JNIM. Des sources spécialisées font état de lourdes pertes des deux côtés, dont des commandants de l'EI.",
+   "resume": "Les deux groupes jihadistes rivaux se sont affrontés près des frontières malienne et nigérienne, dans une série de combats commencée en août. L'État islamique au Sahel affirme avoir tué plus de 400 combattants du JNIM. Le 1er novembre, l'EI a diffusé des photos présentées comme preuves, sur lesquelles le média i-Sahel a compté au moins 120 corps sans pouvoir les identifier ; le JNIM n'a pas réagi.",
    "sources": [
     {
      "nom": "KOACI (16/10)",
@@ -1512,6 +1545,10 @@
     {
      "nom": "Mondafrique (18/10)",
      "url": "https://mondafrique.com/politique/victoire-militaire-de-letat-islamique-contre-ses-rivaux-dal-qaida-au-burkina-faso/"
+    },
+    {
+     "nom": "Al Jazeera (13/11)",
+     "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
     }
    ],
    "titre": "Combats meurtriers entre l'État islamique et le JNIM dans l'Oudalan",
