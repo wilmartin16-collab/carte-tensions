@@ -1,6 +1,39 @@
 {
- "derniere_maj": "2026-11-18T07:30:00+01:00",
+ "derniere_maj": "2026-11-19T07:45:00+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-19",
+   "auteur": "groupes armés non identifiés",
+   "bilan": "24 militaires libérés, aucune perte côté armée selon l'état-major ; des combattants « neutralisés » sans chiffre (communiqué FAMa, non vérifié de source indépendante)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-18",
+   "gravite": 2,
+   "lat": 17.75,
+   "lieu": "In-Tebezas (env. 110 km au sud-est de Kidal)",
+   "lon": 2.2,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kidal",
+   "resume": "Selon l'état-major malien, une opération combinant reconnaissance aérienne, frappes et troupes héliportées a permis vers 13 h de libérer 24 soldats retenus par des groupes armés dans la zone d'In-Tebezas, puis de les transférer à Gao. Ni la date de leur capture ni le groupe qui les détenait n'ont été précisés.",
+   "sources": [
+    {
+     "nom": "Madar",
+     "url": "https://fr.madar.mr/actualites/sahel/mali-army-frees-24-soldiers-held-south-east-of-kidal-20261118"
+    },
+    {
+     "nom": "Bénin Web TV",
+     "url": "https://beninwebtv.bj/mali-24-militaires-liberes-sud-kidal-operation-heliportee"
+    },
+    {
+     "nom": "Demócrata",
+     "url": "https://www.democrata.es/fr/international/l-armee-malienne-sauve-24-militaires-detenus-par-des-groupes-armes-dans-l-est-du-pays/"
+    }
+   ],
+   "titre": "L'armée malienne annonce la libération de 24 militaires détenus au sud-est de Kidal",
+   "id": "ml-20261118-intebezas-liberation"
+  },
   {
    "ajoute_le": "2026-11-17",
    "auteur": "Forces armées maliennes (FAMa) et partenaires",
@@ -227,6 +260,60 @@
    ],
    "titre": "Embuscade contre des villageois se rendant au marché de Téra : au moins 37 civils tués",
    "id": "ne-20261112-tera-tillim"
+  },
+  {
+   "ajoute_le": "2026-11-19",
+   "auteur": "Boko Haram (présumé)",
+   "bilan": "Aucune victime ; 12 RPG-7 et munitions saisis (Garde nationale, via ANP)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-12",
+   "gravite": 1,
+   "lat": 14.2,
+   "lieu": "Bonigrat (département de N'Guigmi)",
+   "lon": 13.15,
+   "nature": "mesure",
+   "pays": "Niger",
+   "precision": "approx",
+   "region": "Diffa",
+   "resume": "Une patrouille de la Garde nationale a découvert une cache d'armes à environ 1 km au sud-est de Bonigrat, avec 12 lance-roquettes, des projectiles et des munitions. Le matériel a été présenté aux autorités régionales à Diffa le 15 novembre ; les militaires soupçonnent un approvisionnement destiné à Boko Haram.",
+   "sources": [
+    {
+     "nom": "Bénin Web TV",
+     "url": "https://beninwebtv.bj/niger-12-lance-roquettes-saisis-a-diffa-la-piste-dun-ravitaillement-de-boko-haram/"
+    }
+   ],
+   "titre": "Douze lance-roquettes RPG-7 découverts dans une cache près de Bonigrat, piste d'un ravitaillement de Boko Haram",
+   "id": "ne-20261112-nguigmi-lance-roquettes"
+  },
+  {
+   "ajoute_le": "2026-11-19",
+   "auteur": "Lakurawa (présumé, selon des messages de condoléances)",
+   "bilan": "Pas de bilan officiel ; des messages de condoléances évoquent des pertes en vies humaines et des dégâts matériels (RFI / ANP)",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-11-12",
+   "gravite": 2,
+   "lat": 12.62,
+   "lieu": "Commune de Dioundiou",
+   "lon": 3.54,
+   "nature": "fait",
+   "pays": "Niger",
+   "precision": "approx",
+   "region": "Dosso",
+   "resume": "Quatre villages de la commune rurale de Dioundiou, près de la frontière nigériane, ont été visés par des hommes armés la semaine précédant le 18 novembre (date exacte non communiquée). En visite sur place, le gouverneur de Dosso a appelé les assaillants, qu'il présente comme des « enfants du terroir », à déposer les armes.",
+   "sources": [
+    {
+     "nom": "RFI via allAfrica",
+     "url": "https://fr.allafrica.com/stories/202611180154.html"
+    },
+    {
+     "nom": "Leral",
+     "url": "https://www.leral.net/Niger-une-attaque-signalee-dans-le-departement-de-Dioundou-region-de-Dosso_a411535.html"
+    }
+   ],
+   "titre": "Attaque contre quatre villages de la commune de Dioundiou, dans la région de Dosso",
+   "id": "ne-20261112-dioundou-attaque"
   },
   {
    "ajoute_le": "2026-11-15",
