@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-19T07:45:00+01:00",
+ "derniere_maj": "2026-11-20T07:21:40+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-19",
@@ -33,6 +33,31 @@
    ],
    "titre": "L'armée malienne annonce la libération de 24 militaires détenus au sud-est de Kidal",
    "id": "ml-20261118-intebezas-liberation"
+  },
+  {
+   "ajoute_le": "2026-11-20",
+   "auteur": "",
+   "bilan": "1 enfant tué et 3 blessés graves dont 2 enfants (sources locales citées par Studio Tamani)",
+   "categorie": "terrorisme",
+   "confiance": "a_confirmer",
+   "date": "2026-11-18",
+   "gravite": 2,
+   "lat": 16.6,
+   "lieu": "Edang (commune d'Anchawadj)",
+   "lon": -0.3,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Gao",
+   "resume": "Selon des sources locales, des enfants ont ramassé un engin explosif et l'ont remis à un ferrailleur ; l'objet a explosé pendant sa manipulation dans le village d'Edang. Il s'agirait d'un engin abandonné et non d'une attaque ; la date exacte du fait reste à préciser (article publié le 19 novembre).",
+   "sources": [
+    {
+     "nom": "Studio Tamani (19/11)",
+     "url": "https://www.studiotamani.org/210478-gao-un-mort-et-trois-blesses-dans-lexplosion-dun-engin-explosif-a-edang"
+    }
+   ],
+   "titre": "Gao : un enfant tué et trois blessés par l'explosion d'un engin explosif à Edang",
+   "id": "ml-20261118-edang-engin"
   },
   {
    "ajoute_le": "2026-11-17",
@@ -144,6 +169,35 @@
    ],
    "titre": "Orpaillage illégal à Siguiri : 22 ex-administrateurs territoriaux condamnés à deux ans de prison par la CRIEF",
    "id": "gn-20261116-crief-siguiri"
+  },
+  {
+   "ajoute_le": "2026-11-20",
+   "auteur": "Boko Haram (présumé, destinataire des armes)",
+   "bilan": "Aucune victime ; 17 armes (dont 13 AK-47, 2 PKM, 1 arme de 12,7 mm), 3 véhicules saisis et 6 personnes interpellées (Gendarmerie nationale, Légion 5)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-15",
+   "gravite": 1,
+   "lat": 13.4,
+   "lieu": "RN1, axe Diffa – N'Guigmi",
+   "lon": 12.75,
+   "nature": "mesure",
+   "pays": "Niger",
+   "precision": "approx",
+   "region": "Diffa",
+   "resume": "La brigade routière de la gendarmerie de Diffa a intercepté un pick-up dont le châssis dissimulait des fusils d'assaut, des mitrailleuses et une arme de 12,7 mm, dans le cadre de l'opération « Naléwa Dolé ». Le matériel, trois véhicules et six suspects ont été présentés le 17 novembre ; selon l'enquête préliminaire, les armes étaient destinées à Boko Haram.",
+   "sources": [
+    {
+     "nom": "ActuNiger (19/11)",
+     "url": "https://www.actuniger.com/societe/diffa-les-gendarmes-interceptent-un-nouvel-arsenal-darmes-de-guerre-destinees-a-boko-haram.html"
+    },
+    {
+     "nom": "ANP",
+     "url": "https://anp.ne/diffa-17-armes-de-guerre-trois-vehicules-et-six-presumes-trafiquants-saisis-par-la-gendarmerie-nationale-dans-le-cadre-de-loperation-nalewa-dole/"
+    }
+   ],
+   "titre": "Diffa : 17 armes de guerre destinées à Boko Haram saisies sur l'axe Diffa–N'Guigmi, six interpellations",
+   "id": "ne-20261115-diffa-rn1-armes"
   },
   {
    "ajoute_le": "2026-11-17",
