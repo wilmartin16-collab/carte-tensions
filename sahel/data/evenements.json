@@ -1,6 +1,85 @@
 {
- "derniere_maj": "2026-11-20T07:21:40+01:00",
+ "derniere_maj": "2026-11-21T07:27:46+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-20",
+   "auteur": "",
+   "bilan": "1 enfant tué et 3 blessés graves dont 2 enfants (sources locales citées par Studio Tamani)",
+   "categorie": "terrorisme",
+   "confiance": "a_confirmer",
+   "date": "2026-11-19",
+   "gravite": 2,
+   "lat": 16.6,
+   "lieu": "Edang (commune d'Anchawadj)",
+   "lon": -0.3,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Gao",
+   "resume": "Le jeudi 19 novembre vers 15 heures, un engin explosif a sauté dans le village d'Edang, commune d'Anchawadj. Selon des sources locales, des enfants l'avaient ramassé puis remis à un ferrailleur qui le manipulait au moment de l'explosion ; il s'agirait d'un engin abandonné et non d'une attaque.",
+   "sources": [
+    {
+     "nom": "Studio Tamani (19/11)",
+     "url": "https://www.studiotamani.org/210478-gao-un-mort-et-trois-blesses-dans-lexplosion-dun-engin-explosif-a-edang"
+    },
+    {
+     "nom": "Bamada.net (19/11)",
+     "url": "https://bamada.net/gao-un-mort-et-trois-blesses-dans-lexplosion-dun-engin-explosif-a-edang"
+    }
+   ],
+   "titre": "Gao : un enfant tué et trois blessés par l'explosion d'un engin explosif à Edang",
+   "id": "ml-20261118-edang-engin"
+  },
+  {
+   "ajoute_le": "2026-11-21",
+   "auteur": "Forces armées maliennes (FAMa)",
+   "bilan": "Aucun chiffre communiqué",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-18",
+   "gravite": 2,
+   "lat": 15.93,
+   "lieu": "Zone de Niafunké (fleuve Niger)",
+   "lon": -3.99,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Tombouctou",
+   "resume": "Dans son communiqué du 19 novembre, l'état-major malien indique avoir neutralisé, dans la zone de Niafunké, un groupe d'opérateurs de drones armés qui s'apprêtaient à viser un convoi fluvial sur le Niger. La date précise de l'opération n'est pas indiquée (vers le 17-18 novembre).",
+   "sources": [
+    {
+     "nom": "Bamada.net (communiqué FAMa, 19/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-plusieurs-positions-et-ressources-terroristes-frappees-a-niono-sofara-niafunke-et-kidal"
+    }
+   ],
+   "titre": "Niafunké : l'armée dit avoir neutralisé des opérateurs de drones qui visaient un convoi fluvial",
+   "id": "ml-20261118-niafunke-drones"
+  },
+  {
+   "ajoute_le": "2026-11-21",
+   "auteur": "Forces armées maliennes (FAMa) et partenaires",
+   "bilan": "4 combattants « neutralisés » selon l'état-major (non vérifié)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-18",
+   "gravite": 2,
+   "lat": 17.75,
+   "lieu": "103 et 112 km au sud-est de Kidal",
+   "lon": 2.25,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kidal",
+   "resume": "L'état-major malien affirme avoir frappé le 18 novembre trois motos stationnées près d'un dépôt logistique caché sous la végétation, à 112 km au sud-est de Kidal, dépôt présenté comme entièrement détruit. Une autre position armée aurait été visée à 103 km au sud-est de la ville, sans bilan communiqué.",
+   "sources": [
+    {
+     "nom": "Bamada.net (communiqué FAMa, 19/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-plusieurs-positions-et-ressources-terroristes-frappees-a-niono-sofara-niafunke-et-kidal"
+    }
+   ],
+   "titre": "Kidal : l'armée dit avoir détruit un dépôt logistique à 112 km au sud-est et neutralisé quatre combattants",
+   "id": "ml-20261118-kidal-sud-est-frappes"
+  },
   {
    "ajoute_le": "2026-11-19",
    "auteur": "groupes armés non identifiés",
@@ -35,29 +114,29 @@
    "id": "ml-20261118-intebezas-liberation"
   },
   {
-   "ajoute_le": "2026-11-20",
-   "auteur": "",
-   "bilan": "1 enfant tué et 3 blessés graves dont 2 enfants (sources locales citées par Studio Tamani)",
+   "ajoute_le": "2026-11-21",
+   "auteur": "Forces armées maliennes (FAMa) et partenaires",
+   "bilan": "Aucun chiffre communiqué ; bilan « à consolider » selon l'état-major",
    "categorie": "terrorisme",
-   "confiance": "a_confirmer",
-   "date": "2026-11-18",
+   "confiance": "officiel",
+   "date": "2026-11-17",
    "gravite": 2,
-   "lat": 16.6,
-   "lieu": "Edang (commune d'Anchawadj)",
-   "lon": -0.3,
+   "lat": 14.16,
+   "lieu": "15 km au sud-est de Niono et zone de Sofara",
+   "lon": -5.9,
    "nature": "fait",
    "pays": "Mali",
    "precision": "approx",
-   "region": "Gao",
-   "resume": "Selon des sources locales, des enfants ont ramassé un engin explosif et l'ont remis à un ferrailleur ; l'objet a explosé pendant sa manipulation dans le village d'Edang. Il s'agirait d'un engin abandonné et non d'une attaque ; la date exacte du fait reste à préciser (article publié le 19 novembre).",
+   "region": "Ségou / Mopti",
+   "resume": "Selon un communiqué de l'état-major malien diffusé le 19 novembre dans le cadre de l'opération Dougoukoloko, des frappes ont visé le 17 novembre un campement de groupes armés avec des motos à une quinzaine de kilomètres au sud-est de Niono. Le même jour, un pick-up dissimulé sous un arbre aurait été détruit dans la zone de Sofara, avec une explosion secondaire laissant supposer la présence de munitions.",
    "sources": [
     {
-     "nom": "Studio Tamani (19/11)",
-     "url": "https://www.studiotamani.org/210478-gao-un-mort-et-trois-blesses-dans-lexplosion-dun-engin-explosif-a-edang"
+     "nom": "Bamada.net (communiqué FAMa, 19/11)",
+     "url": "https://bamada.net/operation-dougoukoloko-plusieurs-positions-et-ressources-terroristes-frappees-a-niono-sofara-niafunke-et-kidal"
     }
    ],
-   "titre": "Gao : un enfant tué et trois blessés par l'explosion d'un engin explosif à Edang",
-   "id": "ml-20261118-edang-engin"
+   "titre": "L'armée malienne annonce des frappes sur un campement près de Niono et un pick-up dans la zone de Sofara",
+   "id": "ml-20261117-niono-sofara-frappes"
   },
   {
    "ajoute_le": "2026-11-17",
@@ -343,7 +422,7 @@
   {
    "ajoute_le": "2026-11-19",
    "auteur": "Lakurawa (présumé, selon des messages de condoléances)",
-   "bilan": "Pas de bilan officiel ; des messages de condoléances évoquent des pertes en vies humaines et des dégâts matériels (RFI / ANP)",
+   "bilan": "Pas de bilan officiel ; au moins 6 civils tués à Zollo Koto dans la nuit du 10 novembre et plusieurs blessés à Zabori le 8 novembre (sources locales citées par MDMG Sahel) ; des messages de condoléances évoquent des pertes en vies humaines (RFI / ANP)",
    "categorie": "terrorisme",
    "confiance": "probable",
    "date": "2026-11-12",
@@ -355,7 +434,7 @@
    "pays": "Niger",
    "precision": "approx",
    "region": "Dosso",
-   "resume": "Quatre villages de la commune rurale de Dioundiou, près de la frontière nigériane, ont été visés par des hommes armés la semaine précédant le 18 novembre (date exacte non communiquée). En visite sur place, le gouverneur de Dosso a appelé les assaillants, qu'il présente comme des « enfants du terroir », à déposer les armes.",
+   "resume": "Quatre villages de la commune rurale de Dioundiou, près de la frontière nigériane, ont été visés par des hommes armés la semaine précédant le 18 novembre. Selon des sources locales, des combattants lakurawa ont tué six habitants et emporté du bétail à Zollo Koto, près de Gawassa, dans la nuit du 10 novembre, après une incursion à Zabori le 8 ; ils auraient aussi ordonné la fermeture d'écoles. En visite sur place, le gouverneur de Dosso a appelé les assaillants, qu'il présente comme des « enfants du terroir », à déposer les armes.",
    "sources": [
     {
      "nom": "RFI via allAfrica",
@@ -364,6 +443,10 @@
     {
      "nom": "Leral",
      "url": "https://www.leral.net/Niger-une-attaque-signalee-dans-le-departement-de-Dioundou-region-de-Dosso_a411535.html"
+    },
+    {
+     "nom": "MDMG Sahel (11/11)",
+     "url": "https://mdmgsahel.com/niger-six-civils-tues-dans-une-attaque-des-lakurawa-a-dioundiou/"
     }
    ],
    "titre": "Attaque contre quatre villages de la commune de Dioundiou, dans la région de Dosso",
