@@ -1,6 +1,87 @@
 {
- "derniere_maj": "2026-11-21T07:27:46+01:00",
+ "derniere_maj": "2026-11-22T07:26:53+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-22",
+   "auteur": "JNIM",
+   "bilan": "« Plusieurs victimes » côté armée selon le JNIM (revendication non vérifiée, aucun chiffre) ; bilan contesté par l'armée",
+   "categorie": "terrorisme",
+   "confiance": "a_confirmer",
+   "date": "2026-11-21",
+   "gravite": 2,
+   "lat": 14.25,
+   "lieu": "Niono",
+   "lon": -5.99,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Ségou",
+   "resume": "Le JNIM dit avoir attaqué le 21 novembre les principales positions militaires de Niono, évoquant des victimes et des véhicules incendiés. Le groupe revendique aussi la destruction d'un blindé de l'Africa Corps par un engin explosif dans la même région. L'armée conteste ces bilans ; l'attaque survient après plusieurs frappes aériennes des FAMa autour de Niono.",
+   "sources": [
+    {
+     "nom": "RFI (repris par Shango Media)",
+     "url": "https://www.shango.media/rfi-mali-des-jihadistes-du-jnim-attaquent-larmee-et-ses-suppletifs-dans-la-region-de-segou-12074508"
+    }
+   ],
+   "titre": "Le JNIM revendique une attaque contre les positions de l'armée à Niono et un engin explosif contre l'Africa Corps",
+   "id": "ml-20261121-niono-jnim"
+  },
+  {
+   "ajoute_le": "2026-11-22",
+   "auteur": "",
+   "axe": "Accès à Bamako (convois escortés)",
+   "bilan": "756 citernes ; 2 261 depuis le 1er novembre (chiffres de la DGCC relayés par Bamada et APA)",
+   "categorie": "routes",
+   "confiance": "probable",
+   "date": "2026-11-21",
+   "etat": "escorte",
+   "gravite": 1,
+   "lat": 12.65,
+   "lieu": "Bamako",
+   "lon": -7.99,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "exacte",
+   "region": "Bamako",
+   "resume": "Un convoi de 756 citernes de carburant escorté par l'armée est arrivé à Bamako dans la nuit du 20 au 21 novembre. C'est le troisième du mois après ceux du 7 et du 14-16 novembre, soit 2 261 citernes reçues depuis le 1er novembre selon la DGCC. Le ravitaillement de la capitale reste dépendant de ces convois escortés.",
+   "sources": [
+    {
+     "nom": "Bamada.net",
+     "url": "https://bamada.net/approvisionnement-en-hydrocarbures-2-261-camions-citernes-achemines-a-bamako-en-trois-convois-depuis-le-debut-du-mois-de-novembre"
+    },
+    {
+     "nom": "APA News",
+     "url": "https://fr.apanews.net/business/mali-2-261-camions-citernes-arrives-a-bamako-depuis-debut-novembre/"
+    }
+   ],
+   "titre": "Troisième convoi de novembre : 756 camions-citernes arrivent à Bamako sous escorte des FAMa",
+   "id": "ml-20261121-convoi-756"
+  },
+  {
+   "ajoute_le": "2026-11-22",
+   "auteur": "Forces armées maliennes",
+   "bilan": "4 combattants tués près de Niono selon les FAMa ; pas de bilan chiffré pour les frappes près de Kidal (communiqué non vérifié de manière indépendante)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-20",
+   "gravite": 2,
+   "lat": 18.44,
+   "lieu": "78 km à l'est de Kidal",
+   "lon": 2.15,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kidal",
+   "resume": "Selon un communiqué de l'état-major (opération « Dougoukoloko »), l'armée a frappé le 18 novembre un point de regroupement à 119 km au sud-ouest de Kidal, puis le 20 novembre des positions à 78 km à l'est de la ville. Elle dit aussi avoir tué au nord-est de Niono quatre hommes armés à moto et détruit un pick-up.",
+   "sources": [
+    {
+     "nom": "Bénin Web TV",
+     "url": "https://beninwebtv.com/mali-les-fama-annoncent-quatre-morts-a-niono-et-des-frappes-pres-de-kidal/"
+    }
+   ],
+   "titre": "L'armée malienne annonce de nouvelles frappes à l'est et au sud-ouest de Kidal et quatre combattants tués près de Niono",
+   "id": "ml-20261120-kidal-est-niono-frappes"
+  },
   {
    "ajoute_le": "2026-11-20",
    "auteur": "",
