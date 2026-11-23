@@ -1,12 +1,12 @@
 {
- "derniere_maj": "2026-11-22T07:26:53+01:00",
+ "derniere_maj": "2026-11-23T07:24:20+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-22",
    "auteur": "JNIM",
-   "bilan": "« Plusieurs victimes » côté armée selon le JNIM (revendication non vérifiée, aucun chiffre) ; bilan contesté par l'armée",
+   "bilan": "« Plusieurs victimes » selon RFI et des sources locales, sans précision du camp ; le JNIM revendique de lourdes pertes côté armée (revendication non vérifiée) ; bilan contesté par l'armée",
    "categorie": "terrorisme",
-   "confiance": "a_confirmer",
+   "confiance": "probable",
    "date": "2026-11-21",
    "gravite": 2,
    "lat": 14.25,
@@ -16,11 +16,23 @@
    "pays": "Mali",
    "precision": "exacte",
    "region": "Ségou",
-   "resume": "Le JNIM dit avoir attaqué le 21 novembre les principales positions militaires de Niono, évoquant des victimes et des véhicules incendiés. Le groupe revendique aussi la destruction d'un blindé de l'Africa Corps par un engin explosif dans la même région. L'armée conteste ces bilans ; l'attaque survient après plusieurs frappes aériennes des FAMa autour de Niono.",
+   "resume": "Le 21 novembre, des combattants du JNIM ont attaqué au moins deux positions de l'armée malienne et de l'Africa Corps dans la région de Ségou, dont les principales emprises militaires de Niono, où des témoins font état de tirs nourris et de véhicules incendiés dans un camp. Un engin explosif improvisé a détruit un blindé de l'Africa Corps dans la même zone. Le JNIM revendique de lourdes pertes, ce que l'armée conteste ; aucun bilan chiffré indépendant n'est disponible.",
    "sources": [
+    {
+     "nom": "RFI via PressAfrik (22/11)",
+     "url": "https://www.pressafrik.com/Mali-des-jihadistes-du-JNIM-attaquent-l-armee-et-ses-suppletifs-dans-la-region-de-Segou_a314939.html"
+    },
     {
      "nom": "RFI (repris par Shango Media)",
      "url": "https://www.shango.media/rfi-mali-des-jihadistes-du-jnim-attaquent-larmee-et-ses-suppletifs-dans-la-region-de-segou-12074508"
+    },
+    {
+     "nom": "Madar (22/11)",
+     "url": "https://fr.madar.mr/actualites/sahel/mali-jnim-claims-attacks-army-africa-corps-segou-editor-20261122"
+    },
+    {
+     "nom": "Afrikactus (22/11)",
+     "url": "https://afrikactus.com/a-niono-les-bilans-opposes-des-attaques-du-jnim-mettent-a-lepreuve-la-credibilite-securitaire-au-mali-32858/"
     }
    ],
    "titre": "Le JNIM revendique une attaque contre les positions de l'armée à Niono et un engin explosif contre l'Africa Corps",
@@ -77,6 +89,10 @@
     {
      "nom": "Bénin Web TV",
      "url": "https://beninwebtv.com/mali-les-fama-annoncent-quatre-morts-a-niono-et-des-frappes-pres-de-kidal/"
+    },
+    {
+     "nom": "Africa Scandal (22/11)",
+     "url": "https://www.africascandal.com/mali-larmee-annonce-de-nouvelles-frappes-pres-de-kidal-et-de-niono-41025/"
     }
    ],
    "titre": "L'armée malienne annonce de nouvelles frappes à l'est et au sud-ouest de Kidal et quatre combattants tués près de Niono",
@@ -503,11 +519,11 @@
   {
    "ajoute_le": "2026-11-19",
    "auteur": "Lakurawa (présumé, selon des messages de condoléances)",
-   "bilan": "Pas de bilan officiel ; au moins 6 civils tués à Zollo Koto dans la nuit du 10 novembre et plusieurs blessés à Zabori le 8 novembre (sources locales citées par MDMG Sahel) ; des messages de condoléances évoquent des pertes en vies humaines (RFI / ANP)",
+   "bilan": "Pas de bilan officiel ; au moins 68 civils tués entre le 8 et le 12 novembre dans plusieurs villages du département (Firoré, Hammamara, Angoual Rey Rey, Dolli) selon un décompte non officiel fondé sur des témoignages d'habitants (EFE, 18/11) ; au moins 6 civils tués à Zollo Koto dans la nuit du 10 novembre selon des sources locales (MDMG Sahel)",
    "categorie": "terrorisme",
    "confiance": "probable",
    "date": "2026-11-12",
-   "gravite": 2,
+   "gravite": 3,
    "lat": 12.62,
    "lieu": "Commune de Dioundiou",
    "lon": 3.54,
@@ -520,6 +536,10 @@
     {
      "nom": "RFI via allAfrica",
      "url": "https://fr.allafrica.com/stories/202611180154.html"
+    },
+    {
+     "nom": "EFE via Infobae (18/11)",
+     "url": "https://www.infobae.com/america/agencias/2026/11/18/habitantes-denuncian-repunte-de-ataques-con-decenas-de-civiles-muertos-en-oeste-de-niger/"
     },
     {
      "nom": "Leral",
