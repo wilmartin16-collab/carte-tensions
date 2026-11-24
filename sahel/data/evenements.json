@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-23T07:24:20+01:00",
+ "derniere_maj": "2026-11-24T07:21:48+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-22",
@@ -72,7 +72,7 @@
   {
    "ajoute_le": "2026-11-22",
    "auteur": "Forces armées maliennes",
-   "bilan": "4 combattants tués près de Niono selon les FAMa ; pas de bilan chiffré pour les frappes près de Kidal (communiqué non vérifié de manière indépendante)",
+   "bilan": "4 combattants tués au nord-est de Niono selon les FAMa (bilan présenté comme provisoire) ; pas de bilan chiffré pour les frappes près de Kidal ni pour les deux autres positions autour de Niono (communiqués non vérifiés de manière indépendante)",
    "categorie": "terrorisme",
    "confiance": "officiel",
    "date": "2026-11-20",
@@ -84,7 +84,7 @@
    "pays": "Mali",
    "precision": "approx",
    "region": "Kidal",
-   "resume": "Selon un communiqué de l'état-major (opération « Dougoukoloko »), l'armée a frappé le 18 novembre un point de regroupement à 119 km au sud-ouest de Kidal, puis le 20 novembre des positions à 78 km à l'est de la ville. Elle dit aussi avoir tué au nord-est de Niono quatre hommes armés à moto et détruit un pick-up.",
+   "resume": "Selon des communiqués de l'état-major (opération « Dougoukoloko »), l'armée a frappé le 18 novembre un point de regroupement à 119 km au sud-ouest de Kidal, puis le 20 novembre des positions à 78 km à l'est de la ville. Le 21 novembre, après l'attaque du JNIM contre Niono, elle dit avoir tué au nord-est de Niono quatre hommes armés à moto, détruit un pick-up, puis visé deux autres positions à environ 35 km au sud et 30 km au nord de la ville.",
    "sources": [
     {
      "nom": "Bénin Web TV",
@@ -93,6 +93,14 @@
     {
      "nom": "Africa Scandal (22/11)",
      "url": "https://www.africascandal.com/mali-larmee-annonce-de-nouvelles-frappes-pres-de-kidal-et-de-niono-41025/"
+    },
+    {
+     "nom": "Bamada.net",
+     "url": "https://bamada.net/fama-frappes-positions-terroristes-niono-dougoukoloko"
+    },
+    {
+     "nom": "Sahara Medias",
+     "url": "https://fr.saharamedias.net/larmee-malienne-annonce-avoir-neutralise-des-hommes-armes-et-detruit-du-materiel-dans-pres-de-kidal/"
     }
    ],
    "titre": "L'armée malienne annonce de nouvelles frappes à l'est et au sud-ouest de Kidal et quatre combattants tués près de Niono",
