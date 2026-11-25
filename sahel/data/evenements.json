@@ -1,6 +1,89 @@
 {
- "derniere_maj": "2026-11-24T07:21:48+01:00",
+ "derniere_maj": "2026-11-25T07:22:12+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-25",
+   "auteur": "",
+   "bilan": "",
+   "categorie": "meteo",
+   "confiance": "officiel",
+   "date": "2026-11-24",
+   "gravite": 1,
+   "lat": 14.5,
+   "lieu": "Sénégal (dix régions dont Dakar)",
+   "lon": -14.45,
+   "nature": "mesure",
+   "pays": "Sénégal",
+   "precision": "pays",
+   "region": "National",
+   "resume": "L'agence météorologique sénégalaise prévoit un nouvel épisode de pluies hors saison entre le 26 et le 28 novembre, touchant une dizaine de régions dont Dakar. C'est le deuxième avis de ce type en novembre après celui du 17 au 20 ; les agriculteurs sont invités à mettre les récoltes à l'abri.",
+   "sources": [
+    {
+     "nom": "Senego",
+     "url": "https://senego.com/anacim-prevoit-des-pluies-hors-saison-au-senegal-du-26-au-28-novembre_2027158.html"
+    },
+    {
+     "nom": "NdarInfo",
+     "url": "https://www.ndarinfo.com/ANACIM-des-pluies-hors-saison-attendues-du-26-au-28-novembre_a47315.html"
+    }
+   ],
+   "titre": "L'ANACIM annonce des pluies hors saison du 26 au 28 novembre sur une grande partie du Sénégal",
+   "id": "sn-20261124-anacim-pluies-hors-saison"
+  },
+  {
+   "ajoute_le": "2026-11-25",
+   "auteur": "Boko Haram (présumé, selon le ministère)",
+   "bilan": "11 soldats tués et 5 blessés (bilan provisoire du ministère nigérien de la Défense) ; 22 assaillants tués selon le même ministère (non vérifié)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-24",
+   "gravite": 3,
+   "lat": 13.8,
+   "lieu": "Baroua",
+   "lon": 13.1,
+   "nature": "fait",
+   "pays": "Niger",
+   "precision": "approx",
+   "region": "Diffa",
+   "resume": "Le 24 novembre, une patrouille de l'armée nigérienne chargée de sécuriser des activités économiques a été attaquée près du village de Baroua, dans le bassin du lac Tchad. Le ministère de la Défense attribue l'attaque à Boko Haram et affirme que 22 assaillants ont été « neutralisés ». Baroua, abandonné en 2015 puis réoccupé en 2021, est régulièrement visé.",
+   "sources": [
+    {
+     "nom": "EWN / AFP (25/11)",
+     "url": "https://www.ewn.co.za/jihadists-kill-11-soldiers-in-southeast-niger-ministry"
+    },
+    {
+     "nom": "Ouest-France / AFP",
+     "url": "https://www.ouest-france.fr/monde/niger/au-niger-11-militaires-tues-dans-une-attaque-de-boko-haram-dans-le-sud-est-du-pays-292c59c8-e84d-11f1-86c1-70195b4d2e52"
+    }
+   ],
+   "titre": "Diffa : 11 soldats tués et 5 blessés dans une attaque contre une patrouille près de Baroua",
+   "id": "ne-20261124-baroua-patrouille"
+  },
+  {
+   "ajoute_le": "2026-11-25",
+   "auteur": "Forces armées maliennes",
+   "bilan": "2 hommes armés tués selon les FAMa ; pas d'autre bilan chiffré (communiqué non vérifié de manière indépendante)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-22",
+   "gravite": 2,
+   "lat": 14.69,
+   "lieu": "Est de Diabali (41 km) ; zone d'Anéfis ; Tonka ; environs d'Indélimane",
+   "lon": -5.64,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Ségou",
+   "resume": "Dans un communiqué publié le 23 novembre, l'état-major dit avoir neutralisé le 22 novembre deux hommes armés à moto à 41 km à l'est de Diabali, présentés comme impliqués dans l'attaque de Niono, et frappé des campements à 25 km à l'est de la localité. Il annonce aussi la destruction d'un véhicule à 72 km au nord-est d'Anéfis, des motos détruites vers Tonka et des frappes sur des rassemblements près d'Indélimane (Ménaka).",
+   "sources": [
+    {
+     "nom": "Sahara Medias (24/11)",
+     "url": "https://fr.saharamedias.net/mali-larmee-annonce-une-serie-doperations-contre-les-groupes-armes-ayant-permis-de-mettre-hors-detat-de-nuire-plusieurs-assaillants/"
+    }
+   ],
+   "titre": "L'armée malienne annonce des opérations près de Diabali, Anéfis, Tonka et Indélimane",
+   "id": "ml-20261122-diabali-indelimane-frappes"
+  },
   {
    "ajoute_le": "2026-11-22",
    "auteur": "JNIM",
