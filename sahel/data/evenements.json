@@ -1,5 +1,5 @@
 {
- "derniere_maj": "2026-11-25T07:22:12+01:00",
+ "derniere_maj": "2026-11-26T07:21:05+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-25",
@@ -60,6 +60,56 @@
    "id": "ne-20261124-baroua-patrouille"
   },
   {
+   "ajoute_le": "2026-11-26",
+   "auteur": "Forces armées maliennes",
+   "bilan": "Au moins une dizaine de combattants neutralisés et 7 motos détruites, plus 2 combattants tués lors d'une seconde intervention, selon l'état-major des FAMa (bilan consolidé non communiqué, non vérifié)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-24",
+   "gravite": 2,
+   "lat": 14.45,
+   "lieu": "Nord de Niono, Sofara, Debelin",
+   "lon": -5.95,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Ségou",
+   "resume": "Selon l'état-major, des frappes ont visé le 23 novembre des combattants au nord de Niono, puis d'autres positions dans les secteurs de Kidal, Dandougou et Sofara. Le 24 novembre, une colonne de motocyclistes a été frappée dans le secteur de Debelin. L'armée présente ces opérations comme la poursuite de la riposte après l'attaque du JNIM contre Niono.",
+   "sources": [
+    {
+     "nom": "KOACI",
+     "url": "https://www.koaci.com/article/2026/11/25/mali/politique/mali-operation-dougoukoloko-les-fama-frappent-plusieurs-positions-de-groupes-armes_203047.html"
+    }
+   ],
+   "titre": "L'armée malienne annonce une dizaine de combattants tués au nord de Niono et des frappes vers Sofara et Debelin",
+   "id": "ml-20261124-niono-nord-debelin-frappes"
+  },
+  {
+   "ajoute_le": "2026-11-26",
+   "auteur": "Forces armées maliennes et partenaires",
+   "bilan": "34 combattants neutralisés, 1 dépôt de munitions, 1 site d'extraction d'or (6 machines), 3 pick-up, plus de 90 motos et 2 camions détruits selon l'état-major des FAMa (non vérifié de manière indépendante)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-23",
+   "gravite": 2,
+   "lat": 19.96,
+   "lieu": "Tinzaouatène, Talhandak et secteur de Farabougou",
+   "lon": 2.95,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kidal",
+   "resume": "Dans un communiqué du 24 novembre (opération « Dougoukoloko »), l'état-major dit avoir mené du 20 au 23 novembre des frappes contre des installations logistiques et des sources de financement des groupes armés à Tinzaouatène, Talhandak et dans le secteur de Farabougou (Ségou). Il annonce la destruction d'un dépôt de munitions, d'une installation clandestine d'extraction et de traitement d'or, de véhicules et de nombreuses motos.",
+   "sources": [
+    {
+     "nom": "Afrikinfos-Mali",
+     "url": "https://afrikinfos-mali.com/2026/11/25/mali-les-fama-frappent-les-capacites-logistiques-des-groupes-armes-terroristes/"
+    }
+   ],
+   "titre": "Frappes des FAMa à Tinzaouatène, Talhandak et Farabougou : 34 combattants tués et un site d'extraction d'or détruit selon l'armée",
+   "id": "ml-20261123-tinzaouatene-farabougou-frappes"
+  },
+  {
    "ajoute_le": "2026-11-25",
    "auteur": "Forces armées maliennes",
    "bilan": "2 hommes armés tués selon les FAMa ; pas d'autre bilan chiffré (communiqué non vérifié de manière indépendante)",
@@ -83,6 +133,43 @@
    ],
    "titre": "L'armée malienne annonce des opérations près de Diabali, Anéfis, Tonka et Indélimane",
    "id": "ml-20261122-diabali-indelimane-frappes"
+  },
+  {
+   "ajoute_le": "2026-11-26",
+   "auteur": "État islamique au Sahel (présumé)",
+   "bilan": "1 personne enlevée (deux sources sécuritaires citées par Reuters)",
+   "categorie": "terrorisme",
+   "confiance": "probable",
+   "date": "2026-11-21",
+   "gravite": 2,
+   "lat": 13.9,
+   "lieu": "Région de Tillabéri (axe Tillabéri–Niamey)",
+   "lon": 1.75,
+   "nature": "fait",
+   "pays": "Niger",
+   "precision": "approx",
+   "region": "Tillabéri",
+   "resume": "Un ressortissant saoudien a été enlevé le 21 ou le 22 novembre dans la région de Tillabéri, ou entre Tillabéri et Niamey selon une autre source sécuritaire citée par Reuters. Les ravisseurs sont soupçonnés d'appartenir à l'État islamique au Sahel ; aucune revendication et aucune réaction officielle de Niamey ni de Riyad. Selon le journaliste Serge Daniel (non confirmé), l'otage aurait été conduit vers la région de Ménaka, au Mali.",
+   "sources": [
+    {
+     "nom": "Reuters via TimesLIVE",
+     "url": "https://www.timeslive.co.za/news/africa/2026-11-25-suspected-islamic-state-militants-kidnap-saudi-national-in-niger/"
+    },
+    {
+     "nom": "KOACI",
+     "url": "https://www.koaci.com/article/2026/11/25/niger/politique/niger-un-saoudien-aux-mains-de-ravisseurs-presumes-de-letat-islamique_203035.html"
+    },
+    {
+     "nom": "La Nouvelle Tribune",
+     "url": "https://lanouvelletribune.info/2026/11/sahel-un-saoudien-aurait-ete-enleve-au-niger-puis-transfere-au-mali/"
+    },
+    {
+     "nom": "allAfrica (Togonews)",
+     "url": "https://fr.allafrica.com/stories/202611250707.html"
+    }
+   ],
+   "titre": "Un ressortissant saoudien enlevé dans l'ouest du Niger, l'État islamique au Sahel soupçonné",
+   "id": "ne-20261121-tillaberi-enlevement-saoudien"
   },
   {
    "ajoute_le": "2026-11-22",
