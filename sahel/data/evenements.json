@@ -1,6 +1,39 @@
 {
- "derniere_maj": "2026-11-26T07:21:05+01:00",
+ "derniere_maj": "2026-11-27T07:21:32+01:00",
  "evenements": [
+  {
+   "ajoute_le": "2026-11-27",
+   "auteur": "Non identifié (État islamique au Sahel présumé, selon le contexte de la zone)",
+   "bilan": "13 gardes nationaux tués et 20 blessés (bilan provisoire du ministère nigérien de la Défense) ; « plusieurs » assaillants tués selon le même ministère (non chiffré, non vérifié)",
+   "categorie": "terrorisme",
+   "confiance": "confirme",
+   "date": "2026-11-26",
+   "gravite": 3,
+   "lat": 14.6,
+   "lieu": "Sanam",
+   "lon": 3.15,
+   "nature": "fait",
+   "pays": "Niger",
+   "precision": "approx",
+   "region": "Tillabéri",
+   "resume": "Tôt le matin du 26 novembre, de nombreux assaillants lourdement armés, venus à moto, ont attaqué une position de la Garde nationale engagée dans l'opération Almahaou à Sanam (département d'Abala), près de la frontière malienne. L'attaque n'a pas été revendiquée ; la zone est régulièrement ciblée par l'État islamique au Sahel. Des opérations de ratissage ont été lancées.",
+   "sources": [
+    {
+     "nom": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack"
+    },
+    {
+     "nom": "ActuNiger",
+     "url": "https://www.actuniger.com/societe/niger-13-soldats-tues-dans-une-nouvelle-attaque-terroriste-a-sanam-tillaberi.html"
+    },
+    {
+     "nom": "Kuwait Times / AFP",
+     "url": "https://kuwaittimes.com/article/54475/world/armed-men-kill-13-national-guard-members-in-western-niger/"
+    }
+   ],
+   "titre": "Tillabéri : 13 gardes nationaux tués et 20 blessés dans l'attaque de leur position à Sanam",
+   "id": "ne-20261126-sanam-garde-nationale"
+  },
   {
    "ajoute_le": "2026-11-25",
    "auteur": "",
