@@ -1,9 +1,9 @@
 {
- "derniere_maj": "2026-11-27T07:21:32+01:00",
+ "derniere_maj": "2026-11-28T07:20:45+01:00",
  "evenements": [
   {
    "ajoute_le": "2026-11-27",
-   "auteur": "Non identifié (État islamique au Sahel présumé, selon le contexte de la zone)",
+   "auteur": "État islamique (revendication publiée sur Telegram le 27 novembre selon Reuters, non vérifiée)",
    "bilan": "13 gardes nationaux tués et 20 blessés (bilan provisoire du ministère nigérien de la Défense) ; « plusieurs » assaillants tués selon le même ministère (non chiffré, non vérifié)",
    "categorie": "terrorisme",
    "confiance": "confirme",
@@ -16,11 +16,15 @@
    "pays": "Niger",
    "precision": "approx",
    "region": "Tillabéri",
-   "resume": "Tôt le matin du 26 novembre, de nombreux assaillants lourdement armés, venus à moto, ont attaqué une position de la Garde nationale engagée dans l'opération Almahaou à Sanam (département d'Abala), près de la frontière malienne. L'attaque n'a pas été revendiquée ; la zone est régulièrement ciblée par l'État islamique au Sahel. Des opérations de ratissage ont été lancées.",
+   "resume": "Tôt le matin du 26 novembre, de nombreux assaillants lourdement armés, venus à moto, ont attaqué une position de la Garde nationale engagée dans l'opération Almahaou à Sanam (département d'Abala), près de la frontière malienne. Le lendemain, l'État islamique a revendiqué l'attaque sur Telegram selon Reuters, une revendication non vérifiée de manière indépendante. Des opérations de ratissage ont été lancées.",
    "sources": [
     {
-     "nom": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack"
+     "nom": "Reuters (via Yahoo)",
+     "url": "https://www.yahoo.com/news/articles/suspected-militants-kill-13-soldiers-114937526.html"
+    },
+    {
+     "nom": "Anadolu (AA)",
+     "url": "https://www.aa.com.tr/fr/afrique/niger-13-militaires-tu%C3%A9s-et-20-autres-bless%C3%A9s-dans-une-attaque-pr%C3%A8s-de-la-fronti%C3%A8re-malienne/4139977"
     },
     {
      "nom": "ActuNiger",
@@ -33,6 +37,35 @@
    ],
    "titre": "Tillabéri : 13 gardes nationaux tués et 20 blessés dans l'attaque de leur position à Sanam",
    "id": "ne-20261126-sanam-garde-nationale"
+  },
+  {
+   "ajoute_le": "2026-11-28",
+   "auteur": "Forces armées maliennes (opération Dougoukoloko) contre des groupes armés non nommés",
+   "bilan": "« Plusieurs » combattants neutralisés, un pick-up détruit, armes et motos saisies (état-major général des Armées, non chiffré, non vérifié)",
+   "categorie": "terrorisme",
+   "confiance": "officiel",
+   "date": "2026-11-25",
+   "gravite": 2,
+   "lat": 14.1,
+   "lieu": "Zone de Torossi (secteur de Ségala), env. 70 km au sud-est de Kayes ; Inafarak ; environs de Dandougou",
+   "lon": -10.9,
+   "nature": "fait",
+   "pays": "Mali",
+   "precision": "approx",
+   "region": "Kayes",
+   "resume": "Selon l'état-major malien, un détachement motorisé appuyé par des hélicoptères a engagé le 25 novembre un groupe armé dans la zone de Torossi, à environ 70 km au sud-est de Kayes, puis est rentré sans incident. Le même jour, un véhicule a été détruit par frappe dans le secteur d'Inafarak, et le 26 novembre des points de concentration ont été visés dans un rayon de 45 km autour de Dandougou, dans le cadre de l'opération Dougoukoloko.",
+   "sources": [
+    {
+     "nom": "Alwihda Info",
+     "url": "https://www.alwihdainfo.com/operation-dougoukoloko-les-fama-annoncent-de-nouvelles-frappes-et-offensives-terrestres/"
+    },
+    {
+     "nom": "The Rio Times",
+     "url": "https://www.riotimesonline.com/mali-army-says-it-hit-militants-near-kayes"
+    }
+   ],
+   "titre": "Kayes : l'armée malienne annonce une offensive héliportée près de Ségala et des frappes vers Inafarak et Dandougou",
+   "id": "ml-20261125-kayes-torossi-frappes"
   },
   {
    "ajoute_le": "2026-11-25",
@@ -49,8 +82,12 @@
    "pays": "Sénégal",
    "precision": "pays",
    "region": "National",
-   "resume": "L'agence météorologique sénégalaise prévoit un nouvel épisode de pluies hors saison entre le 26 et le 28 novembre, touchant une dizaine de régions dont Dakar. C'est le deuxième avis de ce type en novembre après celui du 17 au 20 ; les agriculteurs sont invités à mettre les récoltes à l'abri.",
+   "resume": "L'agence météorologique sénégalaise a annoncé un épisode de pluies hors saison à partir du 26 novembre, puis l'a prolongé jusqu'au 30 novembre dans un bulletin actualisé, en raison d'une descente d'air frais. Les pluies, surtout fines mais parfois plus soutenues au Centre et au Nord, concernent l'axe Dakar–Kaffrine, le Nord, l'Est à partir du 27 et le Sud ; les agriculteurs et éleveurs sont invités à protéger récoltes, fourrage et animaux, et les pêcheurs à la prudence.",
    "sources": [
+    {
+     "nom": "EnQuête",
+     "url": "https://www.enqueteplus.com/content/pluies-hors-saison-0"
+    },
     {
      "nom": "Senego",
      "url": "https://senego.com/anacim-prevoit-des-pluies-hors-saison-au-senegal-du-26-au-28-novembre_2027158.html"
@@ -60,7 +97,7 @@
      "url": "https://www.ndarinfo.com/ANACIM-des-pluies-hors-saison-attendues-du-26-au-28-novembre_a47315.html"
     }
    ],
-   "titre": "L'ANACIM annonce des pluies hors saison du 26 au 28 novembre sur une grande partie du Sénégal",
+   "titre": "L'ANACIM annonce des pluies hors saison du 26 au 30 novembre sur une grande partie du Sénégal",
    "id": "sn-20261124-anacim-pluies-hors-saison"
   },
   {
